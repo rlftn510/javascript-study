@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <style>
+        *{margin: 0 ;padding: 0}
+        li{list-style: none}
+        #mainBox{height: 200px; width: 900px; margin: 0 auto; text-align: center;position: relative}
+        #menu{overflow: }
+        #menu li{float: left; }
+        #menu a{display:block;}
+        .on{background-color: aquamarine}
+
+        #mainDrop {display: none;position: absolute; width: 400px}
+        #mainDrop ul{overflow: hidden; height: 35px; background-color: lightcyan;border: 1px solid skyblue; border-radius: 4px}
+        #mainDrop li{float: left; margin-left:20px;height: 40px; line-height: 35px;}
+        #mainDrop li:first-child{margin-left: 5px}
+
+        #prDrop { display: none;position: absolute; width: 400px}
+        #prDrop ul{overflow: hidden; height: 35px; background-color: lightcyan;border: 1px solid skyblue; border-radius: 4px}
+        #prDrop li{float: left; margin-left:20px;height: 40px; line-height: 35px; }
+        #prDrop li:first-child{margin-left: 5px}
+
+        #adDrop {display: none;position: absolute; width: 400px}
+        #adDrop ul{overflow: hidden; height: 35px; background-color: lightcyan;border: 1px solid skyblue; border-radius: 4px}
+        #adDrop li{float: left; margin-left:20px;height: 40px; line-height: 35px; }
+        #adDrop li:first-child{margin-left: 5px}
+
+
+    </style>
+</head>
+<body>
+<div id="mainBox">
+    <h2>practice</h2>
+    <ul id="menu"  class="nav nav-tabs">
+        <li role="presentation" >
+            <a href="#">메인</a>
+            <div id="mainDrop">
+                <ul class="">
+                    <li><a href="">Main_menu1</a></li>
+                    <li><a href="">Main_menu2</a></li>
+                    <li><a href="">Main_menu3</a></li>
+                </ul>
+            </div>
+        </li>
+        <li role="presentation" >
+            <a href="#">홍보</a>
+            <div id="prDrop">
+                <ul  class="">
+                    <li><a href="">PR_menu1</a></li>
+                    <li><a href="">PR_menu2</a></li>
+                    <li><a href="">PR_menu3</a></li>
+                </ul>
+            </div>
+        </li>
+        <li role="presentation" >
+            <a href="#">광고</a>
+            <div id="adDrop">
+                <ul  class="">
+                    <li><a href="">AD_menu1</a></li>
+                    <li><a href="">AD_menu2</a></li>
+                    <li><a href="">AD_menu3</a></li>
+                </ul>
+            </div>
+        </li>
+        <li role="presentation" ><a href="#">이벤트</a></li>
+    </ul>
+
+
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+
+    var menu = $('#menu');
+    var menuLi = $(menu).find('li');
+    var dropDiv = $(menu).find('div');
+
+    $(menuLi).click(function () {
+        $(menuLi).attr('class', '');
+        $(this).attr('class', 'active');
+        $(menuLi).find('div').css('display', 'none');
+        $(this).find('div').css('display', 'block')
+    })
+
+
+
+
+
+
+   /*
+    var doc = document;                                             //오리지날 자바스크립트 구현
+    var menu = doc.getElementById('menu');
+    var menuLink = menu.getElementsByTagName('li');
+    var dropMenu = menu.getElementsByTagName('div');
+    var i = 0, liLen = menuLink.length;
+
+    for (; i < liLen; i++) {
+        menuLink[i].onclick = function () {
+
+            var j = 0, test = this.getElementsByTagName('div')[0],
+                    k = 0, divLen = dropMenu.length;
+
+            for (; j < liLen; j++) {
+                if (menuLink[j].className == 'active') {
+                    menuLink[j].setAttribute('class', '')
+                }
+            }
+            if (this.className !== 'active') {
+                this.setAttribute('class', 'active')
+            }
+            for (; k < divLen; k++){
+                if (dropMenu[k].style.display == 'block'){
+                    dropMenu[k].style.display = 'none';
+                }
+            }
+            if (this.className == 'active'){
+                test.style.display = 'block'
+            }
+        }
+    }
+    */
+
+ /*
+
+  for (var i = 0; i < menuLink.length; i++) {
+  menuLink[i].onclick = function () {
+  for (var j = 0; j < menuLink.length; j++) {
+  if (menuLink[j].className == 'active') {
+  menuLink[j].setAttribute('class', '')
+  }
+  }
+  if (this.className !== 'active') {
+  this.setAttribute('class', 'active')
+  }
+  var test = this.getElementsByTagName('div')[0];
+  for (var k = 0; k < dropMenu.length; k++){
+  if (dropMenu[k].style.display == 'block'){
+  dropMenu[k].style.display = 'none';
+  }
+  }
+  if (this.className == 'active'){
+  test.style.display = 'block'
+  }
+  }
+  }
+*/
+
+</script>
+<script>
+
+</script>
+</body>
+</html>

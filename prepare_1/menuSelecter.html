@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <style>
+        *{margin: 0 ;padding: 0}
+        li{list-style: none}
+        #mainBox{height: 200px; width: 900px; margin: 0 auto; text-align: center}
+        #menu{overflow: hidden; }
+        #menu li{float: left; }
+        #menu a{display:block;}
+        .on{background-color: aquamarine}
+        #mainDrop {overflow: hidden; display: none}
+        #mainDrop li{float: left; margin-left:20px}
+        #mainDrop li:first-child{margin-left: 0}
+
+        #prDrop {overflow: hidden; display: none}
+        #prDrop li{float: left; margin-left:20px }
+        #prDrop li:first-child{margin-left: 0}
+
+        #adDrop {overflow: hidden; display: none}
+        #adDrop li{float: left; margin-left:20px }
+        #adDrop li:first-child{margin-left: 0}
+
+
+    </style>
+</head>
+<body>
+    <div id="mainBox">
+        <h2>practice</h2>
+        <ul id="menu"  class="nav nav-tabs">
+            <li role="presentation" ><a href="#">메인</a></li>
+            <li role="presentation" ><a href="#">홍보</a></li>
+            <li role="presentation" ><a href="#">광고</a></li>
+            <li role="presentation" ><a href="#">이벤트</a></li>
+        </ul>
+
+        <div id="dropMenu">
+            <div>
+                <ul id="mainDrop" class="breadcrumb">
+                    <li ><a href="">Main_menu1</a></li>
+                    <li><a href="">Main_menu2</a></li>
+                    <li><a href="">Main_menu3</a></li>
+                </ul>
+            </div>
+            <div >
+                <ul id="prDrop" class="breadcrumb">
+                    <li><a href="">PR_menu1</a></li>
+                    <li><a href="">PR_menu2</a></li>
+                    <li><a href="">PR_menu3</a></li>
+                </ul>
+            </div>
+            <div >
+                <ul id="adDrop" class="breadcrumb">
+                    <li><a href="">AD_menu1</a></li>
+                    <li><a href="">AD_menu2</a></li>
+                    <li><a href="">AD_menu3</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script>
+        var doc = document;
+        var menu = doc.getElementById('menu');
+        var menuLink = menu.getElementsByTagName('li');
+        var dropMenu = doc.getElementById('dropMenu');
+        var dropUl = dropMenu.getElementsByTagName('ul');
+
+        for (var i = 0; i < menuLink.length; i++) {
+            menuLink[i].onclick = function () {
+                for (var j = 0; j < menuLink.length; j++) {
+                    if (menuLink[j].className == 'active') {
+                        menuLink[j].setAttribute('class', '')
+                    }
+                }
+                if (this.className !== 'active') {
+                    this.setAttribute('class', 'active')
+                }
+            }
+        }
+        menuLink[0].addEventListener('click',function () {
+            for (var i = 0; i< dropUl.length;i++){
+                if (dropUl[i].style.display == 'block'){
+                    dropUl[i].style.display = 'none'
+                }
+            }
+          dropUl[0].style.display = 'block'
+        })
+        menuLink[1].addEventListener('click',function () {
+            for (var i = 0; i< dropUl.length;i++){
+                if (dropUl[i].style.display == 'block'){
+                    dropUl[i].style.display = 'none'
+                }
+            }
+            dropUl[1].style.display = 'block'
+        })
+        menuLink[2].addEventListener('click',function () {
+            for (var i = 0; i< dropUl.length;i++){
+                if (dropUl[i].style.display == 'block'){
+                    dropUl[i].style.display = 'none'
+                }
+            }
+            dropUl[2].style.display = 'block'
+        })
+
+
+    </script>
+    <script>
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{margin: 0; padding: 0}
+        td{width:50px; height:50px;border: 1px solid #014d98}
+        .colorBox{background-color: #663333}
+        #main{width: auto; margin: 0 auto}
+    </style>
+</head>
+<body>
+<button type="button" id="btn">randumBox</button>
+<table id="main">
+   <tr>
+       <td></td>
+       <td></td>
+       <td></td>
+   </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+<script>
+    var doc = document,
+            btn = doc.getElementById('btn'),
+            main = doc.getElementById('main'),
+            tdTag = main.getElementsByTagName('td');
+
+    btn.onclick = function () {
+        var i = 0, len = tdTag.length,
+                randumNumber = Math.floor(Math.random()*tdTag.length);
+
+        for (; i<len; i++) {
+            tdTag[i].setAttribute('class', '');
+        }
+
+        tdTag[randumNumber].setAttribute('class', 'colorBox')
+    }
+
+
+</script>
+</body>
+</html>
