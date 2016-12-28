@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <style>
+        *{padding: 0; margin: 0}
+        li{list-style: none}
+        *{text-decoration: none}
+        #wrap{position: relative; width: 100%}
+        .allclose{position: absolute; top: 5px; right: 5px}
+        #faqList{margin-top: 20px}
+        p{border: 1px solid #cccccc; padding: 10px}
+        .a{color: red; display: none}
+    </style>
+</head>
+<body>
+<div id="wrap">
+    <h2>FAQ</h2>
+    <a href="#" class="allclose">답변 모두 여닫기</a>
+    <div>
+        <ul id="faqList">
+            <li>
+                <p class="q"><a href="#">첫번째 질문입니다.</a></p>
+                <p class="a">첫번째 질문에 대한 답변입니다.</p>
+            </li>
+            <li>
+                <p class="q"><a href="#">두번째 질문입니다.</a></p>
+                <p class="a">두번째 질문에 대한 답변입니다.</p>
+            </li>
+            <li>
+                <p class="q"><a href="#">세번째 질문입니다.</a></p>
+                <p class="a">세번째 질문에 대한 답변입니다.</p>
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+   $('.allclose').click(function () {
+        if ($('.a').css('display') == 'none'){
+            $('.a').show(400)
+        } else if ($('.a').css('display') == 'block'){
+            $('.a').hide(400)
+        }
+   });
+    var q = $('.q').find('a');
+    $(q).click(function () {
+        if ($(this).parent().next().css('display') == 'none'){
+            $(this).parent().next().show(500)
+        } else if ($(this).parent().css('display') == 'block'){
+            $(this).parent().next().hide(500)
+        }
+    })
+</script>
+</body>
+</html>

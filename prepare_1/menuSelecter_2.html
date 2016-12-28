@@ -74,7 +74,7 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script>
-
+/*
     var menu = $('#menu');
     var menuLi = $(menu).find('li');
     var dropDiv = $(menu).find('div');
@@ -85,26 +85,25 @@
         $(menuLi).find('div').css('display', 'none');
         $(this).find('div').css('display', 'block')
     })
+    */
 
 
 
 
 
 
-   /*
+
     var doc = document;                                             //오리지날 자바스크립트 구현
     var menu = doc.getElementById('menu');
     var menuLink = menu.getElementsByTagName('li');
     var dropMenu = menu.getElementsByTagName('div');
-    var i = 0, liLen = menuLink.length;
 
-    for (; i < liLen; i++) {
+
+    for (var i = 0; i < menuLink.length; i++) {
         menuLink[i].onclick = function () {
+            var test = this.getElementsByTagName('div')[0];
 
-            var j = 0, test = this.getElementsByTagName('div')[0],
-                    k = 0, divLen = dropMenu.length;
-
-            for (; j < liLen; j++) {
+            for ( var j = 0; j < menuLink.length; j++) {
                 if (menuLink[j].className == 'active') {
                     menuLink[j].setAttribute('class', '')
                 }
@@ -112,7 +111,7 @@
             if (this.className !== 'active') {
                 this.setAttribute('class', 'active')
             }
-            for (; k < divLen; k++){
+            for (var k = 0; k < dropMenu.length; k++){
                 if (dropMenu[k].style.display == 'block'){
                     dropMenu[k].style.display = 'none';
                 }
@@ -122,7 +121,7 @@
             }
         }
     }
-    */
+
 
  /*
 
