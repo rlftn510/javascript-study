@@ -1,0 +1,30 @@
+*{padding: 0; margin: 0;word-spacing: 0; letter-spacing: 0; font-family: Dotum; list-style: none;text-decoration: none}
+.blind{width:0;height:0;opacity: 0;line-height: 0;font-size: 0}
+a{color: black}
+
+
+/* 좌측 메뉴*/
+#wrap:after{display: block; content: ""; clear: both}
+#navi{position:fixed;border: 1px solid #cccccc; height: 100%; width: 284px; box-sizing: border-box}
+#navi .logo{width: 150px; height: 50px; border: 1px solid #cccccc; margin: 0 auto; margin-top: 30px}
+#navi .menu{position: absolute; top: 50%; left: 50%; margin-left: -70px; margin-top:-110px }
+#navi .menu .menuList{text-align: center}
+#navi .menu .menuList li{margin-top: 24px}
+#navi .menu .menuList li:first-child{margin-top: 0}
+#navi .menu .menuList a{color:#b4b4b4;font-size: 14px; font-weight: bold}
+#navi .sns{position: absolute; bottom: 40px; left: 50px; margin-left:30px}
+#navi .sns ul{overflow: hidden}
+#navi .sns ul li{float: left; margin-left: 10px}
+#navi .sns ul li:first-child{margin-left: 0}
+#navi .sns ul li a{display: block; width: 30px; height: 30px; border: 1px solid #cccccc; border-radius: 5px}
+#navi .insta{background: url("../img/insta.png")}
+#navi .facebook{background: url("../img/facebook.png")}
+#navi .blog{background: url("../img/blog.png")}
+
+
+#container{margin-left: 284px;}
+.contents{position:relative;width: 100%}
+.contents ul{overflow: hidden; align-content:}
+.contents ul li{float:left;width: 300px; height: 350px; border: 1px solid #cccccc;}
+
+
