@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="" name="test1">
+    <p>이름 : <input type="text" name="test2"></p>
+    <p>나이 : <input type="text" name="test2"></p>
+    <p>성별 : <input type="text" name="test2"></p>
+    <p>주소 : <input type="text" name="test2"></p>
+
+    <table>
+        <h4>좋아하는 걸그룹</h4>
+        <tr>
+            <td>트와이스 <input type="checkbox" name="girl" checked="checked"></td>
+            <td>아이오아이 <input type="checkbox" name="girl"></td>
+            <td>에이핑크 <input type="checkbox" name="girl" checked="checked"></td>
+            <td>레드벨벳 <input type="checkbox" name="girl"></td>
+        </tr>
+    </table>
+
+    <table id="sexSec">
+        <tr>
+          <td>남</td>
+          <td><input type="radio" name="sex"></td>
+        </tr>
+        <tr>
+            <td>여</td>
+            <td><input type="radio" name="sex"></td>
+        </tr>
+    </table>
+    <input id="btn" type="button" value="보내기">
+</form>
+
+<script>
+    var doc =document;
+    var btn = doc.getElementById('btn');
+    var forms = document.getElementsByTagName('input');
+
+    function fail() {
+        for (var i = 0; i < forms.length; i++){
+            var typeText = forms[i].getAttribute('type');
+            if (typeText == 'text'){
+                if (forms[i].value == ''){
+                    console.log('더 입력해');
+                    forms[i].focus();
+                    return false
+                }
+            }
+        }
+        return true
+    }
+
+    function girlCheck() {
+        for (var k = 0; k < forms.length; k++) {
+            var typeText = forms[k].getAttribute('type');
+            if (typeText !== 'checkbox') continue;
+            var a = forms[k].getAttribute('checked');
+            console.log(a)
+            if (!forms[k].checked){
+                console.log('체크박스를 확인하세요');
+                return false
+            }
+        }
+        return true
+    }
+
+    function sexRadio() {
+        var radioCheck = 0;
+        for (var j = 0; j < forms.length; j++){
+            var typeRadio = forms[j].getAttribute('name');
+            if (typeRadio == 'sex'){
+                if (forms[j].checked == true){
+                    radioCheck++;
+                    break
+                }
+            }
+        }
+        if (radioCheck <= 0){
+            console.log('체크해주세요');
+            return false
+        } else {
+            return true
+        }
+    }
+
+
+
+
+ btn.onclick = function () {
+        if (!fail() || !girlCheck() || !sexRadio()){
+            return false
+        }
+
+        console.log('성공')
+    }
+
+
+//            if (inputList[i].value ==''){
+//                console.log('빈값이 있음')
+//            }else {
+//                console.log('asd')
+//            }
+
+
+</script>
+</body>
+</html>

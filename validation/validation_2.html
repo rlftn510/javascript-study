@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="" name="test1">
+    <p>이름 : <input type="text" name="test2"></p>
+    <p>나이 : <input type="text" name="test2"></p>
+    <p>성별 : <input type="text" name="test2"></p>
+    <p>주소 : <input type="text" name="test2"></p>
+
+    <table>
+        <h4>좋아하는 걸그룹</h4>
+        <tr>
+            <td>트와이스 <input type="checkbox" name="girl"></td>
+            <td>아이오아이 <input type="checkbox" name="girl"></td>
+            <td>에이핑크 <input type="checkbox" name="girl"></td>
+            <td>레드벨벳 <input type="checkbox" name="girl"></td>
+        </tr>
+    </table>
+
+    <table id="sexSec">
+        <tr>
+            <td>남</td>
+            <td><input type="radio" name="sex"></td>
+        </tr>
+        <tr>
+            <td>여</td>
+            <td><input type="radio" name="sex"></td>
+        </tr>
+    </table>
+    <input id="btn" type="button" value="보내기">
+</form>
+
+
+<script>
+    var doc = document;
+    var btn = doc.getElementById('btn');
+    var inputList = doc.getElementsByTagName('input');
+
+
+function profile() {
+    for (var i = 0; i < inputList.length; i++){
+        var typeText = inputList[i].getAttribute('type');
+        if (typeText == 'text'){
+            if (inputList[i].value == ''){
+                console.log('해당 내용을 입력해 주세요');
+                inputList[i].focus();
+                return false
+            }
+        }
+    }
+    return true
+}
+
+function girlgroup() {
+    for (var i = 0; i < inputList.length; i++){
+        var typeCheck = inputList[i].getAttribute('type');
+        if (typeCheck == 'checkbox'){
+            if (!inputList[i].checked){
+                console.log('체크박스를 확인 해주세요');
+                inputList[i].focus();
+                return false
+            }
+        }
+    }
+    return true
+}
+
+function sex() {
+    var radioCheck = 0;
+    for (var i = 0; i < inputList.length; i++){
+        var typeRadio = inputList[i].getAttribute('type');
+        if (typeRadio == 'radio'){
+            if (inputList[i].checked == true){
+               radioCheck++;
+               break
+            }
+        }
+    }
+    if (radioCheck == 0){
+        console.log('성별을 확인해 주세요');
+        return false
+    } else {
+        return true
+    }
+}
+
+
+btn.onclick = function () {
+    if (!profile() || !girlgroup() || !sex()){
+        return false
+    }
+    console.log('축하합니다')
+}
+
+</script>
+</body>
+</html>
