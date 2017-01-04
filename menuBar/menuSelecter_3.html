@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{margin: 0; padding: 0}
+        #menu{overflow: hidden; display: flex; width: 800px}
+        #menu li{float: left; border: 1px solid #cccccc; }
+        .on{background-color: yellow}
+        .show{background-color: #4d926f}
+        .hide{display: none}
+        #test{width: 100px; height: 100px; border: 1px solid #4d926f; position: relative; left: 10px;top:10px}
+    </style>
+</head>
+<body>
+    <div>
+        <ul id="menu">
+            <li style="flex: 1.5"><a href="#tab1">menu1</a></li>
+            <li style="flex: 2.5"><a href="#tab2">menu2</a></li>
+            <li style="flex: 3"><a href="#tab3">menu3</a></li>
+            <li style="flex: 3"><a href="#tab4">menu4</a></li>
+        </ul>
+    </div>
+    <div id="tabMenu">
+        <div id="tab1" class="hide">나와랏1</div>
+        <div id="tab2" class="hide">나와랏2</div>
+        <div id="tab3" class="hide">나와랏3</div>
+        <div id="tab4" class="hide">나와랏4</div>
+    </div>
+
+    <div id="test">test</div>
+</body>
+<script>
+    var doc = document;
+    var menu = doc.getElementById('menu');
+    var menuLink = menu.getElementsByTagName('a');
+
+    for (var i = 0; i < menuLink.length; i++){
+        menuLink[i].onclick = function () {
+            var ddd = offA();
+            this.setAttribute('class', 'on')
+            var href = this.getAttribute('href').split('#').join('');
+
+            var tabMenu = doc.getElementById('tabMenu');
+            var tabList = tabMenu.getElementsByTagName('div');
+            console.log(tabList)
+            for (var j = 0; j < tabList.length; j++){
+                if (href == tabList[j].id){
+                    tabList[j].setAttribute('class', 'show')
+                }else if(href !== tabList[j].id){
+                    tabList[j].setAttribute('class', 'hide')
+                }
+            }
+        }
+    }
+
+
+    function offA() {
+        for (var i = 0; i < menuLink.length; i++) {
+            menuLink[i].setAttribute('class', '')
+        }
+    }
+</script>
+</html>
