@@ -1,0 +1,47 @@
+*{margin: 0; padding: 0; list-style: none; font-family: Dotum}
+#bg{position: relative;width: 616px; height: 653px; background: url("../img/슬롯머신.png") no-repeat}
+li{width: 95px; height: 148px; font-size: 80px; font-weight: bold; border: 1px solid black; box-sizing: border-box;line-height: 148px; text-align: center }
+
+#viewer{width: 297px; height: 148px; position: relative; left: 158px; top: 260px; overflow:hidden }
+#score{position: absolute; top: 0; left: 0; display:none }
+#score ul{overflow: hidden}
+#score ul li{background-color:#e8e5d2;float:left;margin-left:6px;width: 95px; height: 148px; font-size: 80px; font-weight: bold; border: 1px solid black; box-sizing: border-box;line-height: 148px; text-align: center}
+#score ul li:first-child{margin-left: 0}
+#btn{position: absolute; top:477px;left: 198px; height: 48px; width: 217px; background-color: #d1c997; font-size: 25px; font-weight: bold}
+#slot_1{position: absolute; left: 0}
+#slot_2{position: absolute; left: 101px}
+#slot_3{position: absolute; right: 0}
+
+#slot_1{
+    animation-name: slot_1;animation-duration: 2s;animation-direction: alternate;animation-iteration-count:infinite ;
+}
+#slot_2{
+    animation-name: slot_2;animation-duration: 1.5s;animation-direction: alternate;animation-iteration-count:infinite ;
+}
+#slot_3{
+    animation-name: slot_3;animation-duration: 3s;animation-direction: alternate;animation-iteration-count:infinite ;
+}
+@keyframes slot_1 {
+    from{
+        top:0
+    }
+    to{
+        top:-1332px
+    }
+}
+@keyframes slot_2 {
+    from{
+        top:0
+    }
+    to{
+        top:-1332px
+    }
+}
+@keyframes slot_3 {
+    from{
+        top:0
+    }
+    to{
+        top:-1332px
+    }
+}
