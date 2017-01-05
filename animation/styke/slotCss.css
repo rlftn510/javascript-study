@@ -7,7 +7,7 @@ li{width: 95px; height: 148px; font-size: 80px; font-weight: bold; border: 1px s
 #score ul{overflow: hidden}
 #score ul li{background-color:#e8e5d2;float:left;margin-left:6px;width: 95px; height: 148px; font-size: 80px; font-weight: bold; border: 1px solid black; box-sizing: border-box;line-height: 148px; text-align: center}
 #score ul li:first-child{margin-left: 0}
-#btn{position: absolute; top:477px;left: 198px; height: 48px; width: 217px; background-color: #d1c997; font-size: 25px; font-weight: bold}
+#btn{position: absolute; top:477px;left: 198px; height: 48px; width: 217px; background-color: #d1c997; font-size: 24px; font-weight: bold}
 #slot_1{position: absolute; left: 0}
 #slot_2{position: absolute; left: 101px}
 #slot_3{position: absolute; right: 0}
