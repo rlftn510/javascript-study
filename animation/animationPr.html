@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{margin: 0; padding: 0; list-style: none}
+        .bg{position:relative;width: 600px; height: 400px;margin: 0 auto;margin-top: 100px; border: 1px solid #cccccc; border-radius: 5px}
+        .viewer{position: relative;top:150px; left:180px;  width: 240px; height: 80px; border: 1px solid black; overflow: hidden}
+        .slider{position:absolute; width: 1120px}
+        ul{overflow: hidden}
+        li{float: left; width: 80px; height: 80px; text-align: center; line-height: 80px; border: 1px solid black; box-sizing: border-box}
+
+        .slider{
+            animation-duration: 1s;
+            animation-name : test;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+
+        @keyframes test {
+            from{
+               left: 0;
+            }
+            to{
+                left: -880px;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="bg">
+    <div class="viewer">
+        <div class="slider">
+            <ul class="animate">
+                <li>A</li>
+                <li>B</li>
+                <li>C</li>
+                <li>D</li>
+                <li>E</li>
+                <li>F</li>
+                <li>G</li>
+                <li>H</li>
+                <li>I</li>
+                <li>J</li>
+                <li>K</li>
+                <li>L</li>
+                <li>M</li>
+                <li>N</li>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+</html>
