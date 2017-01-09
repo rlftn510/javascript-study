@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <style>
+        *{padding: 0;margin: 0}
+        li{list-style: none}
+        #main{width: 1200px; margin: 0 auto; display: block}
+        #main ul{overflow: hidden; width: 670px; margin: 0 auto; margin-top: 100px}
+        #main ul li{float: left; margin-left: 10px}
+        #main ul li:first-child{margin-left: 0}
+        #main ul #ddd{margin-left: 0}
+        #viewer{position:absolute;top:0;display: none;width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5)}
+        #viewer #holdImg{width: 600px; height: 460px;}
+
+    </style>
+</head>
+<body>
+<div id="main">
+    <ul  class="well well-lg">
+        <li><img src="img/10대들의%20데이트.jpg" alt="" width="200" height="200"></li>
+        <li><img src="img/스케이트타는양복신사.jpg" alt="" width="200" height="200"></li>
+        <li><img src="img/시카고의%20아이들.jpg" alt="" width="200" height="200"></li>
+        <li id="ddd"  class="ooo"><img src="img/양복입은%20그래피티%20아티스트.jpg" alt="" width="200" height="200"></li>
+        <li><img src="img/오드리%20햅번.jpg" alt="" width="200" height="200"></li>
+        <li><img src="img/자메이카아이들.jpg" alt="" width="200" height="200"></li>
+    </ul>
+</div>
+
+<div id="viewer">
+    <img src="" alt="" id="holdImg">
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/gelleryScript.js"></script>
+
+</body>
+</html>
