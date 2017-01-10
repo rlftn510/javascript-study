@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{margin: 0; padding: 0; list-style: none}
+        #wrap{}
+        #ulList{overflow:hidden;position:absolute; top: 50px; left: 40% }
+        #ulList li{float: left; width: 80px; height: 80px; background-color: bisque; font-size: 40px; font-weight: bold; line-height: 80px; text-align: center; margin-left: 10px}
+        #ulList li:first-child{margin-left: 0}
+        form{position: absolute; top:150px; left: 45%}
+        #nextBtn{margin-left:35px }
+    </style>
+</head>
+<body>
+<div id="wrap">
+    <ul id="ulList">
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+        <li>D</li>
+    </ul>
+    <form action="#">
+        <input type="button" value="prev" id="prevBtn">
+        <input type="button" value="next" id="nextBtn">
+    </form>
+</div>
+<script src="js/rollingScript.js"></script>
+</body>
+</html>
