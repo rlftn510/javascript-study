@@ -11,6 +11,7 @@ for (var i = 0; i < td.length; i++){
             if (td[j].className == 'on'){
                 var sss = td[j]
                 test.push(sss)
+                console.log(test.push(sss))
                 if (test.length === 2){
                     td[j].style.color = 'red'
 
