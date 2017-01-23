@@ -1,0 +1,15 @@
+*{padding: 0;margin: 0}
+li{list-style: none}
+#main{width: 1200px; margin: 0 auto; display: block}
+#main ul{overflow: hidden; width: 672px; margin: 0 auto; margin-top: 100px}
+#main ul li{float: left; margin-left: 10px}
+#main ul li:first-child{margin-left: 0}
+#main ul #ddd{margin-left: 0}
+.showGallery{display:none;width: 100%; position: relative; top:100px; height: 600px; background-color:rgba(0, 0, 0,0.5)}
+.showGallery #mainImg{position: absolute; top:50px; right: 200px}
+.showGallery #subImg{position: absolute; left: 200px; top:50px}
+.showGallery #subImg ul{width: 670px; overflow: hidden}
+.showGallery #subImg ul li{float: left; margin-left: 5px;}
+.showGallery #subImg ul li:first-child{margin-left: 0}
+.showGallery #subImg ul .ooo{margin-left: 0}
+.showGallery button{position: absolute; top:50px; right: 50px}
