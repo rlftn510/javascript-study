@@ -11,6 +11,7 @@ li{width: 95px; height: 148px; font-size: 80px; font-weight: bold; border: 1px s
 #slot_1{position: absolute; left: 0}
 #slot_2{position: absolute; left: 101px}
 #slot_3{position: absolute; right: 0}
+#restart{width: 80px; height: 30px; position: absolute; top:495px ;right: 35px; background-color: #d1c997; border: 1px solid #e1e1e1; border-radius: 20px; font-weight: bold;}
 
 #slot_1{
     animation-name: slot_1;animation-duration: 2s;animation-direction: alternate;animation-iteration-count:infinite ;
