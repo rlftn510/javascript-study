@@ -28,23 +28,20 @@ var galgalE = {
             bodyy.removeChild(show)
         }
     },
-
     createShow : function () {
-    var crediv = doc.createElement('div');
-    crediv.setAttribute('id', 'show');
-    var crediv_1 = doc.createElement('div');
-    crediv_1.setAttribute('id', 'viewer');
-    var creImg = doc.createElement('img');
-    creImg.setAttribute('id', 'holdImg');
-    crediv.appendChild(crediv_1);
-    crediv.appendChild(creImg);
-    var bodyy = doc.getElementsByTagName('body')[0];
-    bodyy.appendChild(crediv);
+        var crediv = doc.createElement('div');
+        crediv.setAttribute('id', 'show');
+        var crediv_1 = doc.createElement('div');
+        crediv_1.setAttribute('id', 'viewer');
+        var creImg = doc.createElement('img');
+        creImg.setAttribute('id', 'holdImg');
+        crediv.appendChild(crediv_1);
+        crediv.appendChild(creImg);
+        var bodyy = doc.getElementsByTagName('body')[0];
+        bodyy.appendChild(crediv);
     },
-
     cloneImg : function () {
         show.style.display = 'block';
-
     }
 }
 
