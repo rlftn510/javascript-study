@@ -102,6 +102,7 @@
     for (var i = 0; i < menuLink.length; i++) {
         menuLink[i].onclick = function () {
             var test = this.getElementsByTagName('div')[0];
+            var href = this.getAttribute('href').split('#').join('');
 
             for ( var j = 0; j < menuLink.length; j++) {
                 if (menuLink[j].className == 'active') {

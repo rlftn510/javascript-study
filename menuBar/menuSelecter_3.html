@@ -2,64 +2,62 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-    <style>
-        *{margin: 0; padding: 0}
-        #menu{overflow: hidden; display: flex; width: 800px}
-        #menu li{float: left; border: 1px solid #cccccc; }
-        .on{background-color: yellow}
-        .show{background-color: #4d926f}
-        .hide{display: none}
-        #test{width: 100px; height: 100px; border: 1px solid #4d926f; position: relative; left: 10px;top:10px}
-    </style>
+    <title>영화소개</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/menuCss.css">
 </head>
 <body>
+<div id="wrap">
     <div>
-        <ul id="menu">
-            <li style="flex: 1.5"><a href="#tab1">menu1</a></li>
-            <li style="flex: 2.5"><a href="#tab2">menu2</a></li>
-            <li style="flex: 3"><a href="#tab3">menu3</a></li>
-            <li style="flex: 3"><a href="#tab4">menu4</a></li>
+        <h1>Today Movie</h1>
+        <ul id="menu"  class="nav nav-tabs">
+            <li style="flex: 1"><a href="#tab1" class="active">라라랜드</a></li>
+            <li style="flex: 1"><a href="#tab2">너의 이름은</a></li>
+            <li style="flex: 1"><a href="#tab3">모아나</a></li>
+            <li style="flex: 1"><a href="#tab4">터닝메카드</a></li>
+            <li style="flex: 1"><a href="#tab5">공조</a></li>
+            <li style="flex: 1"><a href="#tab6">더킹</a></li>
+        </ul>
+    </div>
+    <div id="container">
+        <ul>
+            <li><a href="#tab1"><img src="img/79273_185.jpg" height="260" width="185"/></a></li>
+            <li><a href="#tab2"><img src="img/79313_185.jpg" height="260" width="185"/></a></li>
+            <li><a href="#tab3"><img src="img/79316_185.jpg" height="260" width="185"/></a></li>
+        </ul>
+        <ul>
+            <li><a href="#tab4"><img src="img/79323_185.jpg" height="260" width="185"/></a></li>
+            <li><a href="#tab5"><img src="img/79416_185.jpg" height="260" width="185"/></a></li>
+            <li><a href="#tab6"><img src="img/79423_185.jpg" height="260" width="185"/></a></li>
         </ul>
     </div>
     <div id="tabMenu">
-        <div id="tab1" class="hide">나와랏1</div>
-        <div id="tab2" class="hide">나와랏2</div>
-        <div id="tab3" class="hide">나와랏3</div>
-        <div id="tab4" class="hide">나와랏4</div>
+        <div id="tab1" class="show">
+            <img src="img/라라랜드.JPG" height="420" width="763"/>
+            <img src="img/라라랜드줄거리.JPG" height="204" width="554" style="margin-left: 22px"/>
+        </div>
+        <div id="tab2" class="hide">
+            <img src="img/너의이름은.JPG" height="392" width="703"/>
+            <img src="img/너의이름은줄거리.JPG" height="570" width="578"/>
+        </div>
+        <div id="tab3" class="hide">
+            <img src="img/모아나.JPG" height="425" width="719"/>
+            <img src="img/모아나 줄거리.JPG" height="246" width="605"/></div>
+        <div id="tab4" class="hide">
+            <img src="img/터닝메카드.JPG" height="429" width="707"/>
+            <img src="img/터닝메카드줄거리.JPG" height="230" width="584"/>
+        </div>
+        <div id="tab5" class="hide">
+            <img src="img/공조.JPG" height="397" width="713"/>
+            <img src="img/공조줄거리.JPG" height="305" width="665"/>
+        </div>
+        <div id="tab6" class="hide">
+            <img src="img/더킹.JPG" height="400" width="714"/>
+            <img src="img/더킹줄거리.JPG" height="304" width="542"/>
+        </div>
     </div>
-
-    <div id="test">test</div>
+    <a href="#menu" id="upBtn">Menu</a>
+</div>
 </body>
-<script>
-    var doc = document;
-    var menu = doc.getElementById('menu');
-    var menuLink = menu.getElementsByTagName('a');
-
-    for (var i = 0; i < menuLink.length; i++){
-        menuLink[i].onclick = function () {
-            var ddd = offA();
-            this.setAttribute('class', 'on')
-            var href = this.getAttribute('href').split('#').join('');
-
-            var tabMenu = doc.getElementById('tabMenu');
-            var tabList = tabMenu.getElementsByTagName('div');
-            console.log(tabList)
-            for (var j = 0; j < tabList.length; j++){
-                if (href == tabList[j].id){
-                    tabList[j].setAttribute('class', 'show')
-                }else if(href !== tabList[j].id){
-                    tabList[j].setAttribute('class', 'hide')
-                }
-            }
-        }
-    }
-
-
-    function offA() {
-        for (var i = 0; i < menuLink.length; i++) {
-            menuLink[i].setAttribute('class', '')
-        }
-    }
-</script>
+<script src="JS/menuScript.js"></script>
 </html>

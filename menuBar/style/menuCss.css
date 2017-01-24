@@ -1,0 +1,16 @@
+body{background: url("../img/body_bg.png")}
+*{margin: 0; padding: 0; list-style: none;font-family: Dotum}
+#menu{overflow: hidden; display: flex; width: 800px; margin: 0 auto;text-align: center}
+#menu a{font-weight: bold; color: lightseagreen}
+.on{background-color: yellow}
+.show{display: block}
+.hide{display: none}
+#upBtn{display:block;background-color:#83b4d8;width: 50px; height: 50px; border: 1px solid #4d926f; position: fixed; right: 40px;bottom:10px;font-weight: bold; text-align: center;line-height: 50px}
+#tabMenu{width: 800px; margin: 0 auto; }
+#container{width: 800px; margin: 40px auto}
+#container ul{overflow: hidden; width: 587px; margin: 10px auto;}
+#container ul li{float: left; margin-left: 16px;}
+#container ul li:first-child{margin-left: 0}
+#wrap{width: 800px; margin: 0 auto;background-color: white}
+.active{background-color: #e1e1e1}
+h1{text-align: center;font-weight: bold; padding-top: 20px}
