@@ -1,0 +1,5 @@
+*{margin: 0; padding: 0}
+td{width:150px; height:150px;border: 1px solid #014d98}
+.colorBox{background-color: #663333}
+#main{width: auto; margin: 20px auto}
+#btn{display:block;width: 300px; height: 40px; font-weight: bold; font-size: 20px; margin: 0 auto}
