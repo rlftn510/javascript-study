@@ -37,17 +37,18 @@ header .searchBox .plusBox{display: block; float:left;width: 22px;height: 22px; 
 .menu:after{display: block;clear: both;content: ""}
 .menu .menuLe{float: left; font-size: 15px; color: white;line-height: 30px; margin-left: 48px}
 .menu{position: relative; top: 65px;margin: 3px;width: 864px;height: 33px; background: url("../img/sp_20161109.png") no-repeat 0 -99px;z-index: 10}
-.menu ul{display:flex; width: 643px; height: 33px; margin-left:167px;}
-.menu ul li{flex: 1;line-height: 30px; font-size: 10px}
-.menu ul li:first-child{margin-left: 37px}
+.menu ul{overflow: hidden; width: 643px; height: 33px; margin-left:167px;}
+.menu ul li{float:left;margin-left: 40px;line-height: 30px; font-size: 12px}
+.menu ul li:first-child{margin-left: 36px}
 .menu ul li a{display: block;color: white;font-weight: bold}
 
 .menu .menuAll{position:absolute;top:6px;right:5px;display: block; width: 47px; height: 22px; background: url("../img/sp_20161109.png") no-repeat 0 -75px}
 
 
 .dropMenu{position: absolute; top: 62px; width: 870px; height: 67px; background: url("../img/sp_20161109.png") no-repeat 0 -134px;z-index: 2}
-.dropMenu ul{display: flex; width: 394px; font-size: 10px; margin-left: 206px}
-.dropMenu ul li{flex: 1; width: 394px; margin-top: 45px}
+.dropMenu ul{overflow: hidden; width: 394px; font-size: 11px; margin-left: 206px}
+.dropMenu ul li{float: left; margin-top: 45px;margin-left: 30px}
+.dropMenu ul li:first-child{margin-left: 0}
 .visual{display: block; width: 870px;height: 302px; background: url("../img/mainVisual.png")}
 
 #container:after{display: block;clear: both;content: ""}
