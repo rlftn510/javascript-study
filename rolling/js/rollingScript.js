@@ -4,8 +4,6 @@
 var doc = document;
 var ulList = doc.getElementById('ulList');
 var list = ulList.getElementsByTagName('li');
-console.log(ulList.firstChild.nextSibling);
-console.log(ulList.lastChild.previousSibling);
 var prevBtn = doc.getElementById('prevBtn');
 var nextBtn = doc.getElementById('nextBtn');
 

@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <script type="text/javascript">
+
+        function nullCheck(){	//alert("nullCheck");
+
+            var MEMBER_ID = $("#MEMBER_ID").val();
+
+            var PASS = $("#PASS").val();
+
+            var MEMBER_NM = $("#MEMBER_NM").val();
+
+            var EMAIL = $("#EMAIL").val();
+
+            var TELNO1 = $("#TELNO1").val();
+
+            var TELNO2 = $("#TELNO2").val();
+
+            var TELNO3 = $("#TELNO3").val();
+
+
+
+            if( !MEMBER_ID ){
+
+                $("#msg_memberId").text('아이디를 입력해 주세요.');
+
+                $("#flag_validation").val('N');
+
+            }
+
+            if( !PASS ){
+
+                $("#msg_pass").text('비밀번호를 입력해 주세요.');
+
+                $("#flag_validation").val('N');
+
+            }
+
+            if( !MEMBER_NM ){
+
+                $("#msg_memberNm").text('이름을 입력해 주세요.');
+
+                $("#flag_validation").val('N');
+
+            }
+
+            if( !EMAIL ){
+
+                $("#msg_email").text('이메일을 입력해 주세요.');
+
+                $("#flag_validation").val('N');
+
+            }
+
+            if( !TELNO1 || !TELNO2 || !TELNO3 ){
+
+                $("#msg_telno").text('핸드폰번호를 입력해 주세요.');
+
+                $("#flag_validation").val('N');
+
+            }
+
+        }
+
+
+
+        function validation(name,val){	//alert("validation");
+
+            var regId = /^[a-z0-9]{3,10}$/;	// 아이디 유효성 검사식
+
+            var regPw = /^[a-z0-9]{6,10}$/;	// 비밀번호 유효성 검사식
+
+            var regNm = /^[가-힣]{2,15}|[a-zA-Z]{2,15}\s[a-zA-Z]{2,15}$/;	// 이름 유효성 검사식
+
+            var regEmail = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;  // 이메일 유효성 검사식
+
+            var regPhone = /^((01[1|6|7|8|9])[1-9]+[0-9]{6,7})|(010[1-9][0-9]{7})$/;	// 핸드폰번호 유효성 검사식
+
+
+
+            if( name == 'MEMBER_ID' ){
+
+                if( !val ){
+
+                    $("#msg_memberId").text('아이디를 입력해 주세요.');
+
+                    $("#flag_validation").val('N');
+
+                    $("#MEMBER_ID").focus();
+
+                    return false;
+
+                } else {
+
+                    if( !regId.test(val) ) {
+
+                        $("#msg_memberId").text('3~10자의 영문 소문자,숫자만 사용 가능합니다.');
+
+                        $("#flag_validation").val('N');
+
+                        $("#MEMBER_ID").focus();
+
+                        return false;
+
+                    }else{
+
+                        fnDuplicationIdCheck();
+
+                    }
+
+                }
+
+            }
+
+
+
+            if( name == 'PASS' ){
+
+                if( !val ){
+
+                    $("#msg_pass").text('비밀번호를 입력해 주세요.');
+
+                    $("#flag_validation").val('N');
+
+                    $("#PASS").focus();
+
+                    return false;
+
+                } else {
+
+                    if( !regPw.test(val) ) {
+
+                        $("#msg_pass").text('6~10자의 영문 소문자,숫자만 사용 가능합니다.');
+
+                        $("#flag_validation").val('N');
+
+                        $("#PASS").focus();
+
+                        return false;
+
+                    } else {
+
+                        $("#msg_pass").text('사용 가능한 비밀번호입니다.');
+
+                        $("#flag_validation").val('Y');
+
+                    }
+
+                }
+
+            }
+
+
+
+            if( name == 'MEMBER_NM' ){
+
+                if( !val ){
+
+                    $("#msg_memberNm").text('이름을 입력해 주세요.');
+
+                    $("#flag_validation").val('N');
+
+                    $("#MEMBER_NM").focus();
+
+                    return false;
+
+                } else {
+
+                    if( !regNm.test(val) ) {
+
+                        $("#msg_memberNm").text('한글,영문 대소문자만 사용 가능합니다.');
+
+                        $("#flag_validation").val('N');
+
+                        $("#MEMBER_NM").focus();
+
+                        return false;
+
+                    } else {
+
+                        $("#msg_memberNm").text('사용 가능한 이름입니다.');
+
+                        $("#flag_validation").val('Y');
+
+                    }
+
+                }
+
+            }
+
+
+
+            if( name == 'EMAIL' ){
+
+                if( !val ){
+
+                    $("#msg_email").text('이메일을 입력해 주세요.');
+
+                    $("#flag_validation").val('N');
+
+                    $("#EMAIL").focus();
+
+                    return false;
+
+                } else {
+
+                    if( !regEmail.test(val) ) {
+
+                        $("#msg_email").text('이메일 형식에 맞게 입력해 주세요.');
+
+                        $("#flag_validation").val('N');
+
+                        $("#EMAIL").focus();
+
+                        return false;
+
+                    } else {
+
+                        $("#msg_email").text('사용 가능한 이메일입니다.');
+
+                        $("#flag_validation").val('Y');
+
+                    }
+
+                }
+
+            }
+
+
+
+            if( (name == 'TELNO1') || (name == 'TELNO2') || (name == 'TELNO3') ){
+
+                if( !val ){
+
+                    $("#msg_telno").text('핸드폰번호를 입력해 주세요.');
+
+                    $("#flag_validation").val('N');
+
+                    $("#"+name).focus();
+
+                    return false;
+
+                } else {
+
+                    val = $("#TELNO1").val() + $("#TELNO2").val() + $("#TELNO3").val();
+
+                    if( !regPhone.test(val) ) {
+
+                        $("#msg_telno").text('숫자만 사용 가능합니다.');
+
+                        $("#flag_validation").val('N');
+
+                        $("#"+name).focus();
+
+                        return false;
+
+                    } else {
+
+                        $("#msg_telno").text('사용 가능한 핸드폰번호입니다.');
+
+                        $("#flag_validation").val('Y');
+
+                    }
+
+                }
+
+            }
+
+        }
+
+
+
+        function fnDuplicationIdCheck(){	//alert("fnDuplicationIdCheck");
+
+            $("#aform").attr({"action":"/front/order/duplicationIdCheck.do"}).submit();
+
+        }
+
+
+
+        function fnSignup(){	//alert("fnSignup");
+
+            nullCheck();
+
+
+
+            var flag_validation = $("#flag_validation").val();
+
+            if( flag_validation == 'Y' ){
+
+                $("#aform").attr({"action":"/front/order/signup.do"}).submit();
+
+            }
+
+        }
+
+    </script>
+
+</head>
+
+<body>
+
+<form id="aform" method="post" action="" >
+
+    <input type="hidden" name="flag" id="flag" value='<%=param.getString("flag") %>' />
+
+    <input type="hidden" name="count" id="count" value='<%=param.getInt("count") %>' />
+
+    <input type="hidden" name="flag_validation" id="flag_validation" value="N" />
+
+
+
+    <div id="wrap">
+
+
+
+        <!-- header -->
+
+        <header>
+
+
+
+        </header>
+
+        <!-- //header -->
+
+
+
+        <!-- container -->
+
+        <div id="container">
+
+
+
+            <!-- content -->
+
+            <div id="content" class="payment">
+
+
+
+                <!-- 회원가입 -->
+
+                <div class="payment_option">
+
+                    <h2 class="title_payment">회원가입</h2>
+
+
+
+                    <!-- 주문자정보 -->
+
+                    <h3 class="title_payment_method">회원가입 정보</h3>
+
+                    <ul class="payment_method" align="left">
+
+                        <li>
+
+                            <label for="pw">아이디</label>&nbsp;&nbsp;&nbsp;&nbsp;
+
+                            <input type="text" name="MEMBER_ID" id="MEMBER_ID" style="width:211px; height:30; font-size:13pt;" value='<%=param.getString("MEMBER_ID") %>' maxlength="30" onfocus="style.backgroundColor='#cccccc';" onblur="style.backgroundColor='#ffffff';" onKeyup="validation(this.name,this.value);" />
+
+                        </li>
+
+                        <span id="msg_memberId" style="color:red;">&nbsp;</span>
+
+                        <li>
+
+                            <label for="pw">비밀번호</label>&nbsp;&nbsp;
+
+                            <input type="text" name="PASS" id="PASS" style="width:211px; height:30; font-size:13pt;" value='<%=param.getString("PASS") %>' maxlength="50" onfocus="style.backgroundColor='#cccccc';" onblur="style.backgroundColor='#ffffff';" onKeyup="validation(this.name,this.value);" />
+
+                        </li>
+
+                        <span id="msg_pass" style="color:red;">&nbsp;</span>
+
+                        <li>
+
+                            <label for="pw">이름</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                            <input type="text" name="MEMBER_NM" id="MEMBER_NM" style="width:211px; height:30; font-size:13pt;" value='<%=param.getString("MEMBER_NM") %>' maxlength="30" onfocus="style.backgroundColor='#cccccc';" onblur="style.backgroundColor='#ffffff';" onKeyup="validation(this.name,this.value);" />
+
+                        </li>
+
+                        <span id="msg_memberNm" style="color:red;">&nbsp;</span>
+
+                        <li>
+
+                            <label for="pw">이메일</label>&nbsp;&nbsp;&nbsp;&nbsp;
+
+                            <input type="text" name="EMAIL" id="EMAIL" style="width:211px; height:30; font-size:13pt;" value='<%=param.getString("EMAIL") %>' maxlength="50" onfocus="style.backgroundColor='#cccccc';" onblur="style.backgroundColor='#ffffff';" onKeyup="validation(this.name,this.value);" />
+
+                        </li>
+
+                        <span id="msg_email" style="color:red;">&nbsp;</span>
+
+                        <li>
+
+                            <label for="telno">핸드폰번호</label>
+
+                            <input type="text" name="TELNO1" id="TELNO1" style="width:50px; height:30; font-size:13pt;" value='<%=param.getString("TELNO1") %>' maxlength="3" onfocus="style.backgroundColor='#cccccc';" onblur="style.backgroundColor='#ffffff';" onKeyup="validation(this.name,this.value);" /> -
+
+                            <input type="text" name="TELNO2" id="TELNO2" style="width:60px; height:30; font-size:13pt;" value='<%=param.getString("TELNO2") %>' maxlength="4" onfocus="style.backgroundColor='#cccccc';" onblur="style.backgroundColor='#ffffff';" onKeyup="validation(this.name,this.value);" /> -
+
+                            <input type="text" name="TELNO3" id="TELNO3" style="width:60px; height:30; font-size:13pt;" value='<%=param.getString("TELNO3") %>' maxlength="4" onfocus="style.backgroundColor='#cccccc';" onblur="style.backgroundColor='#ffffff';" onKeyup="validation(this.name,this.value);" />
+
+                        </li>
+
+                        <span id="msg_telno" style="color:red;">&nbsp;</span>
+
+                    </ul>
+
+                    <!-- //주문자정보 -->
+
+                    <br>
+
+                    <!-- 가입하기 버튼 -->
+
+                    <p class="btn_payment" align="center"><a href="#" onclick="fnSignup(); return false;" ><input type="button" style="width:130px;height:30;font-size:15pt;" value="가입하기" alt="가입하기" /></a></p>
+
+                    <!-- //가입하기 버튼 -->
+
+
+
+                </div>
+
+                <!-- //회원가입 -->
+
+
+
+            </div>
+
+            <!-- //content -->
+
+
+
+        </div>
+
+        <!-- //container -->
+
+
+
+    </div>
+
+</form>
+
+</body>
+
+</html>
+
+
+
+출처: http://androi.tistory.com/255 [안드로이 스토리]
+
+출처: http://androi.tistory.com/255 [안드로이 스토리]
+
+출처: http://androi.tistory.com/255 [안드로이 스토리]

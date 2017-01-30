@@ -5,27 +5,28 @@ var doc= document;
 var tdList = doc.getElementsByTagName('td');
 for (var i = 0; i < tdList.length; i++){
     tdList[i].onclick = function () {
-        this.setAttribute('class', 'test1')
-        ddd()
-
+        this.setAttribute('class', 'compare');
+        colorCompare()
     }
 }
 
-function ddd() {
-    var classLen = []
+function colorCompare() {
+    var classLen = [];
     for (var j = 0; j < tdList.length; j++){
-        if (tdList[j].className == 'test1'){
-            classLen.push(tdList[j])
+        if (tdList[j].className == 'compare'){
+            classLen.push(tdList[j]);
             if (classLen.length === 2){
-                if (classLen[0].style.backgroundColor == classLen[1].style.backgroundColor){
+                var firstColor = classLen[0].style.backgroundColor;
+                var secondColor = classLen[1].style.backgroundColor;
+                if (firstColor == secondColor){
                     for (var k = 0; k < classLen.length; k++){
                         classLen[k].style.backgroundColor = 'white';
                         classLen[k].setAttribute('class', '')
                     }
                 } else {
-                    alert('틀렸습니다.')
-                    for (var o = 0; o < classLen.length; o++){
-                        classLen[o].setAttribute('class', '')
+                    alert('땡!!!!!!!!!!!!');
+                    for (var p = 0; p < classLen.length; p++){
+                        classLen[p].setAttribute('class', '')
                     }
                 }
             }

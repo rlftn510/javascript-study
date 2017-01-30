@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    var test = {
+        aaa : 'hello world',
+        bbb : function () {
+            var test1 = test.aaa;
+            var test2 = test1.split(' ');
+            var eee = [];
+            for (var i = 0; i < test2.length; i++){
+                var t = test2[i].split('').reverse().join('');
+                eee.push(t)
+            }
+            var result2 = eee.join(' ');
+            return console.log(result2)
+        }
+    };
+    test.aaa = 'i am gilsu';
+    console.log(test.bbb())
+</script>
+</body>
+</html>
