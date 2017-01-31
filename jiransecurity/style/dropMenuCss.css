@@ -1,0 +1,104 @@
+*{word-spacing:0;letter-spacing:0;margin: 0;padding: 0;font-family: Dotum;list-style: none;text-decoration: none}
+.blind{width:0;height:0;opacity: 0;line-height: 0;font-size: 0}
+a{color: black}
+
+#proDuctDrop{width:100%; height:280px;border: 1px solid #cccccc;background: url("../img/drop_bg.gif")}
+#proDuctDrop .Section{position:relative;width: 1200px;height: 280px; margin: 0 auto}
+#proDuctDrop .Section:after{display: block; clear: both; content: ""}
+#proDuctDrop .Section .leftDrop{float:left;width: 408px;height: 280px; border-right:1px solid #cccccc;box-sizing: border-box}
+#proDuctDrop .Section .leftDrop dl{width: 240px; padding: 36px 0 0 10px}
+#proDuctDrop .Section .leftDrop dt{font-size: 25px; font-weight: bold}
+#proDuctDrop .Section .leftDrop dd{margin-top: 25px; font-size: 14px}
+#proDuctDrop .solutionGo{position:absolute;top:188px; left:10px;display: block; width: 153px; height: 38px; background: url("../img/btn_go_solution.png")}
+#proDuctDrop .Section .flagIcon{position: absolute; bottom: 0; left:212px}
+#proDuctDrop .Section .rightDrop{float: left;width: auto}
+#proDuctDrop .Section .rightDrop>div{margin-left:100px}
+.mailSecurity{position: relative}
+.mailSecurity:before{position: absolute;display: :block; width:56px; height:56px;content: ""; top: 0; left:-74px ;background: url("../img/sp_icon.png") no-repeat -1px 0 }
+.mailSecurity h3{font-size: 17px;margin-top: 35px}
+.mailSecurity ul{overflow: hidden; margin-top: 12px}
+.mailSecurity ul li{float: left; margin-left: 24px}
+.mailSecurity ul li:first-child{margin-left: 0}
+.mailSecurity ul li a{font-size: 13px}
+
+.docSecurity{position: relative}
+.docSecurity:before{position: absolute;display: :block; width:56px; height:56px;content: ""; top: 0; left:-74px ;background: url("../img/sp_icon.png") no-repeat -1px -57px }
+.docSecurity h3{font-size: 17px;margin-top: 35px}
+.docSecurity ul{overflow: hidden; margin-top: 12px}
+.docSecurity ul li{float: left; margin-left: 24px}
+.docSecurity ul li:first-child{margin-left: 0}
+.docSecurity ul li a{font-size: 13px}
+
+.mobileSecurity{position: relative}
+.mobileSecurity:before{position: absolute;display: :block; width:56px; height:56px;content: ""; top: 0; left:-74px ;background: url("../img/sp_icon.png") no-repeat -1px -114px }
+.mobileSecurity h3{font-size: 17px;margin-top: 35px}
+.mobileSecurity ul{overflow: hidden; margin-top: 12px}
+.mobileSecurity ul li{float: left; margin-left: 24px}
+.mobileSecurity ul li:first-child{margin-left: 0}
+.mobileSecurity ul li a{font-size: 13px}
+
+
+#supportDrop{width:100%; height:124px;border: 1px solid #cccccc;background: url("../img/drop_bg.gif")}
+#supportDrop .Section{position:relative;width: 1200px;height: 124px; margin: 0 auto}
+#supportDrop .Section:after{display: block; clear: both; content: ""}
+#supportDrop .Section .leftDrop{float:left;width: 408px;height: 124px; border-right:1px solid #cccccc;box-sizing: border-box}
+#supportDrop .Section .leftDrop h2{padding: 36px 0 0 10px}
+#supportDrop .Section .leftDrop .chatbox{position: absolute; bottom: 0; left:282px}
+#supportDrop .Section .rightDrop ul{overflow: hidden; padding-left: 100px;padding-top: 30px}
+#supportDrop .Section .rightDrop li{float: left;line-height: 56px;width: 230px}
+#supportDrop .Section .rightDrop li:first-child{margin-left: 0}
+#supportDrop .Section .rightDrop ul a{font-size: 17px; font-weight: bold}
+.bubbleIcon{position: relative}
+.bubbleIcon:before{position: absolute;display: :block; width:56px; height:56px;content: "";bottom: 0; left:-74px ;background: url("../img/sp_icon.png") no-repeat -60px 0}
+.downIcon{position: relative}
+.downIcon:before{position: absolute;display: :block; width:56px; height:56px;content: "";bottom: 0; left:-74px ;background: url("../img/sp_icon.png") no-repeat -60px -57px }
+.headphoneIcon{position: relative}
+.headphoneIcon:before{position: absolute;display: :block; width:56px; height:56px;content: ""; bottom: 0; left:-74px ;background: url("../img/sp_icon.png") no-repeat -60px -114px }
+
+
+#prDrop{width:100%; height:124px;border: 1px solid #cccccc;background: url("../img/drop_bg.gif")}
+#prDrop .Section{position:relative;width: 1200px;height: 124px; margin: 0 auto}
+#prDrop .Section:after{display: block; clear: both; content: ""}
+#prDrop .Section .leftDrop{float:left;width: 408px;height: 124px; border-right:1px solid #cccccc;box-sizing: border-box}
+#prDrop .Section .leftDrop h2{padding: 36px 0 0 10px}
+#prDrop .Section .leftDrop .chatbox{position: absolute; bottom: 0; left:282px}
+#prDrop .Section .rightDrop ul{overflow: hidden;width:690px; padding-left: 100px;padding-top: 30px}
+#prDrop .Section .rightDrop li{float: left;width: 230px;line-height: 56px}
+#prDrop .Section .rightDrop li:first-child{margin-left: 0}
+#prDrop .Section .rightDrop ul a{font-size: 17px; font-weight: bold}
+.newsIcon{position: relative}
+.newsIcon:before{position: absolute;display: :block; width:56px; height:56px;content: "";bottom: 0; left:-74px ;background: url("../img/sp_icon.png") no-repeat -119px 0}
+.tvIcon{position: relative}
+.tvIcon:before{position: absolute;display: :block; width:56px; height:56px;content: "";bottom: 0; left:-74px ;background: url("../img/sp_icon.png") no-repeat -119px -57px }
+.flimIcon{position: relative}
+.flimIcon:before{position: absolute;display: :block; width:56px; height:56px;content: ""; bottom: 0; left:-74px ;background: url("../img/sp_icon.png") no-repeat -119px -114px }
+
+#irDrop{width:100%; height:210px;border: 1px solid #cccccc;background: url("../img/drop_bg.gif")}
+#irDrop .Section{position:relative;width: 1200px;height: 210px; margin: 0 auto}
+#irDrop .Section:after{display: block; clear: both; content: ""}
+#irDrop .Section .leftDrop{float:left;width: 408px;height: 210px; border-right:1px solid #cccccc;box-sizing: border-box}
+#irDrop .Section .leftDrop h2{padding: 36px 0 0 10px}
+#irDrop .Section .leftDrop .graphIcon{position: absolute; bottom: 0; left:262px}
+#irDrop .Section .rightDrop ul{overflow: hidden;; padding-left: 100px; padding-top:30px }
+#irDrop .Section .rightDrop li{float: left;width: 230px;line-height: 56px}
+#irDrop .Section .rightDrop li:first-child{margin-left: 0}
+#irDrop .Section .rightDrop ul a{font-size: 17px; font-weight: bold;height: 56px}
+.irDropIcon_1{position: relative}
+.irDropIcon_1:before{position: absolute;display: :block; width:56px; height:56px;content: "";bottom: 0; left:-74px ;background: url("../img/sp_icon.png") no-repeat -178px 0}
+.irDropIcon_2{position: relative}
+.irDropIcon_2:before{position: absolute;display: :block; width:56px; height:56px;content: "";bottom: 0; left:-74px ;background: url("../img/sp_icon.png") no-repeat -178px -57px }
+.irDropIcon_3{position: relative}
+.irDropIcon_3:before{position: absolute;display: :block; width:56px; height:56px;content: ""; bottom: 0; left:-74px ;background: url("../img/sp_icon.png") no-repeat -178px -114px }
+.irDropIcon_4{position: relative}
+.irDropIcon_4:before{position: absolute;display: :block; width:56px; height:56px;content: ""; bottom: 0; left:-74px ;background: url("../img/sp_icon.png") no-repeat -178px -172px }
+.irDropIcon_5{position: relative}
+.irDropIcon_5:before{position: absolute;display: :block; width:56px; height:56px;content: ""; bottom: 0; left:-74px ;background: url("../img/sp_icon.png") no-repeat -178px -229px }
+
+#jiranDrop{width:100%; height:280px;border: 1px solid #cccccc;background: url("../img/drop_bg.gif")}
+#jiranDrop .Section{position:relative;width: 1200px;height: 280px; margin: 0 auto}
+#jiranDrop .Section:after{display: block; clear: both; content: ""}
+#jiranDrop .Section .leftDrop{float:left;width: 408px;height: 280px; border-right:1px solid #cccccc;box-sizing: border-box}
+#jiranDrop .Section .leftDrop dl{width: 240px; padding: 36px 0 0 10px}
+#jiranDrop .Section .leftDrop dt{font-size: 25px; font-weight: bold}
+#jiranDrop .Section .leftDrop dd{margin-top: 25px; font-size: 14px}
+#jiranDrop .Section .flagIcon{position: absolute; bottom: 0; left:212px}

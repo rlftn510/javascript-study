@@ -1,0 +1,127 @@
+
+@media all and (max-width: 740px)
+{
+    *{word-spacing:0;letter-spacing:0;margin: 0;padding: 0;font-family: Dotum;list-style: none;text-decoration: none}
+    .blind{width:0;height:0;opacity: 0;line-height: 0;font-size: 0}
+    a{color: black}
+    header{position:relative;height: 78px; border: 1px solid #cccccc}
+    .topHeader{width:0;height:0;opacity: 0;line-height: 0;font-size: 0}
+    .menuSec .menu ul{width:0;height:0;opacity: 0;line-height: 0;font-size: 0}
+    .mainLogo{display: block; width:154px;margin:26px auto; height: 20px;background: url("../img/logo.png") no-repeat 0 0;background-size: 154px 20px;}
+    .menu .listView{position:absolute;top:24px;left:14px;display: block; width: 30px; height: 30px; background: url("../img/icon_sp.png") no-repeat 0 0;background-size: 400px 400px;}
+    .menu .search{position: absolute;top:24px;right: 14px;display: block; width: 30px; height: 30px; background: url("../img/icon_sp.png") no-repeat -30px 0;background-size: 400px 400px}
+
+    #container .visualBox{height: 276px; border: 1px solid #cccccc}
+    .contents_1:after{display: block; content: ""; clear: both}
+    .contents_1 .content_1 h3{width:0;height:0;opacity: 0;line-height: 0;font-size: 0}
+    .contents_1 .content_1{float: left; height: 157px;width: 33%; position: relative}
+    .contents_1 .content_1 dl{padding-top: 20px; width: 100px; text-align: center;margin: 0 auto}
+    .contents_1 .content_1 dt{font-size: 14px; font-weight: bold}
+    .contents_1 .content_1 dd{font-size: 12px; color: #cccccc}
+    .contents_1 .content_1 .mail{width:69px; height:51px;margin:auto;margin-top: 36px; background: url("../img/img_mail.png") no-repeat 0 0;}
+    .contents_1 .content_1 .plusBtn{display: block;position: absolute; width: 80%;height:157px; top:0; left: 20px;}
+
+    .contents_1 .content_2{float: left; height: 157px;width: 33%; position: relative}
+    .contents_1 .content_2 h3{width:0;height:0;opacity: 0;line-height: 0;font-size: 0}
+    .contents_1 .content_2 dl{padding-top: 14px; width: auto; text-align: center;margin: 0 auto}
+    .contents_1 .content_2 dt{font-size: 14px; font-weight: bold}
+    .contents_1 .content_2 dd{font-size: 12px; color: #cccccc}
+    .contents_1 .content_2 .docImg{width:55px; height:65px;margin:auto;margin-top: 29px; background: url("../img/img_document.png") no-repeat 0 0;}
+    .contents_1 .content_2 .plusBtn{display: block;position: absolute; width: 80%;height:157px; top:0; left: 20px;}
+
+    .contents_1 .content_3{float: left; height: 157px;width: 33%; position: relative}
+    .contents_1 .content_3 h3{width:0;height:0;opacity: 0;line-height: 0;font-size: 0}
+    .contents_1 .content_3 dl{padding-top: 12px; width: auto; text-align: center;margin: 0 auto}
+    .contents_1 .content_3 dt{font-size: 14px; font-weight: bold}
+    .contents_1 .content_3 dd{font-size: 12px; color: #cccccc}
+    .contents_1 .content_3 .mobileImg{width:50px; height:67px;margin:auto;margin-top: 29px; background: url("../img/img_mobile.png") no-repeat 0 0;}
+    .contents_1 .content_3 .plusBtn{display: block;position: absolute; width: 80%;height:157px; top:0; left: 20px;}
+
+    .contents_1 .content_4{float:left;border-top: 1px solid #cccccc}
+    .contents_1 .content_4 h3{font-size: 14px; margin:10px 0 0 16px}
+    .contents_1 .content_4>div{border: 1px solid #cccccc; border-left:none; border-right: none }
+    .contents_1 .content_4 .aptCon{margin: 16px 10px 0 10px}
+    .contents_1 .content_4 .aptCon:after{display: block; content: ""; clear: both}
+    .contents_1 .content_4 .aptCon .aptImg{float:left;width: 100px; height: 100px; background: url("../img/img_issue_01.jpg") no-repeat 0 0; background-size: 100px 100px}
+    .contents_1 .content_4 .aptCon .aptTitle{float:left;display:block; margin: 16px 0 0 22px; font-size: 12px; font-weight: bold }
+    .contents_1 .content_4 .aptCon span{display: block;float: left; width: 560px; font-size: 12px; margin: 16px 0 0 22px}
+    .contents_1 .content_4 .aptCon .leftBtn{display: none}
+    .contents_1 .content_4 .aptCon .rightBtn{display: none}
+
+    .contents_1 .content_4 .rensumCon{margin: 6px 10px 0 10px}
+    .contents_1 .content_4 .rensumCon:after{display: block; content: ""; clear: both}
+    .contents_1 .content_4 .rensumCon .rensumImg{float:left;width: 100px; height: 100px; background: url("../img/img_issue_01.jpg") no-repeat 0 0; background-size: 100px 100px}
+    .contents_1 .content_4 .rensumCon .rensumTitle{float:left;display:block; margin: 16px 0 0 22px; font-size: 12px; font-weight: bold }
+    .contents_1 .content_4 .rensumCon span{display: block;float: left; width: 560px; font-size: 12px; margin: 16px 0 0 22px}
+    .contents_1 .content_4 .rensumCon .leftBtn{display: none}
+    .contents_1 .content_4 .rensumCon .rightBtn{display: none}
+
+    .contents_1 .content_4 .cloudCon{margin: 6px 10px 0 10px}
+    .contents_1 .content_4 .cloudCon:after{display: block; content: ""; clear: both}
+    .contents_1 .content_4 .cloudCon .cloudImg{float:left;width: 100px; height: 100px; background: url("../img/img_issue_01.jpg") no-repeat 0 0; background-size: 100px 100px}
+    .contents_1 .content_4 .cloudCon .cloudTitle{float:left;display:block; margin: 16px 0 0 22px; font-size: 12px; font-weight: bold }
+    .contents_1 .content_4 .cloudCon span{display: block;float: left; width: 560px; font-size: 12px; margin: 16px 0 0 22px}
+    .contents_1 .content_4 .cloudCon .leftBtn{display: none}
+    .contents_1 .content_4 .cloudCon .rightBtn{display: none}
+
+    .contents_1 .content_5{position:relative;float: left; margin-top:10px;height: 200px;width: 100%; background-color: #003f73; border: 1px solid #cccccc}
+    .contents_1 .content_5 h3{margin :14px 0 0 14px;font-size: 14px; color: white; font-weight: bold}
+    .contents_1 .content_5 ul{margin: 16px 0 0 26px; font-size: 12px}
+    .contents_1 .content_5 li{margin-top: 32px; position: relative}
+    .contents_1 .content_5 li:before{position:absolute; left:-10px;top:4px;display: block; content: ""; width: 2px; height: 2px; background: white;}
+    .contents_1 .content_5 li:first-child{margin-top: 0}
+    .contents_1 .content_5 ul a{color: white; font-weight: bold}
+    .contents_1 .content_5 .plusBtn{position:absolute;top:167px; right:10px;display: block; width: 41px; height: 19px; background: url("../img/media_plusBtn.png")}
+
+
+    #container .contents_2{float:left;margin-top: 10px}
+    #container .contents_2:after{display: block; clear: both; content: ""}
+    #container .contents_2 .content_1{position: relative;float:left; width:100%;height: auto;border: 1px solid #8d8d8d; box-sizing: border-box;background-color: white}
+    .contents_2 .content_1 h3{font-size: 14px; font-weight: normal; margin:14px 0 0 10px}
+    .contents_2 .content_1 .topSec ul{overflow: hidden; margin: 16px 10px 0 10px}
+    .contents_2 .content_1 .topSec li{margin-left:6px;float: left;display: table-cell; width: 228px; height: 26px; border: 1px solid #cccccc; box-sizing: border-box}
+    .contents_2 .content_1 .topSec li:first-child{margin-left: 0}
+    .contents_2 .content_1 .topSec li a{display:block;font-size:12px;width: 228px; height: 26px; line-height: 26px; text-align: center}
+    .contents_2 .content_1 .topSec .btnsArea{position: absolute; right: 10px; top: 14px;}
+    .btnsArea:after{display: block; content: ""; clear: both}
+    .btnsArea .leftBtn_2{display: block;float: left; width: 14px; height: 14px;background: url("../img/btn_mi_left.png")}
+    .btnsArea .rightBtn_2{display: block;float: left;margin-left: 2px; width: 14px; height: 14px;background: url("../img/btn_mi_right.png")}
+
+    .contents_2 .content_1 .bottomSec{margin-top: 10px}
+    .contents_2 .content_1 .bottomSec .marketCon_1:after{display: block; clear: both; content: ""}
+    .contents_2 .content_1 .bottomSec .marketCon_1 .imgBox{float: left; margin-bottom: 10px}
+    .contents_2 .content_1 .bottomSec .marketCon_1 dl{float:left;width:530px;margin:16px 0 0 16px}
+    .contents_2 .content_1 .bottomSec .marketCon_1 dt{font-size: 12px}
+    .contents_2 .content_1 .bottomSec .marketCon_1 dd{font-size: 12px; margin-top: 30px}
+
+    .contents_2 .content_1 .bottomSec .marketCon_2{display: none}
+    .contents_2 .content_1 .bottomSec .marketCon_3{display: none}
+
+    .contents_2 .content_2{position:relative;float: left; background: url("../img/bg_sns_m.gif")}
+    .contents_2 .content_2 h3{display: none}
+    .contents_2 .content_2 .topBox{margin: 16px;height: 182px; border: 1px solid #cccccc; box-sizing: border-box; background: white}
+    .contents_2 .content_2 .topSec:after{display: block; clear: both; content: ""}
+    .contents_2 .content_2 .topSec{margin:26px 0 0 10px}
+    .contents_2 .content_2 .topSec img{float: left}
+    .contents_2 .content_2 .topSec dl{float: left; margin-left: 6px}
+    .contents_2 .content_2 .topSec dt{font-size: 14px; font-weight: bold; color: #f08200}
+    .contents_2 .content_2 .topSec dd{font-size: 14px; margin-top: 4px}
+    .contents_2 .content_2 .topBox p{margin:10px; font-size: 12px}
+    .contents_2 .content_2 .plusText{position:absolute;left:26px; bottom:26px;font-size: 12px; color: #f08200}
+    .contents_2 .content_2 ul{display: none}
+
+    footer{float:left;background: }
+    .snsSec{position: relative; height: 36px;background-color: #3a3e42}
+    .snsSec ul{overflow: hidden}
+    .snsSec ul li{float: left}
+    .snsSec ul a{display: inline-block; height: 36px;border-right: 1px solid #404347; box-sizing: border-box}
+    .snsSec .snsIcon{position: absolute; left: 0}
+    .snsSec .snsIcon_2{position: absolute; right: 10px}
+    .snsSec .headerIcon_1{width: 120px;background: url("../img/partner.png")}
+    .snsSec .headerIcon_2{width: 142px; background: url("../img/market.png")}
+    .snsSec .headerIcon_3{width: 30px; background: url("../img/header_face.png")}
+    .snsSec .headerIcon_4{width: 30px; background: url("../img/header_blog.png")}
+    .snsSec .headerIcon_5{width: 30px; background: url("../img/header_insta.png");border-right:1px solid #dcdcdc; box-sizing: border-box }
+
+    .dosic{display: none}
+}
