@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none; }
+
+.blind {
+  font-size: 0;
+  width: 0;
+  height: 0;
+  line-height: 0;
+  opacity: 0; }
+
+#header {
+  position: relative;
+  height: 55px;
+  background-color: #06d87d; }
+  #header .rightBg {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 253px;
+    height: 55px;
+    background: url("../img/bg_header.png") no-repeat;
+    display: block; }
+  #header #mainLogo {
+    position: absolute;
+    top: 14px;
+    left: 20px;
+    display: block;
+    width: 151px;
+    height: 26px;
+    background: url("../img/sp_tvcast52.png") no-repeat 0 0; }
+  #header input {
+    float: left;
+    width: 297px;
+    height: 36px;
+    border: 0; }
+  #header #dropBtn {
+    float: left;
+    display: block;
+    width: 20px;
+    height: 36px;
+    text-align: center; }
+    #header #dropBtn img {
+      margin-top: 17px; }
+  #header #search {
+    float: left;
+    display: block;
+    width: 36px;
+    height: 36px;
+    background-color: #0aac8e; }
+    #header #search .searchIcon {
+      display: block;
+      width: 20px;
+      height: 20px;
+      background: url("../img/sp_tvcast52.png") no-repeat -5px -62px;
+      margin-left: 6px;
+      margin-top: 7px; }
+
+#searchBox {
+  position: absolute;
+  width: 353px;
+  left: 194px;
+  height: 36px;
+  top: 10px;
+  background: white;
+  border: 1px solid #0aa286; }
+
+#header #upSec {
+  position: absolute;
+  left: 568px;
+  top: 20px; }
+  #header #upSec #upIcon {
+    float: left;
+    display: block;
+    width: 26px;
+    height: 18px;
+    background: url("../img/sp_tvcast52.png") no-repeat 0 -36px; }
+  #header #upSec p {
+    float: left;
+    margin-left: 5px;
+    font-size: 12px;
+    color: white; }
+
+#header #login {
+  position: absolute;
+  right: 78px;
+  top: 15px;
+  width: 55px;
+  height: 25px;
+  border: 1px solid #0aa286;
+  font-size: 12px;
+  text-align: center;
+  line-height: 25px;
+  color: white; }
+
+#header #plusMenu {
+  position: absolute;
+  display: block;
+  right: 0;
+  width: 57px;
+  height: 55px;
+  text-align: center;
+  border-left: 1px solid #0aa286;
+  border-right: 1px solid #0aa286;
+  line-height: 55px; }
+
+/*# sourceMappingURL=tvcastStyle.css.map */
