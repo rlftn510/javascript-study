@@ -1,9 +1,9 @@
-*{margin: 0;padding: 0;text-decoration: none}
+*{margin: 0;padding: 0;text-decoration: none; color:black;list-style: none;font-family: Dotum }
 .blind{font-size: 0;width: 0;height: 0;line-height: 0;opacity: 0}
 $asd: #333;
 
 #header{position:relative;height: 55px; background-color: #06d87d;
-  .rightBg{position: absolute;right: 0;top:0; width: 253px;height: 55px; background: url("../img/bg_header.png")no-repeat; display: block}
+  .rigthBg{position: absolute;z-index: 0;right: 0;top:0; width: 253px;height: 55px; background: url("../img/bg_header.png") no-repeat; display: block}
   #mainLogo{position:absolute; top:14px; left:20px;display: block; width: 151px; height: 26px; background: url("../img/sp_tvcast52.png") no-repeat 0 0}
   input{float:left;width: 297px; height: 36px;border: 0}
   #dropBtn{float: left;display: block; width: 20px; height: 36px;text-align: center;
@@ -14,8 +14,57 @@ $asd: #333;
 #searchBox{position:absolute;width:353px;left:194px;height: 36px; top: 10px;background: white;border: 1px solid #0aa286}
 
 #header #upSec{position:absolute;left:568px;top: 20px;
+  &:after{display: block; content: ""; clear: both;}
   #upIcon{float:left;display: block; width: 26px; height: 18px; background: url("../img/sp_tvcast52.png") no-repeat 0 -36px}
   p{float:left;margin-left:5px;font-size: 12px; color:white}}
 
 #header #login{position: absolute;right:78px; top:15px; width: 55px; height: 25px; border: 1px solid #0aa286;font-size: 12px; text-align: center; line-height: 25px; color:white}
-#header #plusMenu{position: absolute;display:block;right: 0;width: 57px; height: 55px;text-align: center;border-left: 1px solid #0aa286; border-right: 1px solid #0aa286;  line-height: 55px}
+#header #plusMenu{position: absolute;display:block;right: 0;width: 57px; height: 55px;text-align: center;border-left: 1px solid #0aa286; border-right: 1px solid #0aa286;line-height: 55px}
+
+#container:after{display:block; clear: both; content:""}
+#navi{position:relative;float: left;width: 180px; border-right: 1px solid #d8d8d8;
+  .naviMenu_1{margin: 0 12px 0 12px}
+  .naviMenu_1 li{height: 44px; border-bottom: 1px solid #efefef; line-height: 44px;
+  a{font-size: 14px;margin-left: 10px;
+  &:hover{color:#7d7e81}}}
+
+  #tema{position:relative;margin-top: 16px; font-size: 14px;border-bottom:1px solid #d8d8d8 ;padding-bottom: 12px;
+  .temaTitle{margin-left: 22px;
+    .newIcon{display: block;float: right;margin-right: 112px;margin-top: 2px; width: 7px; height: 9px; background: url("../img/sp_aside.png") no-repeat 0 0}}
+  #temaClose{position: absolute; font-size: 12px; color:#a0a0a0; right:10px;
+  div{display: block;float: right;margin-top:2px;margin-left:4px;width: 9px; height: 6px; background: url("../img/sp_aside.png") no-repeat -50px 0}}
+  #temaList{font-size: 12px;margin-left: 26px;padding-bottom: 26px;display: block;
+  li{margin-top:12px;
+  a{color:#444}}}}
+  #mychannel{border-bottom: 1px solid #d8d8d8;font-size: 12px;padding-bottom: 25px;
+  .myTitle{margin-left:22px; color: #a0a4a7; ; margin-top: 26px}
+  .myText{margin-top: 28px; color: #6b6b6b;margin-left: 20px;line-height:20px;
+  span{color: #07bc88}}
+  .channelSearch{display:block;width: 107px;margin-left: 20px;margin-top: 12px; height: 25px; border: 1px solid #d8d8d8; border-radius: 5px; line-height: 27px; text-align: center;
+  span{color: #8d8d8d; font-size: 11px;}}}
+
+  #broadcast{border-bottom: 1px solid #d8d8d8;
+    .broadTitle{font-size: 12px; margin-left: 22px; color: #a0a4a7;margin-top: 18px;
+    }
+  ul{width: 150px; overflow: hidden;margin-left: 13px;margin-top: 20px;
+  li{width: 50px; float: left;
+  a{display: block;width: 50px; height: 33px;}
+    #cast1{background: url("../img/sp_bi7.png") no-repeat -288px -755px}
+    #cast2{background: url("../img/sp_bi7.png") no-repeat -288px -635px}
+    #cast3{background: url("../img/sp_bi7.png") no-repeat -288px -995px}
+    #cast4{background: url("../img/sp_bi7.png") no-repeat -288px -275px}
+    #cast5{background: url("../img/sp_bi7.png") no-repeat -288px -35px}
+    #cast6{background: url("../img/sp_bi7.png") no-repeat -288px -396px}
+    #cast7{background: url("../img/sp_bi7.png") no-repeat -288px -515px}
+    #cast8{background: url("../img/sp_bi7.png") no-repeat -288px -875px}
+    #cast9{background: url("../img/sp_bi7.png") no-repeat -288px -155px}
+  }}
+  .tving{display: block; font-size: 12px; width: 136px; border-top:1px solid #d8d8d8; padding-top: 18px;margin-left: 20px;padding-bottom: 25px}}
+  #bottomList ul{margin-top: 30px; margin-left: 22px;
+    .nstore{display: block;float:right;margin-right: 90px;margin-top:4px;width: 11px; height: 11px; background: url("../img/sp_aside.png") no-repeat -75px 0; margin-left: 4px  }
+  li{margin-top: 20px;
+  &:first-child{margin-top: 0}
+  a{font-size: 14px;
+  &:hover{color: #7d7e81}}}}
+  #adSec{display: block; margin-top: 30px; margin-left: 20px; padding-bottom: 100px}
+  #menuControl{position:absolute;top:6px; right:-22px;display: block; width: 21px; height: 38px; background: url("../img/sp_aside.png") no-repeat 0 -21px}}

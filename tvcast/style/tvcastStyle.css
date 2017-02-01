@@ -1,7 +1,10 @@
 * {
   margin: 0;
   padding: 0;
-  text-decoration: none; }
+  text-decoration: none;
+  color: black;
+  list-style: none;
+  font-family: Dotum; }
 
 .blind {
   font-size: 0;
@@ -14,8 +17,9 @@
   position: relative;
   height: 55px;
   background-color: #06d87d; }
-  #header .rightBg {
+  #header .rigthBg {
     position: absolute;
+    z-index: 0;
     right: 0;
     top: 0;
     width: 253px;
@@ -70,6 +74,10 @@
   position: absolute;
   left: 568px;
   top: 20px; }
+  #header #upSec:after {
+    display: block;
+    content: "";
+    clear: both; }
   #header #upSec #upIcon {
     float: left;
     display: block;
@@ -104,5 +112,171 @@
   border-left: 1px solid #0aa286;
   border-right: 1px solid #0aa286;
   line-height: 55px; }
+
+#container:after {
+  display: block;
+  clear: both;
+  content: ""; }
+
+#navi {
+  position: relative;
+  float: left;
+  width: 180px;
+  border-right: 1px solid #d8d8d8; }
+  #navi .naviMenu_1 {
+    margin: 0 12px 0 12px; }
+  #navi .naviMenu_1 li {
+    height: 44px;
+    border-bottom: 1px solid #efefef;
+    line-height: 44px; }
+    #navi .naviMenu_1 li a {
+      font-size: 14px;
+      margin-left: 10px; }
+      #navi .naviMenu_1 li a:hover {
+        color: #7d7e81; }
+  #navi #tema {
+    position: relative;
+    margin-top: 16px;
+    font-size: 14px;
+    border-bottom: 1px solid #d8d8d8;
+    padding-bottom: 12px; }
+    #navi #tema .temaTitle {
+      margin-left: 22px; }
+      #navi #tema .temaTitle .newIcon {
+        display: block;
+        float: right;
+        margin-right: 112px;
+        margin-top: 2px;
+        width: 7px;
+        height: 9px;
+        background: url("../img/sp_aside.png") no-repeat 0 0; }
+    #navi #tema #temaClose {
+      position: absolute;
+      font-size: 12px;
+      color: #a0a0a0;
+      right: 10px; }
+      #navi #tema #temaClose div {
+        display: block;
+        float: right;
+        margin-top: 2px;
+        margin-left: 4px;
+        width: 9px;
+        height: 6px;
+        background: url("../img/sp_aside.png") no-repeat -50px 0; }
+    #navi #tema #temaList {
+      font-size: 12px;
+      margin-left: 26px;
+      padding-bottom: 26px;
+      display: block; }
+      #navi #tema #temaList li {
+        margin-top: 12px; }
+        #navi #tema #temaList li a {
+          color: #444; }
+  #navi #mychannel {
+    border-bottom: 1px solid #d8d8d8;
+    font-size: 12px;
+    padding-bottom: 25px; }
+    #navi #mychannel .myTitle {
+      margin-left: 22px;
+      color: #a0a4a7;
+      margin-top: 26px; }
+    #navi #mychannel .myText {
+      margin-top: 28px;
+      color: #6b6b6b;
+      margin-left: 20px;
+      line-height: 20px; }
+      #navi #mychannel .myText span {
+        color: #07bc88; }
+    #navi #mychannel .channelSearch {
+      display: block;
+      width: 107px;
+      margin-left: 20px;
+      margin-top: 12px;
+      height: 25px;
+      border: 1px solid #d8d8d8;
+      border-radius: 5px;
+      line-height: 27px;
+      text-align: center; }
+      #navi #mychannel .channelSearch span {
+        color: #8d8d8d;
+        font-size: 11px; }
+  #navi #broadcast {
+    border-bottom: 1px solid #d8d8d8; }
+    #navi #broadcast .broadTitle {
+      font-size: 12px;
+      margin-left: 22px;
+      color: #a0a4a7;
+      margin-top: 18px; }
+    #navi #broadcast ul {
+      width: 150px;
+      overflow: hidden;
+      margin-left: 13px;
+      margin-top: 20px; }
+      #navi #broadcast ul li {
+        width: 50px;
+        float: left; }
+        #navi #broadcast ul li a {
+          display: block;
+          width: 50px;
+          height: 33px; }
+        #navi #broadcast ul li #cast1 {
+          background: url("../img/sp_bi7.png") no-repeat -288px -755px; }
+        #navi #broadcast ul li #cast2 {
+          background: url("../img/sp_bi7.png") no-repeat -288px -635px; }
+        #navi #broadcast ul li #cast3 {
+          background: url("../img/sp_bi7.png") no-repeat -288px -995px; }
+        #navi #broadcast ul li #cast4 {
+          background: url("../img/sp_bi7.png") no-repeat -288px -275px; }
+        #navi #broadcast ul li #cast5 {
+          background: url("../img/sp_bi7.png") no-repeat -288px -35px; }
+        #navi #broadcast ul li #cast6 {
+          background: url("../img/sp_bi7.png") no-repeat -288px -396px; }
+        #navi #broadcast ul li #cast7 {
+          background: url("../img/sp_bi7.png") no-repeat -288px -515px; }
+        #navi #broadcast ul li #cast8 {
+          background: url("../img/sp_bi7.png") no-repeat -288px -875px; }
+        #navi #broadcast ul li #cast9 {
+          background: url("../img/sp_bi7.png") no-repeat -288px -155px; }
+    #navi #broadcast .tving {
+      display: block;
+      font-size: 12px;
+      width: 136px;
+      border-top: 1px solid #d8d8d8;
+      padding-top: 18px;
+      margin-left: 20px;
+      padding-bottom: 25px; }
+  #navi #bottomList ul {
+    margin-top: 30px;
+    margin-left: 22px; }
+    #navi #bottomList ul .nstore {
+      display: block;
+      float: right;
+      margin-right: 90px;
+      margin-top: 4px;
+      width: 11px;
+      height: 11px;
+      background: url("../img/sp_aside.png") no-repeat -75px 0;
+      margin-left: 4px; }
+    #navi #bottomList ul li {
+      margin-top: 20px; }
+      #navi #bottomList ul li:first-child {
+        margin-top: 0; }
+      #navi #bottomList ul li a {
+        font-size: 14px; }
+        #navi #bottomList ul li a:hover {
+          color: #7d7e81; }
+  #navi #adSec {
+    display: block;
+    margin-top: 30px;
+    margin-left: 20px;
+    padding-bottom: 100px; }
+  #navi #menuControl {
+    position: absolute;
+    top: 6px;
+    right: -22px;
+    display: block;
+    width: 21px;
+    height: 38px;
+    background: url("../img/sp_aside.png") no-repeat 0 -21px; }
 
 /*# sourceMappingURL=tvcastStyle.css.map */
