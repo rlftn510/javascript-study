@@ -4,41 +4,19 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-    <style>
-        #wrap{width: 800px; margin: 0 auto}
-        #starArea{position: relative; width: 233px; height:80px;margin:0 auto; margin-top: 150px }
-        #starArea #redStar{position: absolute; top: 15px; left: 0px; overflow: hidden; width:100% }
-        #starArea #whiteSrar{position: absolute; top:15px;left: 0px}
-        #btnArea{width: 233px; margin: 0 auto; margin-top: 20px }
-    </style>
+    <link rel="stylesheet" href="style/starCss.css">
 </head>
 <body>
 <div id="wrap">
     <div id="starArea" class="well well-lg">
-        <div id="whiteSrar"><img src="img/starWhite.png" height="45" width="233"/></div>
-        <div id="redStar"><img src="img/starColor.png" height="45" width="233"/></div>
+        <div id="whiteSrar"><img src="https://raw.githubusercontent.com/rlftn510/G_data/master/star/img/starWhite.png" height="45" width="233"/></div>
+        <div id="redStar"><img src="https://raw.githubusercontent.com/rlftn510/G_data/master/star/img/starColor.png" height="45" width="233"/></div>
     </div>
     <div id="btnArea">
         <input id ="score" type="text" placeholder="10점 만점입니다">
         <input id="btn" type="button" value="check">
     </div>
 </div>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script>
-
-    var doc = document;
-    var score = doc.getElementById('score');
-    var btn = doc.getElementById('btn');
-    var redStar = doc.getElementById('redStar');
-    btn.onclick =function () {
-        if (score.value > 10){
-            alert('점수가 초과했습니다')
-        } else {
-        var scoreValue = parseInt(score.value)*10;
-       redStar.style.width = scoreValue + '%';
-        }
-    }
-</script>
+<script src="js/starScript.js"></script>
 </body>
 </html>
