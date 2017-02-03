@@ -3,17 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>FAQ 리스트</title>
+    <link rel="stylesheet" href="style/FAQList.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-    <style>
-        *{padding: 0; margin: 0}
-        li{list-style: none}
-        *{text-decoration: none}
-        #wrap{position: relative; width: 100%}
-        .allclose{position: absolute; top: 5px; right: 5px}
-        #faqList{margin-top: 20px}
-        p{border: 1px solid #cccccc; padding: 10px}
-        .a{color: red; display: none}
-    </style>
 </head>
 <body>
 <div id="wrap">
@@ -39,22 +30,6 @@
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script>
-   $('.allclose').click(function () {
-        if ($('.a').css('display') == 'none'){
-            $('.a').show(400)
-        } else if ($('.a').css('display') == 'block'){
-            $('.a').hide(400)
-        }
-   });
-    var q = $('.q').find('a');
-    $(q).click(function () {
-        if ($(this).parent().next().css('display') == 'none'){
-            $(this).parent().next().show(500)
-        } else if ($(this).parent().css('display') == 'block'){
-            $(this).parent().next().hide(500)
-        }
-    })
-</script>
+<script src="js/FAQscript.js"></script>
 </body>
 </html>

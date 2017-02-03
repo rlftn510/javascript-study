@@ -1,0 +1,8 @@
+*{padding: 0; margin: 0}
+li{list-style: none}
+*{text-decoration: none}
+#wrap{position: relative; width: 100%}
+.allclose{position: absolute; top: 5px; right: 5px}
+#faqList{margin-top: 20px}
+p{border: 1px solid #cccccc; padding: 10px}
+.a{color: red; display: none}
