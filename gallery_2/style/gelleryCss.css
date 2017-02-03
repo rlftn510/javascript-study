@@ -1,0 +1,10 @@
+*{padding: 0;margin: 0}
+li{list-style: none}
+#main{width: 1200px; margin: 0 auto; display: block}
+#main ul{overflow: hidden; width: 670px; margin: 0 auto; margin-top: 100px}
+#main ul li{float: left; margin-left: 10px}
+#main ul li:first-child{margin-left: 0}
+#main ul #ddd{margin-left: 0}
+#show{display: none}
+#viewer{position:absolute;top:0;display:block;width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.8)}
+#holdImg{position:absolute;top:50%;left:50%;margin-left:-300px;margin-top:-230px;width: 600px; height: 460px;}
