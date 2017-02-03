@@ -1,0 +1,11 @@
+#wrap{width: 400px; margin: 20px auto}
+#wrap #mainVisual{margin-left: 30px}
+#wrap #slide{margin-top: 24px}
+#wrap #slide:after{display: block; clear: both; content: ""}
+#wrap #slide #leftBtn{display: block;float:left; width: 68px;margin-left: 30px; height: 74px;}
+#wrap #slider{position:relative;margin-left: 10px;margin-top:10px;float:left;width: 200px;height: 60px; overflow: hidden}
+#wrap #slide #imgSec{position:absolute; top:0;left:0;width: 550px; overflow: hidden; height: 60px;}
+#wrap #slide #imgSec img{display:block;float: left; margin-left: 10px; width: 60px; height: 60px;}
+#wrap #slide #imgSec img{border: 2px solid gray; box-sizing: border-box}
+#wrap #slide #imgSec img:first-child{margin-left: 0;}
+#wrap #slide #rightBtn{display: block; width: 68px; height: 74px; float: left; margin-left: 10px;}
