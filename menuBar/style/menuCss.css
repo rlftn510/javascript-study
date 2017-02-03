@@ -1,4 +1,4 @@
-body{background: url("../img/body_bg.png")}
+body{background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/menuBar/img/body_bg.png")}
 *{margin: 0; padding: 0; list-style: none;font-family: Dotum}
 #menu{overflow: hidden; display: flex; width: 800px; margin: 0 auto;text-align: center}
 #menu a{font-weight: bold; color: lightseagreen}
