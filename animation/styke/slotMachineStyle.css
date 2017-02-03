@@ -1,5 +1,5 @@
 *{margin: 0; padding: 0; list-style: none; font-family: Dotum}
-#bg{position: relative;width: 616px; height: 653px; background: url("../img/슬롯머신.png") no-repeat}
+#bg{position: relative;width: 616px; height: 653px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/animation/img/%EC%8A%AC%EB%A1%AF%EB%A8%B8%EC%8B%A0.png") no-repeat}
 li{width: 95px; height: 148px; font-size: 80px; font-weight: bold; border: 1px solid black; box-sizing: border-box;line-height: 148px; text-align: center }
 
 #viewer{width: 297px; height: 148px; position: relative; left: 158px; top: 260px; overflow:hidden }
