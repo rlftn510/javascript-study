@@ -1,0 +1,5 @@
+*{margin: 0; padding: 0; list-style: none}
+#ulList{overflow: hidden; margin: 20px auto}
+#ulList li{text-align: center; line-height: 100px; font-size:30px; font-weight:bold;float: left; width: 100px; height: 100px;margin-left: 10px; border: 1px solid skyblue}
+#ulList li:first-child{margin-left: 0}
+#score{font-family:Dotum;width: 130px; height: 80px; background-color: yellow; border: 3px solid black; font-size: 44px; font-weight: bold; line-height: 80px; text-align: center; margin: 20px auto}
