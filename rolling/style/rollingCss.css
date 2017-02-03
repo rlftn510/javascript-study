@@ -1,0 +1,7 @@
+*{margin: 0; padding: 0; list-style: none}
+#wrap{}
+#ulList{overflow:hidden;margin: 20px auto}
+#ulList li{float: left; width: 80px; height: 80px; background-color: bisque; font-size: 40px; font-weight: bold; line-height: 80px; text-align: center; margin-left: 10px}
+#ulList li:first-child{margin-left: 0}
+form{text-align: center}
+#nextBtn{margin-left:30px }
