@@ -18,14 +18,14 @@ var doc =document;
                 var mainVisual = doc.getElementById('mainVisual');
                 mainVisual.setAttribute('src', href)
             }
-            if (this.getAttribute('src') == "https://raw.githubusercontent.com/rlftn510/G_data/master/imageRoll/img//비밥.jpg"){
+            if (this.getAttribute('src') == imgList[0].getAttribute('src')){
                 leftBtn.style.display = "none";
                 slider.style.marginLeft = "108px";
             } else {
                 leftBtn.style.display = 'block';
                 slider.style.marginLeft = "10px";
             }
-            if (this.getAttribute('src') == "https://raw.githubusercontent.com/rlftn510/G_data/master/imageRoll/img//아기팬더.jpg"){
+            if (this.getAttribute('src') == imgList[imgList.length - 1].getAttribute('src')){
                 rigthBtn.style.display = 'none'
             } else {
                 rigthBtn.style.display = 'block';
