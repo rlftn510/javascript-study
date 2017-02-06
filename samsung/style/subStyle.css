@@ -1,0 +1,134 @@
+*{margin:0;padding:0;font-family: Gulim;text-decoration: none;letter-spacing:-0.6px}
+li{list-style: none}
+.blind{width:0;height:0;opacity: 0;line-height: 0;font-size: 0}
+a{color: black}
+
+
+
+header{position:relative;height: 160px;width:1200px;margin: 0 auto}
+header .logo{position: absolute; display: block;width:270px; height:60px;top:25px;left:465px;background: url("../img/sp-samsung.png") no-repeat 0 0}
+header .call{position: absolute;top:42px;left: 0;overflow: hidden; width: 300px}
+header .call .callIcon{display: block; float:left;width: 26px; height: 26px; background: url("../img/sp-samsung.png") no-repeat -124px -62px}
+header .call .callText{float:left;color: #666666;font-size: 12px; line-height: 25px;margin-left: 6px}
+header .call .callText span{font-size: 14px; font-weight: bold; color: black;margin-left: 10px}
+header .home ul{position:absolute;right:138px;top:49px;overflow: hidden;font-size: 12px;font-weight: bold;}
+header .home ul li{float: left; margin-left: 20px;position: relative}
+header .home ul li:first-child{margin-left: 0}
+header .home ul .listLine:before{display: block; content: "";width: 1px; height: 11px; background-color: #666666; position: absolute; left: -10px; top:1px}
+header .home ul li a{color: #666666}
+header .language{position: absolute;right:0;top:42px;display:block;width: 122px;height: 26px; background: url("../img/sp-samsung.png") no-repeat 0 -63px}
+header .menu{position: absolute;top:110px;width: 1200px; height: 50px;background-color: #ebe7e3}
+header .menu ul{overflow: hidden}
+header .menu ul li{float: left; font-size: 17px;margin-left: 72px; line-height: 52px}
+header .menu ul li:first-child{margin-left: 49px}
+header .menu ul li a{color: #666666; font-weight: bold;}
+header .menu .reservation{display:block;position:absolute;bottom:0;right:0;width: 225px;height: 50px; background-color:#e07a3f;line-height: 52px;text-align: center; color: white; font-weight: bold }
+header .menu .edge{position:absolute;bottom:50px;right:0;width: 225px; height: 3px; background-color: #ffa876;}
+header .subMenu{position: relative; height: 40px; background-color: #7e7974; bottom: -160px}
+header .subMenu ul{overflow: hidden; position: absolute; line-height: 40px; left: 49px}
+header .subMenu ul li{position:relative;float: left; margin-left: 22px;}
+header .subMenu ul li:before{display: block; content: "";width: 1px; height: 12px; background-color: #b4b4b4; position: absolute; left: -11px; top:15px}
+header .subMenu ul li:first-child{margin-left: 0}
+header .subMenu ul li a{color: #b4b3b2; font-size: 13px; font-weight: bold}
+header .subMenu ul li:first-child a{color: white}
+
+
+
+#container{width: 1200px; margin: 0 auto; ;margin-top: 40px; padding-bottom: 100px}
+#container .conHeader{position:relative;height: 75px}
+#container .conHeader ul{position:absolute; right:0;overflow: hidden;top:28px}
+#container .conHeader ul li{float: left; margin-left: 10px}
+#container .conHeader ul li:first-child{margin-left: 0}
+#container .conHeader ul li a{font-size: 14px}
+#container .conHeader ul .homeIcon{margin-top:4px;display: inline-block; width:12px; height: 11px; background: url("../img/sp-samsung.png") no-repeat -475px 0 }
+
+#container .nav{position:relative;float: left;}
+#container .nav h2{display: block; width: 230px; height: 90px; background-color: #7e7974; color: white; text-align: center; line-height: 90px;font-size: 20px}
+#container .nav ul{display: block; width: 230px; height: 154px;}
+#container .nav ul li{height: 50px; border:  1px solid #e3e3e3; border-top:none;line-height: 50px}
+#container .nav ul a{margin-left: 20px; font-weight: bold; font-size: 14px}
+#container .nav ul a:first-child{color: #7e5637}
+#container .nav .plusBtn{position:absolute;display: block; width: 10px; height: 6px;}
+#container .nav .allRoom{width: 230px; height: 45px;margin-top: 20px; border: 1px solid #827265;box-sizing: border-box; font-size: 14px; font-weight: bold;  text-align: center; line-height: 45px}
+#container .nav .allRoom a{color: #827265;}
+#container .nav .plusBtn{display: block;width: 10px; height: 6px; position: absolute; top:214px; right: 20px; background: url("../img/sp-samsung.png") no-repeat -477px -24px}
+
+#container .contents{margin-left: 290px}
+#container .contents:after{display: block; content: ""; clear: both}
+#container .contents>div{float: left}
+
+#container .contents .content_1{position: relative; width: 440px}
+#container .contents .content_1 .roomVisual{display: block; width: 440px; height: 220px; background: url("../img/visual_1.png")}
+#container .contents .content_1 dl{margin-top: 20px}
+#container .contents .content_1 dl dt{font-size: 20px; font-weight: bold; color: #7e5637}
+#container .contents .content_1 dl dd{font-size: 14px; margin-top: 14px;}
+#container .contents .content_1 ul{margin-top: 20px;}
+#container .contents .content_1 ul li{margin-top: 10px}
+#container .contents .content_1 ul li:first-child{margin-top: 0}
+#container .contents .content_1 .detail{position:absolute;top:240px; right:0;display: block; width: 120px; height: 40px;font-size:14px;font-weight: bold; background-color: #827265; color: white; text-align: center; line-height: 40px}
+
+#container .contents .content_2{position: relative; width: 440px; margin-left: 30px}
+#container .contents .content_2 .roomVisual{display: block; width: 440px; height: 220px; background: url("../img/visual_2.png")}
+#container .contents .content_2 dl{margin-top: 20px}
+#container .contents .content_2 dl dt{font-size: 20px; font-weight: bold; color: #7e5637}
+#container .contents .content_2 dl dd{font-size: 14px; margin-top: 14px;}
+#container .contents .content_2 ul{margin-top: 20px;}
+#container .contents .content_2 ul li{margin-top: 10px}
+#container .contents .content_2 ul li:first-child{margin-top: 0}
+#container .contents .content_2 .detail{position:absolute;top:240px; right:0;display: block; width: 120px; height: 40px;font-size:14px;font-weight: bold; background-color: #827265; color: white; text-align: center; line-height: 40px}
+
+#container .contents .content_3{position: relative; width: 440px; margin-top:60px}
+#container .contents .content_3 .roomVisual{display: block; width: 440px; height: 220px; background: url("../img/visual_3.png")}
+#container .contents .content_3 dl{margin-top: 20px}
+#container .contents .content_3 dl dt{font-size: 20px; font-weight: bold; color: #7e5637}
+#container .contents .content_3 dl dd{font-size: 14px; margin-top: 14px;}
+#container .contents .content_3 ul{margin-top: 20px;}
+#container .contents .content_3 ul li{margin-top: 10px}
+#container .contents .content_3 ul li:first-child{margin-top: 0}
+#container .contents .content_3 .detail{position:absolute;top:240px; right:0;display: block; width: 120px; height: 40px;font-size:14px;font-weight: bold; background-color: #827265; color: white; text-align: center; line-height: 40px}
+
+#container .contents .content_4{position: relative; width: 440px; margin-top: 60px; margin-left: 30px}
+#container .contents .content_4 .roomVisual{display: block; width: 440px; height: 220px; background: url("../img/visual_4.png")}
+#container .contents .content_4 dl{margin-top: 20px}
+#container .contents .content_4 dl dt{font-size: 20px; font-weight: bold; color: #7e5637}
+#container .contents .content_4 dl dd{font-size: 14px; margin-top: 14px;}
+#container .contents .content_4 ul{margin-top: 20px;}
+#container .contents .content_4 ul li{margin-top: 10px}
+#container .contents .content_4 ul li:first-child{margin-top: 0}
+#container .contents .content_4 .detail{position:absolute;top:240px; right:0;display: block; width: 120px; height: 40px;font-size:14px;font-weight: bold; background-color: #827265; color: white; text-align: center; line-height: 40px}
+
+#container .contents .content_5{position: relative; width: 440px; margin-top: 60px}
+#container .contents .content_5 .roomVisual{display: block; width: 440px; height: 220px; background: url("../img/visual_5.png")}
+#container .contents .content_5 dl{margin-top: 20px}
+#container .contents .content_5 dl dt{font-size: 20px; font-weight: bold; color: #7e5637}
+#container .contents .content_5 dl dd{font-size: 14px; margin-top: 14px;}
+#container .contents .content_5 ul{margin-top: 20px;}
+#container .contents .content_5 ul li{margin-top: 10px}
+#container .contents .content_5 ul li:first-child{margin-top: 0}
+#container .contents .content_5 .detail{position:absolute;top:240px; right:0;display: block; width: 120px; height: 40px;font-size:14px;font-weight: bold; background-color: #827265; color: white; text-align: center; line-height: 40px}
+
+
+
+
+
+footer{height: 224px; width: 1200px; margin: 0 auto}
+footer .topCon{position:relative;height: 95px; background-color: #ebe7e3}
+footer .topCon .test1{ position: relative; margin: auto;height: 95px;}
+footer .topCon .test1 .logo_1{position:absolute;top:15px;left:10px;display: block; width: 96px; height: 66px; background: url("../img/sp-samsung.png") no-repeat -318px 0}
+footer .topCon .test1 ul{position:absolute;top:42px; left:150px;overflow: hidden; font-size: 14px; font-weight: bold}
+footer .topCon .test1 ul li{float: left; margin-left: 20px; color: #666666;position: relative}
+footer .topCon .test1 ul li:first-child{margin-left: 0}
+footer .topCon .test1 ul li:before{display: block; content: "";width: 1px; height: 12px; background-color: #bbbbbb; position: absolute; left: -10px; top:2px}
+footer .topCon .test1 ul a{color: #666666}
+footer .topCon .test1 .logo_2{position: absolute;width:132px; height:22px;top:38px; right: 20px; display: block; background: url("../img/sp-samsung.png") no-repeat -318px -89px}
+footer .bottomCon{position: relative; width: 1920px; margin: 0 auto}
+footer .bottomCon .information{position:absolute;top:16px; left:10px;overflow: hidden;font-size: 14px; color: #666666;font-weight: bold}
+footer .bottomCon .information li{float: left; margin-left: 22px;position: relative}
+footer .bottomCon .information li:first-child{margin-left: 0}
+footer .bottomCon .information li:before{display: block; content: "";width: 1px; height: 12px; background-color: #666666; position: absolute; left: -11px; top:2px}
+footer .bottomCon .line{position:absolute;top:46px;left:10px;width: 1200px; border-top:1px solid #f2f2f2; border-bottom: 0;box-sizing: border-box}
+footer .bottomCon .information_2{position:absolute;top:64px; left:10px;overflow: hidden;font-size: 14px; color: #666666;}
+footer .bottomCon .information_2 li{float: left; margin-left: 22px;position: relative}
+footer .bottomCon .information_2 li:first-child{margin-left: 0}
+footer .bottomCon .information_2 li:before{display: block; content: "";width: 1px; height: 12px; background-color: #666666; position: absolute; left: -11px; top:2px}
+footer .bottomCon p{position: absolute; top:88px; left: 10px; font-size: 14px; color: #666666}
