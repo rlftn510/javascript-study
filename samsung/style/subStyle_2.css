@@ -139,7 +139,7 @@ footer .topCon .test1 ul li:first-child{margin-left: 0}
 footer .topCon .test1 ul li:before{display: block; content: "";width: 1px; height: 12px; background-color: #bbbbbb; position: absolute; left: -10px; top:2px}
 footer .topCon .test1 ul a{color: #666666}
 footer .topCon .test1 .logo_2{position: absolute;width:132px; height:22px;top:38px; right: 20px; display: block; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/samsung/img/sp-samsung.png") no-repeat -318px -89px}
-footer .bottomCon{position: relative; width: 1920px; margin: 0 auto}
+footer .bottomCon{position: relative; width: 1200px; margin: 0 auto}
 footer .bottomCon .information{position:absolute;top:16px; left:10px;overflow: hidden;font-size: 14px; color: #666666;font-weight: bold}
 footer .bottomCon .information li{float: left; margin-left: 22px;position: relative}
 footer .bottomCon .information li:first-child{margin-left: 0}
