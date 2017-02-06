@@ -11,14 +11,14 @@ a:visited{color: #333333}
 *{font-family:Dotum}
 
 header{height: 129px; position: relative}
-header .logo{position:absolute; left:350px; top:18px;display:block;width: 136px; height:32px;background: url("../img/sp_20161109.png") no-repeat 0 0}
+header .logo{position:absolute; left:350px; top:18px;display:block;width: 136px; height:32px;background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/sp_20161109.png") no-repeat 0 0}
 header .login ul{overflow: hidden; position: absolute; right: 0; top: 9px}
 header .login ul li{float: left; font-size: 10px; color: #8d8d8d; margin-left: 10px}
 header .login ul li a{color: #8d8d8d}
 header .login ul li:first-child{margin-left: 0}
 
 header .topMenu{position: absolute; left: 19px; top: 35px}
-header .topMenu ul{overflow: hidden; width:294px; height: 12px;background: url("../img/sp_20161109.png") no-repeat 0 -36px}
+header .topMenu ul{overflow: hidden; width:294px; height: 12px;background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/sp_20161109.png") no-repeat 0 -36px}
 header .topMenu ul li{display:table;float:left}
 header .topMenu ul a{display: block}
 header .topMenu ul .login_1{width: 51px;}
@@ -28,63 +28,63 @@ header .topMenu ul .login_4{width: 81px}
 
 .searchBox:after{display: block;clear: both;content: ""}
 header .searchBox{position: absolute; top: 35px; right: 0}
-header .searchBox .comSear{float:left;display: block; width: 74px; height: 21px; background: url("../img/sp_20161109.png") no-repeat 0 -52px}
+header .searchBox .comSear{float:left;display: block; width: 74px; height: 21px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/sp_20161109.png") no-repeat 0 -52px}
 header .searchBox .textBar{float: left; top:-2px;position: relative;margin: 2px}
 header .searchBox .textBar input{width: 150px; height: 17px}
-header .searchBox .textBar button{width:52px;height:15px;background: url("../img/sp_20161109.png") no-repeat -138px -16px;position: absolute;right:3px;top:3px;border:0}
-header .searchBox .plusBox{display: block; float:left;width: 22px;height: 22px; background: url("../img/sp_20161109.png") no-repeat -192px -11px;}
+header .searchBox .textBar button{width:52px;height:15px;background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/sp_20161109.png") no-repeat -138px -16px;position: absolute;right:3px;top:3px;border:0}
+header .searchBox .plusBox{display: block; float:left;width: 22px;height: 22px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/sp_20161109.png") no-repeat -192px -11px;}
 
 .menu:after{display: block;clear: both;content: ""}
 .menu .menuLe{float: left; font-size: 15px; color: white;line-height: 30px; margin-left: 48px}
-.menu{position: relative; top: 65px;margin: 3px;width: 864px;height: 33px; background: url("../img/sp_20161109.png") no-repeat 0 -99px;z-index: 10}
+.menu{position: relative; top: 65px;margin: 3px;width: 864px;height: 33px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/sp_20161109.png") no-repeat 0 -99px;z-index: 10}
 .menu ul{overflow: hidden; width: 643px; height: 33px; margin-left:167px;}
 .menu ul li{float:left;margin-left: 40px;line-height: 30px; font-size: 12px}
 .menu ul li:first-child{margin-left: 36px}
 .menu ul li a{display: block;color: white;font-weight: bold}
 
-.menu .menuAll{position:absolute;top:6px;right:5px;display: block; width: 47px; height: 22px; background: url("../img/sp_20161109.png") no-repeat 0 -75px}
+.menu .menuAll{position:absolute;top:6px;right:5px;display: block; width: 47px; height: 22px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/sp_20161109.png") no-repeat 0 -75px}
 
 
-.dropMenu{position: absolute; top: 62px; width: 870px; height: 67px; background: url("../img/sp_20161109.png") no-repeat 0 -134px;z-index: 2}
+.dropMenu{position: absolute; top: 62px; width: 870px; height: 67px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/sp_20161109.png") no-repeat 0 -134px;z-index: 2}
 .dropMenu ul{overflow: hidden; width: 394px; font-size: 11px; margin-left: 206px}
 .dropMenu ul li{float: left; margin-top: 45px;margin-left: 30px}
 .dropMenu ul li:first-child{margin-left: 0}
-.visual{display: block; width: 870px;height: 302px; background: url("../img/mainVisual.png")}
+.visual{display: block; width: 870px;height: 302px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/mainVisual.png")}
 
 #container:after{display: block;clear: both;content: ""}
 #container{position: relative; margin-top: 31px}
 #container .nav_1{width:206px; float: left}
 #container .nav_1:after{display: block;clear: both;content: ""}
 .tourStory{position: relative;}
-.tourStory h5{display: block;width: 131px; height: 10px; background: url("../img/fsp-20161116-Recovered.png") no-repeat 0 0;margin-left: 1px}
+.tourStory h5{display: block;width: 131px; height: 10px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/fsp-20161116-Recovered.png") no-repeat 0 0;margin-left: 1px}
 
 .tourStory .tourStoryUl{overflow: hidden; position: absolute; top: -1px; right: 1px}
 .tourStory .tourStoryUl li{float: left; display: block;margin-left: 2px;}
 .tourStory .tourStoryUl li:first-child{margin-left: 0}
 .tourStory .tourStoryUl li a{display:block;width: 12px; height: 11px;}
-.tourStory .tourStoryUl li .click_1{background: url("../img/sp_20161109.png") no-repeat -164px -366px }
-.tourStory .tourStoryUl li .click_2{background: url("../img/sp_20161109.png") no-repeat -178px -366px}
-.tourStory .imgBox{display:block;margin-top:7px;width: 205px; height:127px; background: url("../img/sp_20161109.png") no-repeat 0 -203px}
+.tourStory .tourStoryUl li .click_1{background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/sp_20161109.png") no-repeat -164px -366px }
+.tourStory .tourStoryUl li .click_2{background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/sp_20161109.png") no-repeat -178px -366px}
+.tourStory .imgBox{display:block;margin-top:7px;width: 205px; height:127px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/sp_20161109.png") no-repeat 0 -203px}
 .tourStory .imgBox .mongo{display: block;float: left; width: 50%;}
-.tourStory .imgBox .mongo .mongoImg{display: block; float: left; width: 80px; height: 45px; background: url("../img/sp_20161109.png") no-repeat 0 -332px; margin: 12px 11px 10px 12px}
+.tourStory .imgBox .mongo .mongoImg{display: block; float: left; width: 80px; height: 45px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/sp_20161109.png") no-repeat 0 -332px; margin: 12px 11px 10px 12px}
 .tourStory .imgBox .mongo p{font-size: 10px; font-weight: bold; margin-left: 10px}
 .tourStory .imgBox .mongo p span{color: #014d98}
-.tourStory .imgBox .mongo .mongoText{float:left;display:block;width: 79px; height: 26px; margin-left: 12px; background: url("../img/fsp-20161116-Recovered.png") no-repeat 0 -12px}
-.tourStory .imgBox .mongo .goBox{display: block; position: absolute;top:114px;left:69px;width: 23px; height: 13px; background: url("../img/sp_20161109.png") no-repeat -49px -75px}
+.tourStory .imgBox .mongo .mongoText{float:left;display:block;width: 79px; height: 26px; margin-left: 12px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/fsp-20161116-Recovered.png") no-repeat 0 -12px}
+.tourStory .imgBox .mongo .goBox{display: block; position: absolute;top:114px;left:69px;width: 23px; height: 13px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/sp_20161109.png") no-repeat -49px -75px}
 .tourStory .imgBox .spain{display: block;float:left;width: 50%}
-.tourStory .imgBox .spain .spainImg{display: block; width: 80px;height: 45px;background: url("../img/sp_20161109.png")no-repeat -82px -332px; margin: 12px 11px 10px 11px}
-.tourStory .imgBox .spain .spainText{width:74;height:26px;background:url("../img/fsp-20161116-Recovered.png") no-repeat 0 -39px;margin-left: 11px}
-.tourStory .imgBox .spain .goBox{ position:absolute;display: block; top:114px; left:170px;width: 23px; height: 13px; background: url("../img/sp_20161109.png") no-repeat -49px -75px}
+.tourStory .imgBox .spain .spainImg{display: block; width: 80px;height: 45px;background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/sp_20161109.png")no-repeat -82px -332px; margin: 12px 11px 10px 11px}
+.tourStory .imgBox .spain .spainText{width:74;height:26px;background:url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/fsp-20161116-Recovered.png") no-repeat 0 -39px;margin-left: 11px}
+.tourStory .imgBox .spain .goBox{ position:absolute;display: block; top:114px; left:170px;width: 23px; height: 13px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/sp_20161109.png") no-repeat -49px -75px}
 
 .foodStory{margin-top:19px; width: 206px; height: 295px;}
-.foodStory h5{display: block;width: 122px; height: 10px;background: url("../img/fsp-20161116-Recovered.png") no-repeat 0 -68px;margin-left: 1px}
+.foodStory h5{display: block;width: 122px; height: 10px;background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/fsp-20161116-Recovered.png") no-repeat 0 -68px;margin-left: 1px}
 .foodStory .imgBox:after{display: block;clear: both;content: ""}
 .foodStory .imgBox{position:relative;margin-top:7px;float:left;width: 205px;height: 277px; border: 1px solid #dedede;border-radius: 5px; box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box}
 .foodStory .imgBox .topBox{overflow:hidden;width: 205px; height: 135px;}
-.foodStory .imgBox .topBox .topBoxTitle{display: block; width: 87px; height: 11px; margin-left: 11px;margin-top: 14px; background: url("../img/fsp-20161116-Recovered.png")no-repeat 0 -80px}
-.foodStory .imgBox .topBox .plusBox{position: absolute;top: 15px; right:13px;display: block; width: 36px; height: 10px; background: url("../img/sp_20161109.png") no-repeat -76px -52px;margin-left: 56px}
+.foodStory .imgBox .topBox .topBoxTitle{display: block; width: 87px; height: 11px; margin-left: 11px;margin-top: 14px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/fsp-20161116-Recovered.png")no-repeat 0 -80px}
+.foodStory .imgBox .topBox .plusBox{position: absolute;top: 15px; right:13px;display: block; width: 36px; height: 10px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/sp_20161109.png") no-repeat -76px -52px;margin-left: 56px}
 .foodStory .imgBox .topBox .t1{overflow: hidden}
-.foodStory .imgBox .topBox .foodImg{float:left;display:block;margin-top:10px;margin-left:11px;width: 80px;height: 60px; background: url("../img/sp_20161109.png") no-repeat 0 -379px; }
+.foodStory .imgBox .topBox .foodImg{float:left;display:block;margin-top:10px;margin-left:11px;width: 80px;height: 60px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/sp_20161109.png") no-repeat 0 -379px; }
 .foodStory .imgBox .topBox .con{float: left;width: 94px}
 .foodStory .imgBox .topBox .topBoxText{display: block;width: 102px; height: 44px; margin:11px 0 0 10px;}
 .foodStory .imgBox .topBox .topBoxText dt{font-size: 12px; font-weight: bold;}
@@ -106,14 +106,14 @@ header .searchBox .plusBox{display: block; float:left;width: 22px;height: 22px; 
 
 
 .foodStory .imgBox .bottomBox{overflow: hidden; position: relative; width: 181px; height: 100px; margin-left: 11px}
-.foodStory .imgBox .bottomBox .bottomBoxTitle{display: block; width: 92px; height: 11px; background: url("../img/fsp-20161116-Recovered.png") no-repeat 0 -93px}
-.foodStory .imgBox .bottomBox .plusBox{position: absolute;top: 1px; right:2px;display: block; width: 36px; height: 10px; background: url("../img/sp_20161109.png") no-repeat -76px -52px;margin-left: 56px}
+.foodStory .imgBox .bottomBox .bottomBoxTitle{display: block; width: 92px; height: 11px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/fsp-20161116-Recovered.png") no-repeat 0 -93px}
+.foodStory .imgBox .bottomBox .plusBox{position: absolute;top: 1px; right:2px;display: block; width: 36px; height: 10px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/sp_20161109.png") no-repeat -76px -52px;margin-left: 56px}
 .foodStory .imgBox .bottomBox .gpsBox{ position:relative;width: 182px; height: 26px; background-color: #f0f0f0; margin-top: 10px}
-.foodStory .imgBox .bottomBox .gpsBox .gsLogo{position:absolute;top:4px; left:4px;display: block; width: 18px; background: url("../img/sp_20161109.png") no-repeat -74px -75px;}
+.foodStory .imgBox .bottomBox .gpsBox .gsLogo{position:absolute;top:4px; left:4px;display: block; width: 18px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/sp_20161109.png") no-repeat -74px -75px;}
 .bottomBox .gpsBox .seoul{font-size: 10px; color: #8d8d8d; margin-left: 26px;margin-top: 2px;}
 .bottomBox .gpsBox .yangcheon{font-size: 10px; font-weight: bold; color: #014d98;margin-top: 2px;}
-.foodStory .imgBox .bottomBox .gpsBox .gpsSearch{position:absolute;top:4px; right:4px;display: block; width: 51px; height: 18px; background: url("../img/sp_20161109.png") no-repeat -121px -54px}
-.foodStory .imgBox .bottomBox .foodImg{display: block;float:left;width: 60px; height: 45px; background: url("../img/sp_20161109.png") no-repeat -82px -379px; margin-top: 7px;}
+.foodStory .imgBox .bottomBox .gpsBox .gpsSearch{position:absolute;top:4px; right:4px;display: block; width: 51px; height: 18px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/sp_20161109.png") no-repeat -121px -54px}
+.foodStory .imgBox .bottomBox .foodImg{display: block;float:left;width: 60px; height: 45px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/sp_20161109.png") no-repeat -82px -379px; margin-top: 7px;}
 .foodStory .imgBox .bottomBox dl{float: left; margin-left: 10px;margin-top: 8px}
 .foodStory .imgBox .bottomBox dl dt{font-size: 12px; font-weight: bold}
 .foodStory .imgBox .bottomBox dl dd{font-size: 11px; color: #8d8d8d; margin-top: 4px;}
@@ -122,16 +122,16 @@ header .searchBox .plusBox{display: block; float:left;width: 22px;height: 22px; 
 
 
 .place .topBox{position: relative; margin-top: 19px;height: 89px;}
-.place .topBox .placeTitle{display: block; width: 64px; height: 11px; background: url("../img/fsp-20161116-Recovered.png") no-repeat 0 -151px;margin-left: 1px}
-.place .topBox .plusBox{position: absolute;top: 1px; right:3px;display: block; width: 36px; height: 10px; background: url("../img/sp_20161109.png") no-repeat -76px -52px;margin-left: 56px}
+.place .topBox .placeTitle{display: block; width: 64px; height: 11px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/fsp-20161116-Recovered.png") no-repeat 0 -151px;margin-left: 1px}
+.place .topBox .plusBox{position: absolute;top: 1px; right:3px;display: block; width: 36px; height: 10px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/sp_20161109.png") no-repeat -76px -52px;margin-left: 56px}
 .place .topBox .topBox_2{border-top: 1px solid #dedede; box-sizing:border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;width: 206px; margin-top: 7px}
-.place .topBox .topBox_2 .sunsetImg{float:left;display: block; width: 80px; height: 60px; background: url("../img/sp_20161109.png") no-repeat 0 -441px;margin-top: 10px}
+.place .topBox .topBox_2 .sunsetImg{float:left;display: block; width: 80px; height: 60px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/sp_20161109.png") no-repeat 0 -441px;margin-top: 10px}
 .place .topBox .topBox_2 dl{margin-left: 89px; margin-top: 11px}
 .place .topBox .topBox_2 dl dt{font-size: 12px; font-weight: bold;}
 .place .topBox .topBox_2 dl dd{font-size: 11px; color: #8d8d8d; margin-top: 4px}
 .place .bottomBox{position:relative;width: 206px; height: 112px;margin-top: 20px}
-.place .bottomBox .placeTitle_2{display: block;width: 77px; height: 12px; background: url("../img/fsp-20161116-Recovered.png") no-repeat 0 -164px; margin-left: 1px}
-.place .bottomBox .plusBox{position: absolute;top: 1px; right:3px;display: block; width: 36px; height: 10px; background: url("../img/sp_20161109.png") no-repeat -76px -52px;margin-left: 56px}
+.place .bottomBox .placeTitle_2{display: block;width: 77px; height: 12px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/fsp-20161116-Recovered.png") no-repeat 0 -164px; margin-left: 1px}
+.place .bottomBox .plusBox{position: absolute;top: 1px; right:3px;display: block; width: 36px; height: 10px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/sp_20161109.png") no-repeat -76px -52px;margin-left: 56px}
 .place .bottomBox ul{border-top: 1px solid #dedede; box-sizing:border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;width: 206px; margin-top: 6px; }
 .place .bottomBox ul li{font-size: 12px;margin-top: 4px}
 .place .bottomBox ul li:first-child{margin-top: 10px}
@@ -139,28 +139,28 @@ header .searchBox .plusBox{display: block; float:left;width: 22px;height: 22px; 
 .mainCon{float: left; margin-left: 11px}
 #container #contents{float: left}
 #contents .contents_1{position:relative;width: 451px; height: 142px;}
-#contents .contents_1 .title{display: block;width: 86px; height: 11px;background: url("../img/fsp-20161116-Recovered.png") no-repeat 0 -178px;margin-left: 1px}
+#contents .contents_1 .title{display: block;width: 86px; height: 11px;background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/fsp-20161116-Recovered.png") no-repeat 0 -178px;margin-left: 1px}
 #contents .contents_1 ul{overflow: hidden; position: absolute; right: 5px; top:0}
 #contents .contents_1 ul li{float: left; margin-left: 3px}
 #contents .contents_1 ul li:first-child{margin-left: 0}
 #contents .contents_1 ul li a{display: block; width: 14px;height: 14px;}
-#contents .contents_1 ul .click_1{background: url("../img/sp_20161109.png") no-repeat -207px -221px}
-#contents .contents_1 ul .click_2{background: url("../img/sp_20161109.png") no-repeat -223px -221px}
-#contents .contents_1 ul .click_3{background: url("../img/sp_20161109.png") no-repeat -239px -221px}
+#contents .contents_1 ul .click_1{background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/sp_20161109.png") no-repeat -207px -221px}
+#contents .contents_1 ul .click_2{background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/sp_20161109.png") no-repeat -223px -221px}
+#contents .contents_1 ul .click_3{background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/sp_20161109.png") no-repeat -239px -221px}
 .contents_1 .templeImg{position: relative;overflow:hidden ;height:140px}
 .contents_1 .slider{overflow: hidden;position: absolute;top:-9px}
 .contents_1 .v1{float:left;margin-left:10px}
 .contents_1 .v1:first-child{margin-left: 0}
 .contents_1 .v1 .detailView{position:absolute; top:94px;left:23px;display: block;width: 58px;height: 17px;}
-.contents_1 .v1{width: 451px; height: 140px; background: url("../img/temple.png");}
+.contents_1 .v1{width: 451px; height: 140px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/temple.png");}
 
 
 #contents .contents_2{position:relative;margin-top:20px;width: 451px; height: 188px;}
-.contents_2 .title{display: block;margin-left: 1px; width: 67px; height: 11px;background: url("../img/fsp-20161116-Recovered.png") no-repeat 0 -106px}
-.contents_2 .plusBox{display: block; position: absolute; top:1px; right: 2px; width: 36px; height: 10px; background: url("../img/sp_20161109.png") no-repeat -76px -52px}
+.contents_2 .title{display: block;margin-left: 1px; width: 67px; height: 11px;background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/fsp-20161116-Recovered.png") no-repeat 0 -106px}
+.contents_2 .plusBox{display: block; position: absolute; top:1px; right: 2px; width: 36px; height: 10px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/sp_20161109.png") no-repeat -76px -52px}
 .contents_2 .bottomBox{width: 451px; height: 131px; border-top: 1px solid #d7d6d2; border-bottom: 1px solid #f0f0f0; box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;margin-top: 7px}
-.contents_2 .bottomBox .mountin{display: block; width: 216px; height: 110px; float: left; margin: 10px 9px 10px 0; background: url("../img/sp_20161109.png") no-repeat -207px -238px}
-.contents_2 .bottomBox .mountinDl_1{display: block; width: 159px; height: 29px;background: url("../img/fsp-20161116-Recovered.png") no-repeat 0 -119px;float: left;margin-top: 10px}
+.contents_2 .bottomBox .mountin{display: block; width: 216px; height: 110px; float: left; margin: 10px 9px 10px 0; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/sp_20161109.png") no-repeat -207px -238px}
+.contents_2 .bottomBox .mountinDl_1{display: block; width: 159px; height: 29px;background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/fsp-20161116-Recovered.png") no-repeat 0 -119px;float: left;margin-top: 10px}
 
 .contents_2 .bottomBox .kanghwa{float: left;margin-top: 14px}
 .contents_2 .bottomBox p{font-size: 15px; color: #f36732; font-weight: bold;}
@@ -172,109 +172,109 @@ header .searchBox .plusBox{display: block; float:left;width: 22px;height: 22px; 
 .contents_2 ul li:first-child{margin-top: 0}
 
 #contents .contents_3{position:relative;width: 451px; height: 156px;margin-top: 30px}
-.contents_3 .title{display: block;margin-left:2px;width: 61px; height: 11px; background: url("../img/fsp-20161116-Recovered.png") no-repeat 0 -192px}
-.contents_3 .plusBox{display: block; position: absolute; top:0; right: 2px; width: 36px; height: 10px; background: url("../img/sp_20161109.png") no-repeat -76px -52px}
+.contents_3 .title{display: block;margin-left:2px;width: 61px; height: 11px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/fsp-20161116-Recovered.png") no-repeat 0 -192px}
+.contents_3 .plusBox{display: block; position: absolute; top:0; right: 2px; width: 36px; height: 10px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/sp_20161109.png") no-repeat -76px -52px}
 .contents_3 .bottomBox{width: 451px; border-top: 1px solid #d7d6d2; margin-top: 7px}
 .contents_3 .bottomBox .bottomBox_1{width:225px;float: left; margin-top: 10px}
-.contents_3 .bottomBox .bottomBox_1 .house{float:left;display: block;width: 80px; height: 60px; background: url("../img/sp_20161109.png") -144px -379px}
+.contents_3 .bottomBox .bottomBox_1 .house{float:left;display: block;width: 80px; height: 60px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/sp_20161109.png") -144px -379px}
 .contents_3 .bottomBox .bottomBox_1 dl{float:left;margin-left: 10px; font-size: 12px; font-weight: bold;margin-top: 1px}
 .contents_3 .bottomBox .bottomBox_1 dd{font-size: 11px; color: #8d8d8d; margin-top: 4px}
 .contents_3 .bottomBox .bottomBox_2{width:225px;float: left; margin-top: 10px;margin-left: 1px}
-.contents_3 .bottomBox .bottomBox_2 .house{float:left;display: block;width: 80px; height: 60px; background: url("../img/sp_20161109.png") -144px -379px}
+.contents_3 .bottomBox .bottomBox_2 .house{float:left;display: block;width: 80px; height: 60px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/sp_20161109.png") -144px -379px}
 .contents_3 .bottomBox .bottomBox_2 dl{float:left;margin-left: 10px; font-size: 12px; font-weight: bold;margin-top: 1px}
 .contents_3 .bottomBox .bottomBox_2 dd{font-size: 11px; color: #8d8d8d; margin-top: 4px}
 .contents_3 .bottomBox .bottomBox_3{width:225px;float: left; top: 97px; margin-top: 7px}
-.contents_3 .bottomBox .bottomBox_3 .house{float:left;display: block;width: 80px; height: 60px; background: url("../img/sp_20161109.png") -144px -379px}
+.contents_3 .bottomBox .bottomBox_3 .house{float:left;display: block;width: 80px; height: 60px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/sp_20161109.png") -144px -379px}
 .contents_3 .bottomBox .bottomBox_3 dl{float:left;margin-left: 10px; font-size: 12px; font-weight: bold;margin-top: 1px}
 .contents_3 .bottomBox .bottomBox_3 dd{font-size: 11px; color: #8d8d8d; margin-top: 4px}
 .contents_3 .bottomBox .bottomBox_4{width:225px;float: left; margin-top: 7px;margin-left: 1px}
-.contents_3 .bottomBox .bottomBox_4 .house{float:left;display: block;width: 80px; height: 60px; background: url("../img/sp_20161109.png") -144px -379px}
+.contents_3 .bottomBox .bottomBox_4 .house{float:left;display: block;width: 80px; height: 60px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/sp_20161109.png") -144px -379px}
 .contents_3 .bottomBox .bottomBox_4 dl{float:left;margin-left: 10px; font-size: 12px; font-weight: bold;margin-top: 1px}
 .contents_3 .bottomBox .bottomBox_4 dd{font-size: 11px; color: #8d8d8d; margin-top: 4px}
 
 #contents .contents_4{position:relative;margin-top:30px;width: 451px; height: 138px;}
-.contents_4 .title{display: block; width: 54px; height: 11px;margin-left: 1px; background: url("../img/fsp-20161116-Recovered.png") no-repeat 0 -206px}
-.contents_4 .plusBox{display: block; position: absolute; top:-1px; right: 2px; width: 36px; height: 10px; background: url("../img/sp_20161109.png") no-repeat -76px -52px}
+.contents_4 .title{display: block; width: 54px; height: 11px;margin-left: 1px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/fsp-20161116-Recovered.png") no-repeat 0 -206px}
+.contents_4 .plusBox{display: block; position: absolute; top:-1px; right: 2px; width: 36px; height: 10px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/sp_20161109.png") no-repeat -76px -52px}
 .contents_4 .bottomBox{width: 449px; height: 119px; border: 1px solid #f7f7f7; border-radius: 5px; background-color: #f7f7f7; margin-top:6px }
 .contents_4 .bottomBox p{font-size: 12px; color: #f36732; margin-left: 14px; font-weight: bold; margin-top: 20px}
 .contents_4 .bottomBox .line{margin:4px 14px 13px 14px; border-bottom: 1px solid #e1e1e1; border-top: 0}
 .contents_4 .bottomBox .bottomBox_2 dl{font-size: 11px; margin-top: px;margin-left: 14px}
 .contents_4 .bottomBox .bottomBox_2 dl dd{color: #8d8d8d;margin-top: 8px}
-.contents_4 .bottomBox .cameraImg{position: absolute; top:37px; right: 19px; width: 138px; height: 123px; background: url("../img/sp_20161109.png") no-repeat -427px -241px}
+.contents_4 .bottomBox .cameraImg{position: absolute; top:37px; right: 19px; width: 138px; height: 123px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/sp_20161109.png") no-repeat -427px -241px}
 
 .nav_2{float: left; margin-left: 11px}
 .nav_2 .event{position:relative;width: 191px; height: 143px}
-.event .title{display: block;width: 107px; height: 10px;background: url("../img/fsp-20161116-Recovered.png") no-repeat 0 -219px;margin-left: 2px}
+.event .title{display: block;width: 107px; height: 10px;background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/fsp-20161116-Recovered.png") no-repeat 0 -219px;margin-left: 2px}
 .event ul{overflow: hidden; position: absolute; right: 0px; top:-1px}
 .event ul li{float: left; margin-left: 2px}
 .event ul li a{display: block; width:12px; height: 11px;}
-.event ul li .click_1{background: url("../img/sp_20161109.png") no-repeat -164px -366px}
-.event ul li .click_2{background: url("../img/sp_20161109.png") no-repeat -178px -366px}
-.event ul li .click_3{background: url("../img/sp_20161109.png") no-repeat -192px -366px}
-.event ul li .click_4{background: url("../img/sp_20161109.png") no-repeat -206px -366px}
+.event ul li .click_1{background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/sp_20161109.png") no-repeat -164px -366px}
+.event ul li .click_2{background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/sp_20161109.png") no-repeat -178px -366px}
+.event ul li .click_3{background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/sp_20161109.png") no-repeat -192px -366px}
+.event ul li .click_4{background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/sp_20161109.png") no-repeat -206px -366px}
 .event .mainVisual{position: relative;overflow:hidden;width: 190px; height: 125px; margin-top: 7px;margin-left: px;}
 .event .slider{width: 800px;position: absolute;top:0;left: 0;}
 .event .slider .visual{float: left; margin-left: 10px; width:190px;height:125px;border: 1px solid #d7d6d2; border-radius: 5px;box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;overflow: hidden}
 .event .slider .visual:first-child{margin-left: 0}
-.event .eventImg{display: block;; width:190px;height:125px; background: url("../img/sp_20161109.png") no-repeat -567px -238px;}
+.event .eventImg{display: block;; width:190px;height:125px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/sp_20161109.png") no-repeat -567px -238px;}
 
 .nav_2 .movie{position:relative;width: 191px; height: 189px;margin-top: 20px}
-.movie .title{display: block; margin-left:3px;width: 90px; height: 10px; background: url("../img/fsp-20161116-Recovered.png") no-repeat 0 -231px}
-.movie .plusBox{display: block; position: absolute; top:0px; right: 2px; width: 36px; height: 10px; background: url("../img/sp_20161109.png") no-repeat -76px -52px}
-.movie .movieImg{display:block;width: 190px;height: 173px;margin-top: 7px; background: url("../img/sp_20161109.png") no-repeat -472px -379px}
+.movie .title{display: block; margin-left:3px;width: 90px; height: 10px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/fsp-20161116-Recovered.png") no-repeat 0 -231px}
+.movie .plusBox{display: block; position: absolute; top:0px; right: 2px; width: 36px; height: 10px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/sp_20161109.png") no-repeat -76px -52px}
+.movie .movieImg{display:block;width: 190px;height: 173px;margin-top: 7px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/sp_20161109.png") no-repeat -472px -379px}
 
 .nav_2 .tripCar{position:relative;width: 191px; height: 135px; border: 1px solid #dedede;border-radius: 5px ;box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;margin-top: 10px}
-.tripCar .topBox .title{margin-left:14px;margin-top:16px;display: block; width: 82px; height: 40px; background: url("../img/fsp-20161116-Recovered.png") no-repeat 0 -242px}
-.tripCar .topBox .carImg{position:absolute;top:18px; right:0;display:block;width: 81px; height: 54px; background: url("../img/sp_20161109.png") no-repeat -84px -454px}
+.tripCar .topBox .title{margin-left:14px;margin-top:16px;display: block; width: 82px; height: 40px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/fsp-20161116-Recovered.png") no-repeat 0 -242px}
+.tripCar .topBox .carImg{position:absolute;top:18px; right:0;display:block;width: 81px; height: 54px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/sp_20161109.png") no-repeat -84px -454px}
 .tripCar .line{margin:10px; border-bottom: 1px solid #ebebeb; border-top: 0}
 .tripCar .bottomBox{display:block;}
-.tripCar .bottomBox .title{display:block;margin-left:14px;margin-top:12px;width: 96px; height: 39px; background: url("../img/fsp-20161116-Recovered.png") no-repeat 0 -285px;}
-.tripCar .bottomBox .carImg{position:absolute;top:80px; right:13px;display:block;width: 67px; height: 46px; background: url("../img/sp_20161109.png") no-repeat -164px -452px}
+.tripCar .bottomBox .title{display:block;margin-left:14px;margin-top:12px;width: 96px; height: 39px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/fsp-20161116-Recovered.png") no-repeat 0 -285px;}
+.tripCar .bottomBox .carImg{position:absolute;top:80px; right:13px;display:block;width: 67px; height: 46px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/sp_20161109.png") no-repeat -164px -452px}
 
 .nav_2 .item{position:relative;width: 191px; height: 85px;margin-top: 20px}
-.item .title{display: block;margin-left:1px; width: 84px; height: 11px; background: url("../img/fsp-20161116-Recovered.png") no-repeat 0 -326px;}
-.item .plusBox{display: block; position: absolute; top:1px; right: 2px; width: 36px; height: 10px; background: url("../img/sp_20161109.png") no-repeat -76px -52px}
+.item .title{display: block;margin-left:1px; width: 84px; height: 11px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/fsp-20161116-Recovered.png") no-repeat 0 -326px;}
+.item .plusBox{display: block; position: absolute; top:1px; right: 2px; width: 36px; height: 10px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/sp_20161109.png") no-repeat -76px -52px}
 .item .line{margin-top: 7px; border-bottom: 1px solid #d7d6d2; border-top: 0}
 .item .bottomBox dl{margin-left: 13px ;margin-top: 12px;}
 .item .bottomBox dl dt{font-size: 12px; font-weight: bold}
 .item .bottomBox dl dd{font-size: 11px; color: #8d8d8d;margin-top: 2px;}
-.item .bottomBox .price{display: block;margin-left: 13px;margin-top: 6px; width: 67px; height: 14px; background: url("../img/fsp-20161116-Recovered.png") no-repeat 0 -352px}
-.item .bottomBox .bag{display: block; width: 56px; height: 64px; position: absolute; top:29px; right: 8px; background: url("../img/sp_20161109.png") no-repeat -232px -449px}
+.item .bottomBox .price{display: block;margin-left: 13px;margin-top: 6px; width: 67px; height: 14px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/fsp-20161116-Recovered.png") no-repeat 0 -352px}
+.item .bottomBox .bag{display: block; width: 56px; height: 64px; position: absolute; top:29px; right: 8px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/sp_20161109.png") no-repeat -232px -449px}
 
 
 .nav_2 .talk{position:relative;width: 191px; height: 81px;margin-top: 20px}
-.talk .title{display: block;margin-left:3px;width: 83px; height: 11px; background: url("../img/fsp-20161116-Recovered.png") no-repeat 0 -339px}
-.talk .plusBox{display: block; position: absolute; top:1px; right: 2px; width: 36px; height: 10px; background: url("../img/sp_20161109.png") no-repeat -76px -52px}
+.talk .title{display: block;margin-left:3px;width: 83px; height: 11px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/fsp-20161116-Recovered.png") no-repeat 0 -339px}
+.talk .plusBox{display: block; position: absolute; top:1px; right: 2px; width: 36px; height: 10px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/sp_20161109.png") no-repeat -76px -52px}
 .talk .line{margin-top:7px; border-bottom: 1px solid #d7d6d2; border-top: 0}
 .talk ul{font-size: 12px; margin-top: 6px;}
 .talk ul li{margin-top: 4px;}
 .talk ul li:first-child{margin-top: 10px}
 
 
-footer .footerBi{position:relative; margin-top: 96px;display: block; width: 870px; height: 83px; background: url("../img/sp_20161109.png") no-repeat 0 -681px}
-footer .footerBi .title{position:absolute;display:block;top:17px; left: 58px; width: 52px; height: 7px; background: url("../img/fsp-20161116-Recovered.png") no-repeat -81px -12px}
+footer .footerBi{position:relative; margin-top: 96px;display: block; width: 870px; height: 83px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/sp_20161109.png") no-repeat 0 -681px}
+footer .footerBi .title{position:absolute;display:block;top:17px; left: 58px; width: 52px; height: 7px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/fsp-20161116-Recovered.png") no-repeat -81px -12px}
 footer .footerBi .topBox{height: 42px}
 footer .footerBi .topUl{overflow: hidden ;margin-left: 188px; height: 40px;}
 footer .footerBi .topUl li{float: left;display: block; margin-left: 33px; margin-top: 1px}
 footer .footerBi .topUl li a{display: block; margin-top: 10px; height: 21px}
 footer .footerBi .topUl li:first-child{margin-left: 0}
-footer .footerBi .topUl .click_1{width: 57px;height:21px;background: url("../img/sp_20161109.png") no-repeat -336px -203px}
-footer .footerBi .topUl .click_2{width: 66px;height:21px;background: url("../img/sp_20161109.png") no-repeat -395px -203px}
-footer .footerBi .topUl .click_3{width: 64px;height:21px;margin-left:5px;background: url("../img/sp_20161109.png") no-repeat -463px -203px}
-footer .footerBi .topUl .click_4{width: 54px;height:21px;background: url("../img/sp_20161109.png") no-repeat -529px -203px}
-footer .footerBi .topUl .click_5{width: 59px;height:21px;margin-left:9px;background: url("../img/sp_20161109.png") no-repeat -585px -203px}
-footer .footerBi .title_2{position:absolute;top:51px;left:37px;display: block; width: 97px; height: 15px; background: url("../img/sp_20161109.png") no-repeat -646px -203px}
-footer .bottomBox .footerIntro{display: block;margin-left: 190px; margin-top: 6px; width: 514px; height: 25px; background: url("../img/footer.png")}
+footer .footerBi .topUl .click_1{width: 57px;height:21px;background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/sp_20161109.png") no-repeat -336px -203px}
+footer .footerBi .topUl .click_2{width: 66px;height:21px;background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/sp_20161109.png") no-repeat -395px -203px}
+footer .footerBi .topUl .click_3{width: 64px;height:21px;margin-left:5px;background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/sp_20161109.png") no-repeat -463px -203px}
+footer .footerBi .topUl .click_4{width: 54px;height:21px;background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/sp_20161109.png") no-repeat -529px -203px}
+footer .footerBi .topUl .click_5{width: 59px;height:21px;margin-left:9px;background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/sp_20161109.png") no-repeat -585px -203px}
+footer .footerBi .title_2{position:absolute;top:51px;left:37px;display: block; width: 97px; height: 15px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/sp_20161109.png") no-repeat -646px -203px}
+footer .bottomBox .footerIntro{display: block;margin-left: 190px; margin-top: 6px; width: 514px; height: 25px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/footer.png")}
 
-.fixZone{position: fixed; top:0; right:0;display: block; width: 81px; height: 238px; background: url("../img/sp_20161109.png") no-repeat -664px -379px}
+.fixZone{position: fixed; top:0; right:0;display: block; width: 81px; height: 238px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/sp_20161109.png") no-repeat -664px -379px}
 .fixZone h5{margin-left: 6px; font-size: 10px}
-.fixZone .mascot{display: block;width: 66px; margin-left: 6px; height: 46px; background: url("../img/sp_20161109.png") no-repeat -290px -449px}
+.fixZone .mascot{display: block;width: 66px; margin-left: 6px; height: 46px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/sp_20161109.png") no-repeat -290px -449px}
 .fixZone .topDl{margin-left: 8px; margin-top: 4px; width: 70px; height: 50px; position: relative}
 .fixZone .topDl dt{font-size: 10px;color: #086768;font-weight: bold}
 .fixZone .topDl dd{font-size: 10px; color: #8d8d8d; margin-top: 4px}
 .fixZone .bottomDl{width:70px;position:relative;margin-left: 6px; margin-top: 8px;}
 .fixZone .bottomDl dt{font-size: 12px;color: #086768;font-weight: bold}
 .fixZone .bottomDl dd{font-size: 10px; color: #8d8d8d; margin-top:}
-.fixZone .nowGo{display: block;margin-left: 11px;margin-top: 8px; width: 57px; height: 16px; background: url("../img/sp_20161109.png") no-repeat -266px -203px}
-.fixZone .click_1{position:absolute; top:2px;right:7px;display: block; width: 9px; height: 9px; background: url("../img/sp_20161109.png") no-repeat -325px -203px}
-.fixZone .click_2{position:absolute; top:22px;right:20px;display: block; width: 9px; height: 9px; background: url("../img/sp_20161109.png") no-repeat -325px -203px}
+.fixZone .nowGo{display: block;margin-left: 11px;margin-top: 8px; width: 57px; height: 16px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/sp_20161109.png") no-repeat -266px -203px}
+.fixZone .click_1{position:absolute; top:2px;right:7px;display: block; width: 9px; height: 9px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/sp_20161109.png") no-repeat -325px -203px}
+.fixZone .click_2{position:absolute; top:22px;right:20px;display: block; width: 9px; height: 9px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/milestory/img/sp_20161109.png") no-repeat -325px -203px}
