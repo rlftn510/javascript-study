@@ -59,7 +59,7 @@
 
     #container .contents_1 .content_4{position:relative;height: 474px;margin-top: 10px;margin-left: 10px}
     #container .contents_1 .content_4 .aptImg{width: 230px; height: 230px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/jiransecurity/img/img_issue_01.jpg")}
-    #container .contents_1 .content_4 h3{font-size: 13px; margin: 14px 0 0 16px; color:#464646 }
+    #container .contents_1 .content_4 h3{position:absolute;font-size: 13px; margin: 14px 0 0 16px; color:#464646 }
     #container .contents_1 .content_4 .aptTitle{display:block;font-size: 18px; font-weight: bold;margin-top: 20px;margin-left: 10px}
     #container .contents_1 .content_4 span{display:block; width:210px;margin:0 auto;font-size: 12px; color: #555555;margin-top: 10px}
     #container .contents_1 .content_4 .rensumCon{display: none}
@@ -113,7 +113,8 @@
     .contents_2 .content_2 .topSec dl{float: left; margin-left: 6px}
     .contents_2 .content_2 .topSec dt{font-size: 14px; font-weight: bold; color: #f08200}
     .contents_2 .content_2 .topSec dd{font-size: 14px; margin-top: 4px}
-    .contents_2 .content_2 p{display:block;width:200px;margin-top: 20px; font-size: 12px;margin-left: 16px;}
+    .contents_2 .content_2 .companyText{display:block;width:200px;margin-top: 20px; font-size: 12px;margin-left: 16px;}
+    .contents_2 .content_2 .mqueryText{display: none}
     .contents_2 .content_2 .plusText{position:absolute;left:16px; bottom:16px;font-size: 12px; color: #f08200;}
     .contents_2 .content_2 ul{position: absolute; overflow: hidden; top:12px; right: 16px}
     .contents_2 .content_2 li{float: left;margin-left: 2px}
@@ -127,12 +128,11 @@
     .snsSec{display: none}
     footer #leftSec{position:relative;padding-left: 196px; padding-top: 30px; width: 750px}
     .leftLogo{position: absolute; left: 0}
-    .rightLogo{position: absolute; right: 0; bottom: 0}
     footer #leftSec ul{margin-top: 20px; overflow: hidden}
-    footer #leftSec ul li{float: left; margin-top:10px}
+    footer #leftSec ul li{margin-top:10px}
     footer #leftSec ul li:first-child{margin-top: 0}
-    footer #leftSec ul li span{margin-left: 20px}
     footer .footerText_1{margin-top: 20px}
+    footer .footerMLogo{display: none}
 
     footer #rightSec{position:absolute;top:0;left:50%;width:100%;height:210px;margin-left:370px;background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/jiransecurity/img/bg_footer2.png")}
     footer #rightSec h2{margin-left: 20px; margin-top: 30px; font-size: 14px}
@@ -156,7 +156,8 @@
     .menu .listView{position:absolute;top:24px;left:14px;display: block; width: 30px; height: 30px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/jiransecurity/img/icon_sp.png") no-repeat 0 0;background-size: 400px 400px;}
     .menu .search{position: absolute;top:24px;right: 14px;display: block; width: 30px; height: 30px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/jiransecurity/img/icon_sp.png") no-repeat -30px 0;background-size: 400px 400px}
 
-    #container .visualBox{height: 276px; border: 1px solid #cccccc}
+    #container .visualBox{height: 276px; border: 1px solid #cccccc; overflow: hidden; background-color: #003f74}
+    #container .visualBox .visual{width:400px;margin: 0 auto; height:278px;background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/jiransecurity/img/main_visual.jpg"); background-size: 400px 278px}
     .contents_1:after{display: block; content: ""; clear: both}
     .contents_1 .content_1 h3{width:0;height:0;opacity: 0;line-height: 0;font-size: 0}
     .contents_1 .content_1{float: left; height: 157px;width: 33%; position: relative}
@@ -185,7 +186,7 @@
     .contents_1 .content_4{float:left;border-top: 1px solid #cccccc}
     .contents_1 .content_4 h3{font-size: 14px; margin:10px 0 0 16px}
     .contents_1 .content_4>div{border: 1px solid #cccccc; border-left:none; border-right: none }
-    .contents_1 .content_4 .aptCon{margin: 16px 10px 0 10px}
+    .contents_1 .content_4 .aptCon{margin: 10px 10px 0 10px}
     .contents_1 .content_4 .aptCon:after{display: block; content: ""; clear: both}
     .contents_1 .content_4 .aptCon .aptImg{float:left;width: 100px; height: 100px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/jiransecurity/img/img_issue_01.jpg") no-repeat 0 0; background-size: 100px 100px}
     .contents_1 .content_4 .aptCon .aptTitle{float:left;display:block; margin: 16px 0 0 22px; font-size: 12px; font-weight: bold }
@@ -195,7 +196,7 @@
 
     .contents_1 .content_4 .rensumCon{margin: 6px 10px 0 10px}
     .contents_1 .content_4 .rensumCon:after{display: block; content: ""; clear: both}
-    .contents_1 .content_4 .rensumCon .rensumImg{float:left;width: 100px; height: 100px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/jiransecurity/img/img_issue_01.jpg") no-repeat 0 0; background-size: 100px 100px}
+    .contents_1 .content_4 .rensumCon .rensumImg{float:left;width: 100px; height: 100px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/jiransecurity/img/img_issue_02.jpg") no-repeat 0 0; background-size: 100px 100px}
     .contents_1 .content_4 .rensumCon .rensumTitle{float:left;display:block; margin: 16px 0 0 22px; font-size: 12px; font-weight: bold }
     .contents_1 .content_4 .rensumCon span{display: block;float: left; width: 560px; font-size: 12px; margin: 16px 0 0 22px}
     .contents_1 .content_4 .rensumCon .leftBtn{display: none}
@@ -203,7 +204,7 @@
 
     .contents_1 .content_4 .cloudCon{margin: 6px 10px 0 10px}
     .contents_1 .content_4 .cloudCon:after{display: block; content: ""; clear: both}
-    .contents_1 .content_4 .cloudCon .cloudImg{float:left;width: 100px; height: 100px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/jiransecurity/img/img_issue_01.jpg") no-repeat 0 0; background-size: 100px 100px}
+    .contents_1 .content_4 .cloudCon .cloudImg{float:left;width: 100px; height: 100px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/jiransecurity/img/img_issue_03.jpg") no-repeat 0 0; background-size: 100px 100px}
     .contents_1 .content_4 .cloudCon .cloudTitle{float:left;display:block; margin: 16px 0 0 22px; font-size: 12px; font-weight: bold }
     .contents_1 .content_4 .cloudCon span{display: block;float: left; width: 560px; font-size: 12px; margin: 16px 0 0 22px}
     .contents_1 .content_4 .cloudCon .leftBtn{display: none}
@@ -235,7 +236,7 @@
 
     .contents_2 .content_1 .bottomSec{margin-top: 10px}
     .contents_2 .content_1 .bottomSec .marketCon_1:after{display: block; clear: both; content: ""}
-    .contents_2 .content_1 .bottomSec .marketCon_1 .imgBox{float: left; margin-bottom: 10px}
+    .contents_2 .content_1 .bottomSec .marketCon_1 .imgBox{float: left; margin-bottom: 10px;margin-left: 10px}
     .contents_2 .content_1 .bottomSec .marketCon_1 dl{float:left;width:530px;margin:16px 0 0 16px}
     .contents_2 .content_1 .bottomSec .marketCon_1 dt{font-size: 12px}
     .contents_2 .content_1 .bottomSec .marketCon_1 dd{font-size: 12px; margin-top: 30px}
@@ -255,10 +256,11 @@
     .contents_2 .content_2 .topBox p{margin:10px; font-size: 12px}
     .contents_2 .content_2 .plusText{position:absolute;left:26px; bottom:26px;font-size: 12px; color: #f08200}
     .contents_2 .content_2 ul{display: none}
+    .companyText{display: none}
 
-    footer{float:left;background: }
+    footer{position:relative; float:left;background-color:#2a2e32;width: 100%; height: 290px;}
     .snsSec{position: relative; height: 36px;background-color: #3a3e42}
-    .snsSec ul{overflow: hidden}
+    .snsSec ul{overflow: hidden; margin-left: 10px}
     .snsSec ul li{float: left}
     .snsSec ul a{display: inline-block; height: 36px;border-right: 1px solid #404347; box-sizing: border-box}
     .snsSec .snsIcon{position: absolute; left: 0}
@@ -269,4 +271,16 @@
     .snsSec .headerIcon_4{width: 30px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/jiransecurity/img/header_blog.png")}
     .snsSec .headerIcon_5{width: 30px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/jiransecurity/img/header_insta.png");border-right:1px solid #dcdcdc; box-sizing: border-box }
     .dosic{display: none}
+
+    footer #leftSec .leftLogo{display: none}
+    footer #leftSec .footerMLogo{position:absolute;top:90px; left: 50%; margin-left: -140px}
+    footer #leftSec{color: white;text-align: center}
+    footer #leftSec ul{font-size: 12px;margin-top: 100px}
+    footer #leftSec ul li{margin-top: 4px}
+    .footerText_1{font-size: 12px; margin-top: 10px}
+
+    footer #rightSec{position: absolute; top:36px; height: 40px; border-bottom: 1px solid #404347; width: 100% }
+    footer #rightSec h2{font-size: 16px; color: white; margin: 10px 10px 0 10px}
+    footer #rightSec ul{display: none}
+    footer #rightSec ul a{color: white; font-size: 12px}
 }
