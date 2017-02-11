@@ -1,7 +1,7 @@
 # html, css, sass, javascript, jquery 활용
 자세한 설명은 해당 폴더 markdown에 기재되어 있습니다.
 
-## 웹페이지제작 mailstory, jiransecurity, samsunghotel
+## 웹페이지제작 폴더 mailstory, jiransecurity, samsunghotel
 1. samsungHotel codepen URL:(http://codepen.io/GalGalE/pen/MJBKzK)
  1. samsungHotel 서브페이지 codepen URL:(http://codepen.io/GalGalE/pen/ZLjQPp)
  2. samsungHotel 서브페이지_2 codepen URL:(http://codepen.io/GalGalE/pen/YNjwMj)

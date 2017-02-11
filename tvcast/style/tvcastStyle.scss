@@ -2,8 +2,9 @@
 .blind{font-size: 0;width: 0;height: 0;line-height: 0;opacity: 0}
 $asd: #333;
 
-#header{position:relative;height: 55px; background-color: #06d87d;
-  .rigthBg{position: absolute;z-index: 0;right: 0;top:0; width: 253px;height: 55px; background: url("../img/bg_header.png") no-repeat; display: block}
+#header{position:fixed;top:0; left:0;z-index:1000;height: 55px;width: 100%;
+  .headerBg{position: absolute; top:0; left:0; width: 100%; height: 100%; background-color:#06d87d;opacity: 0.9;background-image: linear-gradient( to right, #06db77 0, #0fc3bd 50%, #14b9dc 100%  );
+  &:after{position:absolute; right:0; top:0; width: 253px; height: 55px;content: ""; display: block; background: url("../img/bg_header.png") 100% 0 no-repeat }}
   #mainLogo{position:absolute; top:14px; left:20px;display: block; width: 151px; height: 26px; background: url("../img/sp_tvcast52.png") no-repeat 0 0}
   input{float:left;width: 297px; height: 36px;border: 0}
   #dropBtn{float: left;display: block; width: 20px; height: 36px;text-align: center;
@@ -22,7 +23,7 @@ $asd: #333;
 #header #plusMenu{position: absolute;display:block;right: 0;width: 57px; height: 55px;text-align: center;border-left: 1px solid #0aa286; border-right: 1px solid #0aa286;line-height: 55px}
 
 #container:after{display:block; clear: both; content:""}
-#navi{position:relative;float: left;width: 180px; border-right: 1px solid #d8d8d8;
+#navi{position:relative;float: left;width: 180px;margin-top: 55px;
   .naviMenu_1{margin: 0 12px 0 12px}
   .naviMenu_1 li{height: 44px; border-bottom: 1px solid #efefef; line-height: 44px;
   a{font-size: 14px;margin-left: 10px;
@@ -68,3 +69,520 @@ $asd: #333;
   &:hover{color: #7d7e81}}}}
   #adSec{display: block; margin-top: 30px; margin-left: 20px; padding-bottom: 100px}
   #menuControl{position:absolute;top:6px; right:-22px;display: block; width: 21px; height: 38px; background: url("../img/sp_aside.png") no-repeat 0 -21px}}
+
+
+
+#contents{float:left; padding-top: 85px;border-left: 1px solid #d8d8d8;
+  &>div{margin-left: 80px; width: 1249px}
+}
+
+
+#mainLayout{height: 561px; overflow: hidden;
+  &:after{display: block;clear: both;content: ""}
+    .leftLayout{border-right: 2px solid black;float: left;
+      .subLayout_1{position:relative; width:489px; height:339px;overflow: hidden;
+        .graBg{position:absolute; bottom:-40px; display: block; width: 100%; height: 187px; background: url("../img/graBg.png");
+          &:hover{bottom: 0}
+          p{margin-left: 30px;margin-top: 80px}
+          .mainTitle{color: white; font-size: 12px}
+          .subTitle{color: white; font-size: 20px; font-weight: bold; margin-top: 10px;
+            .timeText{font-size: 13px; color: #8d8d8d; font-weight: normal; margin-left: 6px}}
+          .upSec{overflow: hidden; margin-top: 20px;
+            span{float: left}
+            .playIcon{display:block; width: 11px; height: 13px; background: url("../img/sp_tvcast52.png") no-repeat -111px -345px}
+            .playNum{font-size: 14px; font-weight: bold; color: white;margin-left: 4px;line-height: 14px}
+            .likeIcon{display: block; width: 14px; height: 13px; background: url("../img/sp_tvcast52.png") no-repeat -131px -345px;margin-left: 12px}
+            .likeNum{font-size: 14px; color: whitesmoke; font-weight: bold; margin-left: 4px; line-height: 14px}
+          }}
+    }
+      .subLayout_2{position:relative;width: 489px; height:110px; border-top:1px solid black; background-color: #2b2b2b;
+        &after{display: block; clear: both; content: ""}
+        .descriptionSec_1{float: left;margin-left: 30px; width: 220px;
+          .mainTitle{color: #7baeef; font-size: 12px; margin-top: 20px}
+          .subTitle{color: whitesmoke; font-size: 14px; font-weight: bold;margin-top: 10px;
+          .timeText{font-size: 13px; color: #8d8d8d; font-weight: normal; margin-left: 6px}
+          }
+        }
+        .boyfriendImg{position: absolute; top: 0; right: 0}
+      }
+      .subLayout_3{position:relative;width: 489px; height:110px; border-top:1px solid black; background-color: #2b2b2b;
+        &after{display: block; clear: both; content: ""}
+        .descriptionSec_2{float: left;margin-left: 30px; width: 220px;
+          .mainTitle{color: #7baeef; font-size: 12px; margin-top: 20px}
+          .subTitle{color: whitesmoke; font-size: 14px; font-weight: bold;margin-top: 10px;
+            .timeText{font-size: 13px; color: #8d8d8d; font-weight: normal; margin-left: 6px}
+          }
+        }
+        .washingImg{position: absolute; top: 0; right: 0}
+      }
+  }
+  .midLayout{float: left; border-right: 2px solid black;
+    .subLayout_1{position:relative; width:519px; height:280px;overflow: hidden;
+      .graBg{position:absolute; bottom:-40px; display: block; width: 100%; height: 187px; background: url("../img/graBg.png");
+        &:hover{bottom: 0}
+        p{margin-left: 30px;margin-top: 80px}
+        .mainTitle{color: white; font-size: 12px}
+        .subTitle{color: white; font-size: 20px; font-weight: bold; margin-top: 10px;
+          .timeText{font-size: 13px; color: #8d8d8d; font-weight: normal; margin-left: 6px}}
+        .upSec{overflow: hidden; margin-top: 20px;
+          span{float: left}
+          .playIcon{display:block; width: 11px; height: 13px; background: url("../img/sp_tvcast52.png") no-repeat -111px -345px}
+          .playNum{font-size: 14px; font-weight: bold; color: white;margin-left: 4px;line-height: 14px}
+          .likeIcon{display: block; width: 14px; height: 13px; background: url("../img/sp_tvcast52.png") no-repeat -131px -345px;margin-left: 12px}
+          .likeNum{font-size: 14px; color: whitesmoke; font-weight: bold; margin-left: 4px; line-height: 14px}
+        }
+      }
+    }
+    .subLayout_2{position:relative; width:519px; height:280px;overflow: hidden;border-top:1px solid black;
+      .graBg{position:absolute; bottom:-40px; display: block; width: 100%; height: 187px; background: url("../img/graBg.png");
+        &:hover{bottom: 0}
+        p{margin-left: 30px;margin-top: 80px}
+        .mainTitle{color: white; font-size: 12px}
+        .subTitle{color: white; font-size: 20px; font-weight: bold; margin-top: 10px;
+          .timeText{font-size: 13px; color: #8d8d8d; font-weight: normal; margin-left: 6px}}
+        .upSec{overflow: hidden; margin-top: 20px;
+          span{float: left}
+          .playIcon{display:block; width: 11px; height: 13px; background: url("../img/sp_tvcast52.png") no-repeat -111px -345px}
+          .playNum{font-size: 14px; font-weight: bold; color: white;margin-left: 4px;line-height: 14px}
+          .likeIcon{display: block; width: 14px; height: 13px; background: url("../img/sp_tvcast52.png") no-repeat -131px -345px;margin-left: 12px}
+          .likeNum{font-size: 14px; color: whitesmoke; font-weight: bold; margin-left: 4px; line-height: 14px}
+        }
+      }
+    }
+  }
+  .rightLayout{float: left;
+    .subLayout_1{position:relative; width:236px; height:125px;overflow: hidden;border-bottom:2px solid black;
+      .graBg{position:absolute; bottom:-30px; display: block; width: 100%; height: 187px; background: url("../img/graBg.png");
+        &:hover{bottom: 0}
+        p{margin-left: 20px;margin-top: 80px}
+        .mainTitle{color: white; font-size: 12px}
+        .subTitle{color: white; font-size: 20px; font-weight: bold; margin-top: 10px;
+          .timeText{font-size: 13px; color: #8d8d8d; font-weight: normal; margin-left: 6px}}
+        .upSec{overflow: hidden; margin-top: 20px;
+          span{float: left}
+          .playIcon{display:block; width: 11px; height: 13px; background: url("../img/sp_tvcast52.png") no-repeat -111px -345px}
+          .playNum{font-size: 14px; font-weight: bold; color: white;margin-left: 4px;line-height: 14px}
+          .likeIcon{display: block; width: 14px; height: 13px; background: url("../img/sp_tvcast52.png") no-repeat -131px -345px;margin-left: 12px}
+          .likeNum{font-size: 14px; color: whitesmoke; font-weight: bold; margin-left: 4px; line-height: 14px}
+        }
+      }
+    }
+    .subLayout_2{position:relative; width:236px; height:126px;overflow: hidden;border-bottom:2px solid black;
+      .graBg{position:absolute; bottom:-30px; display: block; width: 100%; height: 187px; background: url("../img/graBg.png");
+        &:hover{bottom: 0}
+        p{margin-left: 20px;margin-top: 80px}
+        .mainTitle{color: white; font-size: 12px}
+        .subTitle{color: white; font-size: 20px; font-weight: bold; margin-top: 10px;
+          .timeText{font-size: 13px; color: #8d8d8d; font-weight: normal; margin-left: 6px}}
+        .upSec{overflow: hidden; margin-top: 20px;
+          span{float: left}
+          .playIcon{display:block; width: 11px; height: 13px; background: url("../img/sp_tvcast52.png") no-repeat -111px -345px}
+          .playNum{font-size: 14px; font-weight: bold; color: white;margin-left: 4px;line-height: 14px}
+          .likeIcon{display: block; width: 14px; height: 13px; background: url("../img/sp_tvcast52.png") no-repeat -131px -345px;margin-left: 12px}
+          .likeNum{font-size: 14px; color: whitesmoke; font-weight: bold; margin-left: 4px; line-height: 14px}
+        }
+      }
+    }
+    .subLayout_3{display:block; position: relative;
+      .bgImg{display: block; background: url("../img/rigthImg_3.JPG");height: 308px;text-align: center;
+        .girlface{margin: 0 auto; margin-top: 68px}
+        .mainTitle{margin-top: 25px; font-size: 20px; color: white;font-weight: bold}
+        .subTitle{margin-top: 20px; color: whitesmoke}
+      }
+    }
+  }
+}
+
+#famousVideo{position:relative;margin-top: 50px;
+  .mainTitle{font-size: 20px;line-height: 28px;
+    &:after{display: block; clear: both; content: "" }
+    .famousIcon{float:left;display:block;width: 42px; height: 28px;margin-right:10px;background: url("../img/sp_tvcast52.png") no-repeat 0 -736px}}
+  .videoList{overflow: hidden;
+    li{float: left; margin-top: 10px;padding:0 8px 0 8px; border-right: 1px solid #e4e4e4;
+      &:first-child{padding-left: 0}
+      .topInfo_1{position: relative;display:block;width: 236px; height: 133px;
+          &:hover .timeInfo{width: 39px; height: 39px; font-size: 0;background: url("../img/sp_tvcast52.png") no-repeat -7px -607px}
+        .timeInfo{position: absolute; display: block; width: 35px; height: 16px; bottom:4px; right: 4px; color: white;font-size: 12px; text-align: center; line-height: 16px; background-color: black}
+      }
+      .bottomInfo_1{margin-top: 18px;
+        .rankSec{position:relative;float: left;width: 48px; height: 72px;
+          .rankNum{display: block;margin-left: 2px; width:8px; height: 35px; background: url("../img/sp_top_num.png") no-repeat -3px 0}
+          .updownNum{position:absolute; bottom: 0; font-size: 15px; color: red; width: 30px; display: block;
+            .updownIcon{display: inline-block; margin-right: 4px; width: 7px; height: 11px; background: url("../img/sp_tvcast52.png") no-repeat 0 -504px}
+          }
+        }
+        .bottomDes_1{position:relative;float: left;height: 72px;
+          .bottomMainTitle{color: black; display:block;font-size: 13px; width: 180px}
+          .bottomSubTitle{display:inline-block; color: #7ba7df; font-size: 12px; margin-top: 8px;
+            &:hover{color:#a1a1a1}
+          }
+          .upSec{position:absolute; bottom: 1px;overflow: hidden; display: block;
+            span{float: left; margin-top: 10px}
+            .playIcon{display:block; width: 7px; height: 9px; background: url("../img/sp_tvcast52.png") no-repeat -22px -92px}
+            .playNum{font-size: 12px; font-weight: bold; color: #797979 ;margin-left: 4px;line-height: 9px}
+            .likeIcon{display: block; width: 11px; height: 10px; background: url("../img/sp_tvcast52.png") no-repeat -22px -112px;margin-left: 12px}
+            .likeNum{font-size: 12px; color: #797979; font-weight: bold; margin-left: 4px; line-height: 10px}
+          }
+        }
+      }
+    }
+    .videoList_2{float: left; margin-top: 10px;padding:0 8px 0 8px; border-right: 1px solid #e4e4e4;
+      &:first-child{padding-left: 0}
+      .topInfo_2{position: relative;display:block;width: 236px; height: 133px;
+        &:hover .timeInfo{width: 39px; height: 39px; font-size: 0;background: url("../img/sp_tvcast52.png") no-repeat -7px -607px}
+        .timeInfo{position: absolute; display: block; width: 35px; height: 16px; bottom:4px; right: 4px; color: white;font-size: 12px; text-align: center; line-height: 16px; background-color: black}
+      }
+      .bottomInfo_2{margin-top: 18px;
+        .rankSec{position:relative;float: left;width: 48px; height: 72px;
+          .rankNum{display: block;margin-left: 2px; width:20px; height: 35px; background: url("../img/sp_top_num.png") no-repeat -48px 0}
+          .updownNum{position:absolute; bottom: 0; font-size: 15px; color: #1996ff; width: 30px; display: block;
+            .updownIcon{display: inline-block; margin-right: 4px; width: 7px; height: 11px; background: url("../img/sp_tvcast52.png") no-repeat -37px -504px}
+          }
+        }
+        .bottomDes_2{position:relative;float: left;height: 72px;
+          .bottomMainTitle{color: black; display:block;font-size: 13px; width: 180px}
+          .bottomSubTitle{display:inline-block; color: #7ba7df; font-size: 12px; margin-top: 8px;
+            &:hover{color:#a1a1a1}
+          }
+          .upSec{position:absolute; bottom: 1px;overflow: hidden; display: block;
+            span{float: left; margin-top: 10px}
+            .playIcon{display:block; width: 7px; height: 9px; background: url("../img/sp_tvcast52.png") no-repeat -22px -92px}
+            .playNum{font-size: 12px; font-weight: bold; color: #797979 ;margin-left: 4px;line-height: 9px}
+            .likeIcon{display: block; width: 11px; height: 10px; background: url("../img/sp_tvcast52.png") no-repeat -22px -112px;margin-left: 12px}
+            .likeNum{font-size: 12px; color: #797979; font-weight: bold; margin-left: 4px; line-height: 10px}
+          }
+        }
+      }
+    }
+    .videoList_3{float: left; margin-top: 10px;padding:0 8px 0 8px; border-right: 1px solid #e4e4e4;
+      &:first-child{padding-left: 0}
+      .topInfo_3{position: relative;display:block;width: 236px; height: 133px;
+        &:hover .timeInfo{width: 39px; height: 39px; font-size: 0;background: url("../img/sp_tvcast52.png") no-repeat -7px -607px}
+        .timeInfo{position: absolute; display: block; width: 35px; height: 16px; bottom:4px; right: 4px; color: white;font-size: 12px; text-align: center; line-height: 16px; background-color: black}
+      }
+      .bottomInfo_3{margin-top: 18px;
+        .rankSec{position:relative;float: left;width: 48px; height: 72px;
+          .rankNum{display: block;margin-left: 2px; width:20px; height: 35px; background: url("../img/sp_top_num.png") no-repeat -90px 0}
+          .updownNum{position:absolute;left: 8px; bottom: 0; font-size: 15px; width: 30px; display: block;
+            .updownIcon{display: inline-block; margin-right: 4px; width: 11px; height: 2px; background: url("../img/sp_tvcast52.png") no-repeat -74px -509px}
+          }
+        }
+        .bottomDes_3{position:relative;float: left;height: 72px;
+          .bottomMainTitle{color: black; display:block;font-size: 13px; width: 180px}
+          .bottomSubTitle{display:inline-block; color: #7ba7df; font-size: 12px; margin-top: 8px;
+            &:hover{color:#a1a1a1}}
+          .upSec{position:absolute; bottom: 1px;overflow: hidden; display: block;
+            span{float: left; margin-top: 10px}
+            .playIcon{display:block; width: 7px; height: 9px; background: url("../img/sp_tvcast52.png") no-repeat -22px -92px}
+            .playNum{font-size: 12px; font-weight: bold; color: #797979 ;margin-left: 4px;line-height: 9px}
+            .likeIcon{display: block; width: 11px; height: 10px; background: url("../img/sp_tvcast52.png") no-repeat -22px -112px;margin-left: 12px}
+            .likeNum{font-size: 12px; color: #797979; font-weight: bold; margin-left: 4px; line-height: 10px}
+          }
+        }
+      }
+    }
+    .videoList_4{float: left; margin-top: 10px;padding:0 8px 0 8px; border-right: 1px solid #e4e4e4;
+      &:first-child{padding-left: 0}
+      .topInfo_4{position: relative;display:block;width: 236px; height: 133px;
+        &:hover .timeInfo{width: 39px; height: 39px; font-size: 0;background: url("../img/sp_tvcast52.png") no-repeat -7px -607px}
+        .timeInfo{position: absolute; display: block; width: 35px; height: 16px; bottom:4px; right: 4px; color: white;font-size: 12px; text-align: center; line-height: 16px; background-color: black}
+      }
+      .bottomInfo_4{margin-top: 18px;
+        .rankSec{position:relative;float: left;width: 48px; height: 72px;
+          .rankNum{display: block;margin-left: 2px; width:20px; height: 35px; background: url("../img/sp_top_num.png") no-repeat -132px -0}
+          .updownNum{position:absolute; bottom: 0; font-size: 15px; color: red; width: 30px; display: block;
+            .updownIcon{display: inline-block; margin-right: 4px; width: 7px; height: 11px; background: url("../img/sp_tvcast52.png") no-repeat 0 -504px}
+          }
+        }
+        .bottomDes_4{position:relative;float: left;height: 72px;
+          .bottomMainTitle{color: black; display:block;font-size: 13px; width: 180px}
+          .bottomSubTitle{display:inline-block; color: #7ba7df; font-size: 12px; margin-top: 8px;
+            &:hover{color:#a1a1a1}}
+          .upSec{position:absolute; bottom: 1px;overflow: hidden; display: block;
+            span{float: left; margin-top: 10px}
+            .playIcon{display:block; width: 7px; height: 9px; background: url("../img/sp_tvcast52.png") no-repeat -22px -92px}
+            .playNum{font-size: 12px; font-weight: bold; color: #797979 ;margin-left: 4px;line-height: 9px}
+            .likeIcon{display: block; width: 11px; height: 10px; background: url("../img/sp_tvcast52.png") no-repeat -22px -112px;margin-left: 12px}
+            .likeNum{font-size: 12px; color: #797979; font-weight: bold; margin-left: 4px; line-height: 10px}
+          }
+        }
+      }
+    }
+    .videoList_5{float: left; margin-top: 10px;padding:0 0 0 8px; border-right:none;
+      &:first-child{padding-left: 0}
+      .topInfo_5{position: relative;display:block;width: 236px; height: 133px;
+        &:hover .timeInfo{width: 39px; height: 39px; font-size: 0;background: url("../img/sp_tvcast52.png") no-repeat -7px -607px}
+        .timeInfo{position: absolute; display: block; width: 35px; height: 16px; bottom:4px; right: 4px; color: white;font-size: 12px; text-align: center; line-height: 16px; background-color: black}
+      }
+      .bottomInfo_5{margin-top: 18px;
+        .rankSec{position:relative;float: left;width: 48px; height: 72px;
+          .rankNum{display: block;margin-left: 2px; width:20px; height: 35px; background: url("../img/sp_top_num.png") no-repeat -174px 0}
+          .updownNum{position:absolute; bottom: 0; font-size: 15px; color: red; width: 30px; display: block;
+            .updownIcon{display: inline-block; margin-right: 4px; width: 7px; height: 11px; background: url("../img/sp_tvcast52.png") no-repeat 0 -504px}
+          }
+        }
+        .bottomDes_5{position:relative;float: left;height: 72px;
+          .bottomMainTitle{color: black; display:block;font-size: 13px; width: 180px}
+          .bottomSubTitle{display:inline-block; color: #7ba7df; font-size: 12px; margin-top: 8px;
+            &:hover{color:#a1a1a1}}
+          .upSec{position:absolute; bottom: 1px;overflow: hidden; display: block;
+            span{float: left; margin-top: 10px}
+            .playIcon{display:block; width: 7px; height: 9px; background: url("../img/sp_tvcast52.png") no-repeat -22px -92px}
+            .playNum{font-size: 12px; font-weight: bold; color: #797979 ;margin-left: 4px;line-height: 9px}
+            .likeIcon{display: block; width: 11px; height: 10px; background: url("../img/sp_tvcast52.png") no-repeat -22px -112px;margin-left: 12px}
+            .likeNum{font-size: 12px; color: #797979; font-weight: bold; margin-left: 4px; line-height: 10px}
+          }
+        }
+      }
+    }
+  }
+  .allplay{display: block; position: absolute; width: 88px; height: 25px; border: 1px solid #d8d8d8; text-align: center; left: 178px; top:0; line-height: 28px; font-size: 14px;
+    .allplayIcon{display: block; width: 17px; height: 13px; background: url("../img/sp_tvcast52.png") no-repeat -61px -148px; float: left; margin : 6px 0 0 4px}
+  }
+  .moveBtn{position: absolute; right: 0;top: 0;
+    p{font-size: 14px; color: #888d90; float: left; margin-top: 8px; margin-right: 10px}
+    .btnSec{float:left;width: 58px; height: 29px; background: url("../img/sp_tvcast52.png") no-repeat -142px -99px;
+      &:after{display: block; clear: both; content: ""}
+      .leftBtn{display: inline-block;width: 29px; height: 29px;float: left;
+        &:hover{background: url("../img/sp_tvcast52.png") no-repeat -142px -132px}
+      }
+      .rightBtn{display: inline-block;width: 29px; height: 29px;float: left;
+        &:hover{background: url("../img/sp_tvcast52.png") no-repeat -171px -132px}
+      }
+    }
+  }
+}
+
+.midAdSec{margin-top: 70px;
+  .a{float: left;display:block; width: 623px}
+  .rightAd{margin-left: -4px}
+}
+
+.recomendSec{margin-top: 70px;
+  &:after{display: block; clear: both; content:""}
+  .mainTitle{font-size: 20px;line-height: 28px;
+    &:after{display: block; clear: both; content: "" }
+    .famousIcon{float:left;display:block;width: 42px; height: 28px;margin-right:10px;background: url("../img/sp_tvcast52.png") no-repeat 0 -736px}
+    .arrowIcon{display: inline-block; width: 7px; height: 11px; background: url("../img/sp_tvcast52.png") no-repeat -156px -388px; margin-bottom: 2px}
+  }
+  .mainVisual{float:left;position: relative;margin-top: 10px; display: block;width: 405px; height: 198px; background: url("../img/recomendMainVisual.jpg") no-repeat;
+    .recomendGraBg{position: absolute; bottom: 0; width: 405px; height: 103px; background: url("../img/bg_img_mask.png");
+      &>*{float: left; margin-top: 44px}
+      &:after{display: block; clear: both; content: ""}
+      .listIcon{margin-left:20px; width: 30px; height: 20px; background: url("../img/sp_tvcast52.png") no-repeat -162px -936px}
+      .recDescriptionSec_1{margin-left: 10px;
+        .recMainTitle{color: white; font-size: 20px; font-weight: bold; line-height: 20px}
+        .recSubTitle{color: white; font-size: 12px; margin-top: 8px}
+      }
+    }
+  }
+  .recomendList{overflow: hidden; float: left; margin-top: 10px;
+    li{float: left; margin-left: 17px}
+    .recomendListImg_1{display:block; width: 194px; height: 109px; background: url("../img/recomendListImg_1.jpg") no-repeat;
+      .opBg{height: inherit; width: 70px; float: right; background-color: rgba(0, 0, 0, 0.7);
+        p{ color:white; text-align: center; font-weight: bold;margin-top: 30px}
+        .listIcon{display: block; width: 30px; height: 20px; background: url("../img/sp_tvcast52.png") no-repeat -162px -936px; margin: 0 auto; margin-top: 10px}
+      }
+    }
+    .recomendListDes_1{margin-top: 10px; width: 194px;
+      .recMainTitle{font-size: 12px; display:inline-block}
+      .recSubTitle{font-size: 12px; color:#7f7f7f; margin-top: 8px}
+    }
+    .recomendListImg_2{display:block; width: 194px; height: 109px; background: url("../img/recomendListImg_2.jpg") no-repeat;
+      .opBg{height: inherit; width: 70px; float: right; background-color: rgba(0, 0, 0, 0.7);
+        p{ color:white; text-align: center; font-weight: bold;margin-top: 30px}
+        .listIcon{display: block; width: 30px; height: 20px; background: url("../img/sp_tvcast52.png") no-repeat -162px -936px; margin: 0 auto; margin-top: 10px}
+      }
+    }
+    .recomendListDes_2{margin-top: 10px; width: 194px;
+      .recMainTitle{font-size: 12px; display:inline-block}
+      .recSubTitle{font-size: 12px; color:#7f7f7f; margin-top: 8px}
+    }
+    .recomendListImg_3{display:block; width: 194px; height: 109px; background: url("../img/recomendListImg_3.jpg") no-repeat;
+      .opBg{height: inherit; width: 70px; float: right; background-color: rgba(0, 0, 0, 0.7);
+        p{ color:white; text-align: center; font-weight: bold;margin-top: 30px}
+        .listIcon{display: block; width: 30px; height: 20px; background: url("../img/sp_tvcast52.png") no-repeat -162px -936px; margin: 0 auto; margin-top: 10px}
+      }
+    }
+    .recomendListDes_3{margin-top: 10px; width: 194px;
+      .recMainTitle{font-size: 12px; display:inline-block}
+      .recSubTitle{font-size: 12px; color:#7f7f7f; margin-top: 8px}
+    }
+    .recomendListImg_4{display:block; width: 194px; height: 109px; background: url("../img/recomendListImg_4.jpg") no-repeat;
+      .opBg{height: inherit; width: 70px; float: right; background-color: rgba(0, 0, 0, 0.7);
+        p{ color:white; text-align: center; font-weight: bold;margin-top: 30px}
+        .listIcon{display: block; width: 30px; height: 20px; background: url("../img/sp_tvcast52.png") no-repeat -162px -936px; margin: 0 auto; margin-top: 10px}
+      }
+    }
+    .recomendListDes_4{margin-top: 10px; width: 194px;
+      .recMainTitle{font-size: 12px; display:inline-block}
+      .recSubTitle{font-size: 12px; color:#7f7f7f; margin-top: 8px}
+    }
+  }
+}
+
+.recentSec{margin-top: 70px;
+  &:after{display: block; clear: both; content:""}
+  .mainTitle{font-size: 20px;line-height: 28px;
+    &:after{display: block; clear: both; content: "" }
+    .recentIcon{float:left;display:block;width: 42px; height: 28px;margin-right:10px;background: url("../img/sp_tvcast52.png") no-repeat -153px -736px}
+  }
+  .mainVisual{float:left;position: relative;margin-top: 10px; display: block;width: 405px; height: 198px; background: url("../img/recentMainImg.jpg") no-repeat;
+    &:hover .timeInfo{width: 39px; height: 39px; font-size: 0;background: url("../img/sp_tvcast52.png") no-repeat -7px -607px}
+    .timeInfo{position: absolute;z-index: 10; display: block; width: 35px; height: 16px; bottom:4px; right: 4px; color: white;font-size: 12px; text-align: center; line-height: 16px; background-color: black}
+    .recomendGraBg{position: absolute; bottom: 0; width: 405px; height: 103px; background: url("../img/bg_img_mask.png");
+      &>*{float: left; margin-top: 44px}
+      &:after{display: block; clear: both; content: ""}
+      .listIcon{margin-left:20px; width: 30px; height: 20px; background: url("../img/sp_tvcast52.png") no-repeat -162px -936px}
+      .recDescriptionSec_1{margin-left: 10px;
+        .recMainTitle{color: white; font-size: 20px; font-weight: bold; line-height: 20px}
+        .recSubTitle{float:left;color: white; font-size: 12px; margin-top: 8px;
+          .dddd{float:left;font-size: 12px; color: white}
+          .upSec{float: left; margin-left: 20px;
+            .playIcon{display:inline-block; width: 7px; height: 9px;line-height: 9px; background: url("../img/sp_tvcast52.png") no-repeat -106px -92px}
+            .playNum{font-size: 12px;  color: #fff ;margin-left: 4px;line-height: 9px}
+            .likeIcon{display: inline-block; width: 11px; height: 10px;line-height: 9px; background: url("../img/sp_tvcast52.png") no-repeat -106px -112px;margin-left: 12px}
+            .likeNum{font-size: 12px; color: #fff; margin-left: 4px; line-height: 10px}}
+        }
+      }
+    }
+  }
+  .recentList{overflow: hidden; margin-top: 10px;
+    li{float: left;margin-left: 17px;
+      &:first-child{padding-left: 0}
+      .topInfo_1{position: relative;display:block;width: 194px; height: 109px;
+        &:hover .timeInfo{width: 39px; height: 39px; font-size: 0;background: url("../img/sp_tvcast52.png") no-repeat -7px -607px}
+        .timeInfo{position: absolute; display: block; width: 35px; height: 16px; bottom:4px; right: 4px; color: white;font-size: 12px; text-align: center; line-height: 16px; background-color: black}
+      }
+      .bottomDes_1{position:relative;float: left;height: 72px;margin-top: 10px;
+        .bottomMainTitle{color: black; display:block;font-size: 13px; width: 180px}
+        .bottomSubTitle{display:inline-block; color: #7ba7df; font-size: 12px; margin-top: 8px;
+          &:hover{color:#a1a1a1}
+        }
+        .upSec{position:absolute; bottom: 1px;overflow: hidden; display: block;
+          span{float: left; margin-top: 10px}
+          .playIcon{display:block; width: 7px; height: 9px; background: url("../img/sp_tvcast52.png") no-repeat -22px -92px}
+          .playNum{font-size: 12px; font-weight: bold; color: #797979 ;margin-left: 4px;line-height: 9px}
+          .likeIcon{display: block; width: 11px; height: 10px; background: url("../img/sp_tvcast52.png") no-repeat -22px -112px;margin-left: 12px}
+          .likeNum{font-size: 12px; color: #797979; font-weight: bold; margin-left: 4px; line-height: 10px}
+        }
+      }
+      .topInfo_2{position: relative;display:block;width: 194px; height: 109px;
+        &:hover .timeInfo{width: 39px; height: 39px; font-size: 0;background: url("../img/sp_tvcast52.png") no-repeat -7px -607px}
+        .timeInfo{position: absolute; display: block; width: 35px; height: 16px; bottom:4px; right: 4px; color: white;font-size: 12px; text-align: center; line-height: 16px; background-color: black}
+      }
+      .bottomDes_2{position:relative;float: left;height: 72px;margin-top: 10px;
+        .bottomMainTitle{color: black; display:block;font-size: 13px; width: 180px}
+        .bottomSubTitle{display:inline-block; color: #7ba7df; font-size: 12px; margin-top: 8px;
+          &:hover{color:#a1a1a1}
+        }
+        .upSec{position:absolute; bottom: 1px;overflow: hidden; display: block;
+          span{float: left; margin-top: 10px}
+          .playIcon{display:block; width: 7px; height: 9px; background: url("../img/sp_tvcast52.png") no-repeat -22px -92px}
+          .playNum{font-size: 12px; font-weight: bold; color: #797979 ;margin-left: 4px;line-height: 9px}
+          .likeIcon{display: block; width: 11px; height: 10px; background: url("../img/sp_tvcast52.png") no-repeat -22px -112px;margin-left: 12px}
+          .likeNum{font-size: 12px; color: #797979; font-weight: bold; margin-left: 4px; line-height: 10px}
+        }
+      }
+      .topInfo_3{position: relative;display:block;width: 194px; height: 109px;
+        &:hover .timeInfo{width: 39px; height: 39px; font-size: 0;background: url("../img/sp_tvcast52.png") no-repeat -7px -607px}
+        .timeInfo{position: absolute; display: block; width: 35px; height: 16px; bottom:4px; right: 4px; color: white;font-size: 12px; text-align: center; line-height: 16px; background-color: black}
+      }
+      .bottomDes_3{position:relative;float: left;height: 72px;margin-top: 10px;
+        .bottomMainTitle{color: black; display:block;font-size: 13px; width: 180px}
+        .bottomSubTitle{display:inline-block; color: #7ba7df; font-size: 12px; margin-top: 8px;
+          &:hover{color:#a1a1a1}
+        }
+        .upSec{position:absolute; bottom: 1px;overflow: hidden; display: block;
+          span{float: left; margin-top: 10px}
+          .playIcon{display:block; width: 7px; height: 9px; background: url("../img/sp_tvcast52.png") no-repeat -22px -92px}
+          .playNum{font-size: 12px; font-weight: bold; color: #797979 ;margin-left: 4px;line-height: 9px}
+          .likeIcon{display: block; width: 11px; height: 10px; background: url("../img/sp_tvcast52.png") no-repeat -22px -112px;margin-left: 12px}
+          .likeNum{font-size: 12px; color: #797979; font-weight: bold; margin-left: 4px; line-height: 10px}
+        }
+      }
+      .topInfo_4{position: relative;display:block;width: 194px; height: 109px;
+        &:hover .timeInfo{width: 39px; height: 39px; font-size: 0;background: url("../img/sp_tvcast52.png") no-repeat -7px -607px}
+        .timeInfo{position: absolute; display: block; width: 35px; height: 16px; bottom:4px; right: 4px; color: white;font-size: 12px; text-align: center; line-height: 16px; background-color: black}
+      }
+      .bottomDes_4{position:relative;float: left;height: 72px;margin-top: 10px;
+        .bottomMainTitle{color: black; display:block;font-size: 13px; width: 180px}
+        .bottomSubTitle{display:inline-block; color: #7ba7df; font-size: 12px; margin-top: 8px;
+          &:hover{color:#a1a1a1}
+        }
+        .upSec{position:absolute; bottom: 1px;overflow: hidden; display: block;
+          span{float: left; margin-top: 10px}
+          .playIcon{display:block; width: 7px; height: 9px; background: url("../img/sp_tvcast52.png") no-repeat -22px -92px}
+          .playNum{font-size: 12px; font-weight: bold; color: #797979 ;margin-left: 4px;line-height: 9px}
+          .likeIcon{display: block; width: 11px; height: 10px; background: url("../img/sp_tvcast52.png") no-repeat -22px -112px;margin-left: 12px}
+          .likeNum{font-size: 12px; color: #797979; font-weight: bold; margin-left: 4px; line-height: 10px}
+        }
+      }
+    }
+  }
+}
+
+
+.weekhotSec{margin-top: 70px;
+  &:after{display: block; clear: both; content:""}
+  .mainTitle{font-size: 20px;line-height: 28px;
+    &:after{display: block; clear: both; content: "" }
+    .famousIcon{float:left;display:block;width: 42px; height: 28px;margin-right:10px;background: url("../img/sp_tvcast52.png") no-repeat 0 -736px}
+  }
+  .weekList{overflow: hidden; margin-top: 10px;
+    li{float: left; margin-left: 16px;
+      &:first-child{margin-left: 0}
+      p{margin-top: 12px; font-size: 12px}
+    }
+  }
+}
+
+
+
+.editorSec{margin-top: 70px;
+  &:after{display: block; clear: both; content:""}
+  .mainTitle{font-size: 20px;line-height: 28px;
+    &:after{display: block; clear: both; content: "" }
+    .recomendIcon{float:left;display:block;width: 42px; height: 28px;margin-right:10px;background: url("../img/sp_tvcast52.png") no-repeat -51px -736px}
+  }
+  .editorList{overflow: hidden; margin-top: 10px;width: 1266px;
+    li{float: left;margin: 0 17px 37px 0;
+      .topInfo_1{position: relative;display:block;width: 194px; height: 109px;
+        &:hover .timeInfo{width: 39px; height: 39px; font-size: 0;background: url("../img/sp_tvcast52.png") no-repeat -7px -607px}
+        .timeInfo{position: absolute; display: block; width: 35px; height: 16px; bottom:4px; right: 4px; color: white;font-size: 12px; text-align: center; line-height: 16px; background-color: black}
+      }
+      .bottomDes_1{position:relative;float: left;height: 72px;margin-top: 10px;
+        .bottomMainTitle{color: black; display:block;font-size: 13px; width: 180px}
+        .bottomSubTitle{display:inline-block; color: #7ba7df; font-size: 12px; margin-top: 8px;
+          &:hover{color:#a1a1a1}
+        }
+        .upSec{position:absolute; bottom: 1px;overflow: hidden; display: block;
+          span{float: left; margin-top: 10px}
+          .playIcon{display:block; width: 7px; height: 9px; background: url("../img/sp_tvcast52.png") no-repeat -22px -92px}
+          .playNum{font-size: 12px; font-weight: bold; color: #797979 ;margin-left: 4px;line-height: 9px}
+          .likeIcon{display: block; width: 11px; height: 10px; background: url("../img/sp_tvcast52.png") no-repeat -22px -112px;margin-left: 12px}
+          .likeNum{font-size: 12px; color: #797979; font-weight: bold; margin-left: 4px; line-height: 10px}
+        }
+      }
+    }
+  }
+}
+
+footer{height: 130px; border-top: 1px solid #d8d8d8; text-align: center;
+  .footerList{display:inline-block;overflow: hidden; margin: 29px auto 11px; text-align: center;
+    li{float: left;margin-right: 7px;
+      &:first-child{
+        &:before{display: none}
+      }
+      &:before{display: inline-block;margin-right: 7px; content: ""; width: 1px; height: 12px; background-color: #d8d8d8;
+      }
+      a{font-size: 12px; font-weight: bold;
+      }
+    }
+  }
+  p{font-size: 10px; color: #8f8f8f;
+    strong{color: #8f8f8f}
+    .naverIcon{display: inline-block;margin-right: 12px; width: 63px; height: 11px; background: url("../img/footerNaverLogo.png") no-repeat }
+  }
+  .footerSecondText{margin-top: 10px}
+}
