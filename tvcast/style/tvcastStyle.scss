@@ -4,19 +4,19 @@ $asd: #333;
 
 #header{position:fixed;top:0; left:0;z-index:1000;height: 55px;width: 100%;
   .headerBg{position: absolute; top:0; left:0; width: 100%; height: 100%; background-color:#06d87d;opacity: 0.9;background-image: linear-gradient( to right, #06db77 0, #0fc3bd 50%, #14b9dc 100%  );
-  &:after{position:absolute; right:0; top:0; width: 253px; height: 55px;content: ""; display: block; background: url("../img/bg_header.png") 100% 0 no-repeat }}
-  #mainLogo{position:absolute; top:14px; left:20px;display: block; width: 151px; height: 26px; background: url("../img/sp_tvcast52.png") no-repeat 0 0}
+  &:after{position:absolute; right:0; top:0; width: 253px; height: 55px;content: ""; display: block; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/bg_header.png") 100% 0 no-repeat }}
+  #mainLogo{position:absolute; top:14px; left:20px;display: block; width: 151px; height: 26px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat 0 0}
   input{float:left;width: 297px; height: 36px;border: 0}
   #dropBtn{float: left;display: block; width: 20px; height: 36px;text-align: center;
   img{margin-top: 17px}}
   #search{float:left;display: block; width: 36px;height: 36px; background-color: #0aac8e;
-  .searchIcon{display:block;width:20px; height:20px;background: url("../img/sp_tvcast52.png") no-repeat -5px -62px; margin-left: 6px; margin-top: 7px}}
+  .searchIcon{display:block;width:20px; height:20px;background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -5px -62px; margin-left: 6px; margin-top: 7px}}
    }
 #searchBox{position:absolute;width:353px;left:194px;height: 36px; top: 10px;background: white;border: 1px solid #0aa286}
 
 #header #upSec{position:absolute;left:568px;top: 20px;
   &:after{display: block; content: ""; clear: both;}
-  #upIcon{float:left;display: block; width: 26px; height: 18px; background: url("../img/sp_tvcast52.png") no-repeat 0 -36px}
+  #upIcon{float:left;display: block; width: 26px; height: 18px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat 0 -36px}
   p{float:left;margin-left:5px;font-size: 12px; color:white}}
 
 #header #login{position: absolute;right:78px; top:15px; width: 55px; height: 25px; border: 1px solid #0aa286;font-size: 12px; text-align: center; line-height: 25px; color:white}
@@ -31,9 +31,9 @@ $asd: #333;
 
   #tema{position:relative;margin-top: 16px; font-size: 14px;border-bottom:1px solid #d8d8d8 ;padding-bottom: 12px;
   .temaTitle{margin-left: 22px;
-    .newIcon{display: block;float: right;margin-right: 112px;margin-top: 2px; width: 7px; height: 9px; background: url("../img/sp_aside.png") no-repeat 0 0}}
+    .newIcon{display: block;float: right;margin-right: 112px;margin-top: 2px; width: 7px; height: 9px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_aside.png") no-repeat 0 0}}
   #temaClose{position: absolute; font-size: 12px; color:#a0a0a0; right:10px;
-  div{display: block;float: right;margin-top:2px;margin-left:4px;width: 9px; height: 6px; background: url("../img/sp_aside.png") no-repeat -50px 0}}
+  div{display: block;float: right;margin-top:2px;margin-left:4px;width: 9px; height: 6px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_aside.png") no-repeat -50px 0}}
   #temaList{font-size: 12px;margin-left: 26px;padding-bottom: 26px;display: block;
   li{margin-top:12px;
   a{color:#444}}}}
@@ -50,25 +50,25 @@ $asd: #333;
   ul{width: 150px; overflow: hidden;margin-left: 13px;margin-top: 20px;
   li{width: 50px; float: left;
   a{display: block;width: 50px; height: 33px;}
-    #cast1{background: url("../img/sp_bi7.png") no-repeat -288px -755px}
-    #cast2{background: url("../img/sp_bi7.png") no-repeat -288px -635px}
-    #cast3{background: url("../img/sp_bi7.png") no-repeat -288px -995px}
-    #cast4{background: url("../img/sp_bi7.png") no-repeat -288px -275px}
-    #cast5{background: url("../img/sp_bi7.png") no-repeat -288px -35px}
-    #cast6{background: url("../img/sp_bi7.png") no-repeat -288px -396px}
-    #cast7{background: url("../img/sp_bi7.png") no-repeat -288px -515px}
-    #cast8{background: url("../img/sp_bi7.png") no-repeat -288px -875px}
-    #cast9{background: url("../img/sp_bi7.png") no-repeat -288px -155px}
+    #cast1{background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_bi7.png") no-repeat -288px -755px}
+    #cast2{background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_bi7.png") no-repeat -288px -635px}
+    #cast3{background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_bi7.png") no-repeat -288px -995px}
+    #cast4{background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_bi7.png") no-repeat -288px -275px}
+    #cast5{background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_bi7.png") no-repeat -288px -35px}
+    #cast6{background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_bi7.png") no-repeat -288px -396px}
+    #cast7{background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_bi7.png") no-repeat -288px -515px}
+    #cast8{background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_bi7.png") no-repeat -288px -875px}
+    #cast9{background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_bi7.png") no-repeat -288px -155px}
   }}
   .tving{display: block; font-size: 12px; width: 136px; border-top:1px solid #d8d8d8; padding-top: 18px;margin-left: 20px;padding-bottom: 25px}}
   #bottomList ul{margin-top: 30px; margin-left: 22px;
-    .nstore{display: block;float:right;margin-right: 90px;margin-top:4px;width: 11px; height: 11px; background: url("../img/sp_aside.png") no-repeat -75px 0; margin-left: 4px  }
+    .nstore{display: block;float:right;margin-right: 90px;margin-top:4px;width: 11px; height: 11px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_aside.png") no-repeat -75px 0; margin-left: 4px  }
   li{margin-top: 20px;
   &:first-child{margin-top: 0}
   a{font-size: 14px;
   &:hover{color: #7d7e81}}}}
   #adSec{display: block; margin-top: 30px; margin-left: 20px; padding-bottom: 100px}
-  #menuControl{position:absolute;top:6px; right:-22px;display: block; width: 21px; height: 38px; background: url("../img/sp_aside.png") no-repeat 0 -21px}}
+  #menuControl{position:absolute;top:6px; right:-22px;display: block; width: 21px; height: 38px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_aside.png") no-repeat 0 -21px}}
 
 
 
@@ -81,7 +81,7 @@ $asd: #333;
   &:after{display: block;clear: both;content: ""}
     .leftLayout{border-right: 2px solid black;float: left;
       .subLayout_1{position:relative; width:489px; height:339px;overflow: hidden;
-        .graBg{position:absolute; bottom:-40px; display: block; width: 100%; height: 187px; background: url("../img/graBg.png");
+        .graBg{position:absolute; bottom:-40px; display: block; width: 100%; height: 187px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/graBg.png");
           &:hover{bottom: 0}
           p{margin-left: 30px;margin-top: 80px}
           .mainTitle{color: white; font-size: 12px}
@@ -89,9 +89,9 @@ $asd: #333;
             .timeText{font-size: 13px; color: #8d8d8d; font-weight: normal; margin-left: 6px}}
           .upSec{overflow: hidden; margin-top: 20px;
             span{float: left}
-            .playIcon{display:block; width: 11px; height: 13px; background: url("../img/sp_tvcast52.png") no-repeat -111px -345px}
+            .playIcon{display:block; width: 11px; height: 13px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -111px -345px}
             .playNum{font-size: 14px; font-weight: bold; color: white;margin-left: 4px;line-height: 14px}
-            .likeIcon{display: block; width: 14px; height: 13px; background: url("../img/sp_tvcast52.png") no-repeat -131px -345px;margin-left: 12px}
+            .likeIcon{display: block; width: 14px; height: 13px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -131px -345px;margin-left: 12px}
             .likeNum{font-size: 14px; color: whitesmoke; font-weight: bold; margin-left: 4px; line-height: 14px}
           }}
     }
@@ -118,7 +118,7 @@ $asd: #333;
   }
   .midLayout{float: left; border-right: 2px solid black;
     .subLayout_1{position:relative; width:519px; height:280px;overflow: hidden;
-      .graBg{position:absolute; bottom:-40px; display: block; width: 100%; height: 187px; background: url("../img/graBg.png");
+      .graBg{position:absolute; bottom:-40px; display: block; width: 100%; height: 187px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/graBg.png");
         &:hover{bottom: 0}
         p{margin-left: 30px;margin-top: 80px}
         .mainTitle{color: white; font-size: 12px}
@@ -126,15 +126,15 @@ $asd: #333;
           .timeText{font-size: 13px; color: #8d8d8d; font-weight: normal; margin-left: 6px}}
         .upSec{overflow: hidden; margin-top: 20px;
           span{float: left}
-          .playIcon{display:block; width: 11px; height: 13px; background: url("../img/sp_tvcast52.png") no-repeat -111px -345px}
+          .playIcon{display:block; width: 11px; height: 13px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -111px -345px}
           .playNum{font-size: 14px; font-weight: bold; color: white;margin-left: 4px;line-height: 14px}
-          .likeIcon{display: block; width: 14px; height: 13px; background: url("../img/sp_tvcast52.png") no-repeat -131px -345px;margin-left: 12px}
+          .likeIcon{display: block; width: 14px; height: 13px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -131px -345px;margin-left: 12px}
           .likeNum{font-size: 14px; color: whitesmoke; font-weight: bold; margin-left: 4px; line-height: 14px}
         }
       }
     }
     .subLayout_2{position:relative; width:519px; height:280px;overflow: hidden;border-top:1px solid black;
-      .graBg{position:absolute; bottom:-40px; display: block; width: 100%; height: 187px; background: url("../img/graBg.png");
+      .graBg{position:absolute; bottom:-40px; display: block; width: 100%; height: 187px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/graBg.png");
         &:hover{bottom: 0}
         p{margin-left: 30px;margin-top: 80px}
         .mainTitle{color: white; font-size: 12px}
@@ -142,9 +142,9 @@ $asd: #333;
           .timeText{font-size: 13px; color: #8d8d8d; font-weight: normal; margin-left: 6px}}
         .upSec{overflow: hidden; margin-top: 20px;
           span{float: left}
-          .playIcon{display:block; width: 11px; height: 13px; background: url("../img/sp_tvcast52.png") no-repeat -111px -345px}
+          .playIcon{display:block; width: 11px; height: 13px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -111px -345px}
           .playNum{font-size: 14px; font-weight: bold; color: white;margin-left: 4px;line-height: 14px}
-          .likeIcon{display: block; width: 14px; height: 13px; background: url("../img/sp_tvcast52.png") no-repeat -131px -345px;margin-left: 12px}
+          .likeIcon{display: block; width: 14px; height: 13px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -131px -345px;margin-left: 12px}
           .likeNum{font-size: 14px; color: whitesmoke; font-weight: bold; margin-left: 4px; line-height: 14px}
         }
       }
@@ -152,7 +152,7 @@ $asd: #333;
   }
   .rightLayout{float: left;
     .subLayout_1{position:relative; width:236px; height:125px;overflow: hidden;border-bottom:2px solid black;
-      .graBg{position:absolute; bottom:-30px; display: block; width: 100%; height: 187px; background: url("../img/graBg.png");
+      .graBg{position:absolute; bottom:-30px; display: block; width: 100%; height: 187px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/graBg.png");
         &:hover{bottom: 0}
         p{margin-left: 20px;margin-top: 80px}
         .mainTitle{color: white; font-size: 12px}
@@ -160,15 +160,15 @@ $asd: #333;
           .timeText{font-size: 13px; color: #8d8d8d; font-weight: normal; margin-left: 6px}}
         .upSec{overflow: hidden; margin-top: 20px;
           span{float: left}
-          .playIcon{display:block; width: 11px; height: 13px; background: url("../img/sp_tvcast52.png") no-repeat -111px -345px}
+          .playIcon{display:block; width: 11px; height: 13px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -111px -345px}
           .playNum{font-size: 14px; font-weight: bold; color: white;margin-left: 4px;line-height: 14px}
-          .likeIcon{display: block; width: 14px; height: 13px; background: url("../img/sp_tvcast52.png") no-repeat -131px -345px;margin-left: 12px}
+          .likeIcon{display: block; width: 14px; height: 13px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -131px -345px;margin-left: 12px}
           .likeNum{font-size: 14px; color: whitesmoke; font-weight: bold; margin-left: 4px; line-height: 14px}
         }
       }
     }
     .subLayout_2{position:relative; width:236px; height:126px;overflow: hidden;border-bottom:2px solid black;
-      .graBg{position:absolute; bottom:-30px; display: block; width: 100%; height: 187px; background: url("../img/graBg.png");
+      .graBg{position:absolute; bottom:-30px; display: block; width: 100%; height: 187px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/graBg.png");
         &:hover{bottom: 0}
         p{margin-left: 20px;margin-top: 80px}
         .mainTitle{color: white; font-size: 12px}
@@ -176,15 +176,15 @@ $asd: #333;
           .timeText{font-size: 13px; color: #8d8d8d; font-weight: normal; margin-left: 6px}}
         .upSec{overflow: hidden; margin-top: 20px;
           span{float: left}
-          .playIcon{display:block; width: 11px; height: 13px; background: url("../img/sp_tvcast52.png") no-repeat -111px -345px}
+          .playIcon{display:block; width: 11px; height: 13px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -111px -345px}
           .playNum{font-size: 14px; font-weight: bold; color: white;margin-left: 4px;line-height: 14px}
-          .likeIcon{display: block; width: 14px; height: 13px; background: url("../img/sp_tvcast52.png") no-repeat -131px -345px;margin-left: 12px}
+          .likeIcon{display: block; width: 14px; height: 13px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -131px -345px;margin-left: 12px}
           .likeNum{font-size: 14px; color: whitesmoke; font-weight: bold; margin-left: 4px; line-height: 14px}
         }
       }
     }
     .subLayout_3{display:block; position: relative;
-      .bgImg{display: block; background: url("../img/rigthImg_3.JPG");height: 308px;text-align: center;
+      .bgImg{display: block; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/rigthImg_3.JPG");height: 308px;text-align: center;
         .girlface{margin: 0 auto; margin-top: 68px}
         .mainTitle{margin-top: 25px; font-size: 20px; color: white;font-weight: bold}
         .subTitle{margin-top: 20px; color: whitesmoke}
@@ -196,19 +196,19 @@ $asd: #333;
 #famousVideo{position:relative;margin-top: 50px;
   .mainTitle{font-size: 20px;line-height: 28px;
     &:after{display: block; clear: both; content: "" }
-    .famousIcon{float:left;display:block;width: 42px; height: 28px;margin-right:10px;background: url("../img/sp_tvcast52.png") no-repeat 0 -736px}}
+    .famousIcon{float:left;display:block;width: 42px; height: 28px;margin-right:10px;background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat 0 -736px}}
   .videoList{overflow: hidden;
     li{float: left; margin-top: 10px;padding:0 8px 0 8px; border-right: 1px solid #e4e4e4;
       &:first-child{padding-left: 0}
       .topInfo_1{position: relative;display:block;width: 236px; height: 133px;
-          &:hover .timeInfo{width: 39px; height: 39px; font-size: 0;background: url("../img/sp_tvcast52.png") no-repeat -7px -607px}
+          &:hover .timeInfo{width: 39px; height: 39px; font-size: 0;background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -7px -607px}
         .timeInfo{position: absolute; display: block; width: 35px; height: 16px; bottom:4px; right: 4px; color: white;font-size: 12px; text-align: center; line-height: 16px; background-color: black}
       }
       .bottomInfo_1{margin-top: 18px;
         .rankSec{position:relative;float: left;width: 48px; height: 72px;
-          .rankNum{display: block;margin-left: 2px; width:8px; height: 35px; background: url("../img/sp_top_num.png") no-repeat -3px 0}
+          .rankNum{display: block;margin-left: 2px; width:8px; height: 35px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_top_num.png") no-repeat -3px 0}
           .updownNum{position:absolute; bottom: 0; font-size: 15px; color: red; width: 30px; display: block;
-            .updownIcon{display: inline-block; margin-right: 4px; width: 7px; height: 11px; background: url("../img/sp_tvcast52.png") no-repeat 0 -504px}
+            .updownIcon{display: inline-block; margin-right: 4px; width: 7px; height: 11px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat 0 -504px}
           }
         }
         .bottomDes_1{position:relative;float: left;height: 72px;
@@ -218,9 +218,9 @@ $asd: #333;
           }
           .upSec{position:absolute; bottom: 1px;overflow: hidden; display: block;
             span{float: left; margin-top: 10px}
-            .playIcon{display:block; width: 7px; height: 9px; background: url("../img/sp_tvcast52.png") no-repeat -22px -92px}
+            .playIcon{display:block; width: 7px; height: 9px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -22px -92px}
             .playNum{font-size: 12px; font-weight: bold; color: #797979 ;margin-left: 4px;line-height: 9px}
-            .likeIcon{display: block; width: 11px; height: 10px; background: url("../img/sp_tvcast52.png") no-repeat -22px -112px;margin-left: 12px}
+            .likeIcon{display: block; width: 11px; height: 10px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -22px -112px;margin-left: 12px}
             .likeNum{font-size: 12px; color: #797979; font-weight: bold; margin-left: 4px; line-height: 10px}
           }
         }
@@ -229,14 +229,14 @@ $asd: #333;
     .videoList_2{float: left; margin-top: 10px;padding:0 8px 0 8px; border-right: 1px solid #e4e4e4;
       &:first-child{padding-left: 0}
       .topInfo_2{position: relative;display:block;width: 236px; height: 133px;
-        &:hover .timeInfo{width: 39px; height: 39px; font-size: 0;background: url("../img/sp_tvcast52.png") no-repeat -7px -607px}
+        &:hover .timeInfo{width: 39px; height: 39px; font-size: 0;background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -7px -607px}
         .timeInfo{position: absolute; display: block; width: 35px; height: 16px; bottom:4px; right: 4px; color: white;font-size: 12px; text-align: center; line-height: 16px; background-color: black}
       }
       .bottomInfo_2{margin-top: 18px;
         .rankSec{position:relative;float: left;width: 48px; height: 72px;
-          .rankNum{display: block;margin-left: 2px; width:20px; height: 35px; background: url("../img/sp_top_num.png") no-repeat -48px 0}
+          .rankNum{display: block;margin-left: 2px; width:20px; height: 35px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_top_num.png") no-repeat -48px 0}
           .updownNum{position:absolute; bottom: 0; font-size: 15px; color: #1996ff; width: 30px; display: block;
-            .updownIcon{display: inline-block; margin-right: 4px; width: 7px; height: 11px; background: url("../img/sp_tvcast52.png") no-repeat -37px -504px}
+            .updownIcon{display: inline-block; margin-right: 4px; width: 7px; height: 11px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -37px -504px}
           }
         }
         .bottomDes_2{position:relative;float: left;height: 72px;
@@ -246,9 +246,9 @@ $asd: #333;
           }
           .upSec{position:absolute; bottom: 1px;overflow: hidden; display: block;
             span{float: left; margin-top: 10px}
-            .playIcon{display:block; width: 7px; height: 9px; background: url("../img/sp_tvcast52.png") no-repeat -22px -92px}
+            .playIcon{display:block; width: 7px; height: 9px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -22px -92px}
             .playNum{font-size: 12px; font-weight: bold; color: #797979 ;margin-left: 4px;line-height: 9px}
-            .likeIcon{display: block; width: 11px; height: 10px; background: url("../img/sp_tvcast52.png") no-repeat -22px -112px;margin-left: 12px}
+            .likeIcon{display: block; width: 11px; height: 10px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -22px -112px;margin-left: 12px}
             .likeNum{font-size: 12px; color: #797979; font-weight: bold; margin-left: 4px; line-height: 10px}
           }
         }
@@ -257,14 +257,14 @@ $asd: #333;
     .videoList_3{float: left; margin-top: 10px;padding:0 8px 0 8px; border-right: 1px solid #e4e4e4;
       &:first-child{padding-left: 0}
       .topInfo_3{position: relative;display:block;width: 236px; height: 133px;
-        &:hover .timeInfo{width: 39px; height: 39px; font-size: 0;background: url("../img/sp_tvcast52.png") no-repeat -7px -607px}
+        &:hover .timeInfo{width: 39px; height: 39px; font-size: 0;background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -7px -607px}
         .timeInfo{position: absolute; display: block; width: 35px; height: 16px; bottom:4px; right: 4px; color: white;font-size: 12px; text-align: center; line-height: 16px; background-color: black}
       }
       .bottomInfo_3{margin-top: 18px;
         .rankSec{position:relative;float: left;width: 48px; height: 72px;
-          .rankNum{display: block;margin-left: 2px; width:20px; height: 35px; background: url("../img/sp_top_num.png") no-repeat -90px 0}
+          .rankNum{display: block;margin-left: 2px; width:20px; height: 35px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_top_num.png") no-repeat -90px 0}
           .updownNum{position:absolute;left: 8px; bottom: 0; font-size: 15px; width: 30px; display: block;
-            .updownIcon{display: inline-block; margin-right: 4px; width: 11px; height: 2px; background: url("../img/sp_tvcast52.png") no-repeat -74px -509px}
+            .updownIcon{display: inline-block; margin-right: 4px; width: 11px; height: 2px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -74px -509px}
           }
         }
         .bottomDes_3{position:relative;float: left;height: 72px;
@@ -273,9 +273,9 @@ $asd: #333;
             &:hover{color:#a1a1a1}}
           .upSec{position:absolute; bottom: 1px;overflow: hidden; display: block;
             span{float: left; margin-top: 10px}
-            .playIcon{display:block; width: 7px; height: 9px; background: url("../img/sp_tvcast52.png") no-repeat -22px -92px}
+            .playIcon{display:block; width: 7px; height: 9px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -22px -92px}
             .playNum{font-size: 12px; font-weight: bold; color: #797979 ;margin-left: 4px;line-height: 9px}
-            .likeIcon{display: block; width: 11px; height: 10px; background: url("../img/sp_tvcast52.png") no-repeat -22px -112px;margin-left: 12px}
+            .likeIcon{display: block; width: 11px; height: 10px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -22px -112px;margin-left: 12px}
             .likeNum{font-size: 12px; color: #797979; font-weight: bold; margin-left: 4px; line-height: 10px}
           }
         }
@@ -284,14 +284,14 @@ $asd: #333;
     .videoList_4{float: left; margin-top: 10px;padding:0 8px 0 8px; border-right: 1px solid #e4e4e4;
       &:first-child{padding-left: 0}
       .topInfo_4{position: relative;display:block;width: 236px; height: 133px;
-        &:hover .timeInfo{width: 39px; height: 39px; font-size: 0;background: url("../img/sp_tvcast52.png") no-repeat -7px -607px}
+        &:hover .timeInfo{width: 39px; height: 39px; font-size: 0;background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -7px -607px}
         .timeInfo{position: absolute; display: block; width: 35px; height: 16px; bottom:4px; right: 4px; color: white;font-size: 12px; text-align: center; line-height: 16px; background-color: black}
       }
       .bottomInfo_4{margin-top: 18px;
         .rankSec{position:relative;float: left;width: 48px; height: 72px;
-          .rankNum{display: block;margin-left: 2px; width:20px; height: 35px; background: url("../img/sp_top_num.png") no-repeat -132px -0}
+          .rankNum{display: block;margin-left: 2px; width:20px; height: 35px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_top_num.png") no-repeat -132px -0}
           .updownNum{position:absolute; bottom: 0; font-size: 15px; color: red; width: 30px; display: block;
-            .updownIcon{display: inline-block; margin-right: 4px; width: 7px; height: 11px; background: url("../img/sp_tvcast52.png") no-repeat 0 -504px}
+            .updownIcon{display: inline-block; margin-right: 4px; width: 7px; height: 11px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat 0 -504px}
           }
         }
         .bottomDes_4{position:relative;float: left;height: 72px;
@@ -300,9 +300,9 @@ $asd: #333;
             &:hover{color:#a1a1a1}}
           .upSec{position:absolute; bottom: 1px;overflow: hidden; display: block;
             span{float: left; margin-top: 10px}
-            .playIcon{display:block; width: 7px; height: 9px; background: url("../img/sp_tvcast52.png") no-repeat -22px -92px}
+            .playIcon{display:block; width: 7px; height: 9px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -22px -92px}
             .playNum{font-size: 12px; font-weight: bold; color: #797979 ;margin-left: 4px;line-height: 9px}
-            .likeIcon{display: block; width: 11px; height: 10px; background: url("../img/sp_tvcast52.png") no-repeat -22px -112px;margin-left: 12px}
+            .likeIcon{display: block; width: 11px; height: 10px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -22px -112px;margin-left: 12px}
             .likeNum{font-size: 12px; color: #797979; font-weight: bold; margin-left: 4px; line-height: 10px}
           }
         }
@@ -311,14 +311,14 @@ $asd: #333;
     .videoList_5{float: left; margin-top: 10px;padding:0 0 0 8px; border-right:none;
       &:first-child{padding-left: 0}
       .topInfo_5{position: relative;display:block;width: 236px; height: 133px;
-        &:hover .timeInfo{width: 39px; height: 39px; font-size: 0;background: url("../img/sp_tvcast52.png") no-repeat -7px -607px}
+        &:hover .timeInfo{width: 39px; height: 39px; font-size: 0;background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -7px -607px}
         .timeInfo{position: absolute; display: block; width: 35px; height: 16px; bottom:4px; right: 4px; color: white;font-size: 12px; text-align: center; line-height: 16px; background-color: black}
       }
       .bottomInfo_5{margin-top: 18px;
         .rankSec{position:relative;float: left;width: 48px; height: 72px;
-          .rankNum{display: block;margin-left: 2px; width:20px; height: 35px; background: url("../img/sp_top_num.png") no-repeat -174px 0}
+          .rankNum{display: block;margin-left: 2px; width:20px; height: 35px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_top_num.png") no-repeat -174px 0}
           .updownNum{position:absolute; bottom: 0; font-size: 15px; color: red; width: 30px; display: block;
-            .updownIcon{display: inline-block; margin-right: 4px; width: 7px; height: 11px; background: url("../img/sp_tvcast52.png") no-repeat 0 -504px}
+            .updownIcon{display: inline-block; margin-right: 4px; width: 7px; height: 11px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat 0 -504px}
           }
         }
         .bottomDes_5{position:relative;float: left;height: 72px;
@@ -327,9 +327,9 @@ $asd: #333;
             &:hover{color:#a1a1a1}}
           .upSec{position:absolute; bottom: 1px;overflow: hidden; display: block;
             span{float: left; margin-top: 10px}
-            .playIcon{display:block; width: 7px; height: 9px; background: url("../img/sp_tvcast52.png") no-repeat -22px -92px}
+            .playIcon{display:block; width: 7px; height: 9px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -22px -92px}
             .playNum{font-size: 12px; font-weight: bold; color: #797979 ;margin-left: 4px;line-height: 9px}
-            .likeIcon{display: block; width: 11px; height: 10px; background: url("../img/sp_tvcast52.png") no-repeat -22px -112px;margin-left: 12px}
+            .likeIcon{display: block; width: 11px; height: 10px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -22px -112px;margin-left: 12px}
             .likeNum{font-size: 12px; color: #797979; font-weight: bold; margin-left: 4px; line-height: 10px}
           }
         }
@@ -337,17 +337,17 @@ $asd: #333;
     }
   }
   .allplay{display: block; position: absolute; width: 88px; height: 25px; border: 1px solid #d8d8d8; text-align: center; left: 178px; top:0; line-height: 28px; font-size: 14px;
-    .allplayIcon{display: block; width: 17px; height: 13px; background: url("../img/sp_tvcast52.png") no-repeat -61px -148px; float: left; margin : 6px 0 0 4px}
+    .allplayIcon{display: block; width: 17px; height: 13px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -61px -148px; float: left; margin : 6px 0 0 4px}
   }
   .moveBtn{position: absolute; right: 0;top: 0;
     p{font-size: 14px; color: #888d90; float: left; margin-top: 8px; margin-right: 10px}
-    .btnSec{float:left;width: 58px; height: 29px; background: url("../img/sp_tvcast52.png") no-repeat -142px -99px;
+    .btnSec{float:left;width: 58px; height: 29px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -142px -99px;
       &:after{display: block; clear: both; content: ""}
       .leftBtn{display: inline-block;width: 29px; height: 29px;float: left;
-        &:hover{background: url("../img/sp_tvcast52.png") no-repeat -142px -132px}
+        &:hover{background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -142px -132px}
       }
       .rightBtn{display: inline-block;width: 29px; height: 29px;float: left;
-        &:hover{background: url("../img/sp_tvcast52.png") no-repeat -171px -132px}
+        &:hover{background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -171px -132px}
       }
     }
   }
@@ -362,14 +362,14 @@ $asd: #333;
   &:after{display: block; clear: both; content:""}
   .mainTitle{font-size: 20px;line-height: 28px;
     &:after{display: block; clear: both; content: "" }
-    .famousIcon{float:left;display:block;width: 42px; height: 28px;margin-right:10px;background: url("../img/sp_tvcast52.png") no-repeat 0 -736px}
-    .arrowIcon{display: inline-block; width: 7px; height: 11px; background: url("../img/sp_tvcast52.png") no-repeat -156px -388px; margin-bottom: 2px}
+    .famousIcon{float:left;display:block;width: 42px; height: 28px;margin-right:10px;background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat 0 -736px}
+    .arrowIcon{display: inline-block; width: 7px; height: 11px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -156px -388px; margin-bottom: 2px}
   }
-  .mainVisual{float:left;position: relative;margin-top: 10px; display: block;width: 405px; height: 198px; background: url("../img/recomendMainVisual.jpg") no-repeat;
-    .recomendGraBg{position: absolute; bottom: 0; width: 405px; height: 103px; background: url("../img/bg_img_mask.png");
+  .mainVisual{float:left;position: relative;margin-top: 10px; display: block;width: 405px; height: 198px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/recomendMainVisual.jpg") no-repeat;
+    .recomendGraBg{position: absolute; bottom: 0; width: 405px; height: 103px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/bg_img_mask.png");
       &>*{float: left; margin-top: 44px}
       &:after{display: block; clear: both; content: ""}
-      .listIcon{margin-left:20px; width: 30px; height: 20px; background: url("../img/sp_tvcast52.png") no-repeat -162px -936px}
+      .listIcon{margin-left:20px; width: 30px; height: 20px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -162px -936px}
       .recDescriptionSec_1{margin-left: 10px;
         .recMainTitle{color: white; font-size: 20px; font-weight: bold; line-height: 20px}
         .recSubTitle{color: white; font-size: 12px; margin-top: 8px}
@@ -378,40 +378,40 @@ $asd: #333;
   }
   .recomendList{overflow: hidden; float: left; margin-top: 10px;
     li{float: left; margin-left: 17px}
-    .recomendListImg_1{display:block; width: 194px; height: 109px; background: url("../img/recomendListImg_1.jpg") no-repeat;
+    .recomendListImg_1{display:block; width: 194px; height: 109px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/recomendListImg_1.jpg") no-repeat;
       .opBg{height: inherit; width: 70px; float: right; background-color: rgba(0, 0, 0, 0.7);
         p{ color:white; text-align: center; font-weight: bold;margin-top: 30px}
-        .listIcon{display: block; width: 30px; height: 20px; background: url("../img/sp_tvcast52.png") no-repeat -162px -936px; margin: 0 auto; margin-top: 10px}
+        .listIcon{display: block; width: 30px; height: 20px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -162px -936px; margin: 0 auto; margin-top: 10px}
       }
     }
     .recomendListDes_1{margin-top: 10px; width: 194px;
       .recMainTitle{font-size: 12px; display:inline-block}
       .recSubTitle{font-size: 12px; color:#7f7f7f; margin-top: 8px}
     }
-    .recomendListImg_2{display:block; width: 194px; height: 109px; background: url("../img/recomendListImg_2.jpg") no-repeat;
+    .recomendListImg_2{display:block; width: 194px; height: 109px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/recomendListImg_2.jpg") no-repeat;
       .opBg{height: inherit; width: 70px; float: right; background-color: rgba(0, 0, 0, 0.7);
         p{ color:white; text-align: center; font-weight: bold;margin-top: 30px}
-        .listIcon{display: block; width: 30px; height: 20px; background: url("../img/sp_tvcast52.png") no-repeat -162px -936px; margin: 0 auto; margin-top: 10px}
+        .listIcon{display: block; width: 30px; height: 20px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -162px -936px; margin: 0 auto; margin-top: 10px}
       }
     }
     .recomendListDes_2{margin-top: 10px; width: 194px;
       .recMainTitle{font-size: 12px; display:inline-block}
       .recSubTitle{font-size: 12px; color:#7f7f7f; margin-top: 8px}
     }
-    .recomendListImg_3{display:block; width: 194px; height: 109px; background: url("../img/recomendListImg_3.jpg") no-repeat;
+    .recomendListImg_3{display:block; width: 194px; height: 109px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/recomendListImg_3.jpg") no-repeat;
       .opBg{height: inherit; width: 70px; float: right; background-color: rgba(0, 0, 0, 0.7);
         p{ color:white; text-align: center; font-weight: bold;margin-top: 30px}
-        .listIcon{display: block; width: 30px; height: 20px; background: url("../img/sp_tvcast52.png") no-repeat -162px -936px; margin: 0 auto; margin-top: 10px}
+        .listIcon{display: block; width: 30px; height: 20px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -162px -936px; margin: 0 auto; margin-top: 10px}
       }
     }
     .recomendListDes_3{margin-top: 10px; width: 194px;
       .recMainTitle{font-size: 12px; display:inline-block}
       .recSubTitle{font-size: 12px; color:#7f7f7f; margin-top: 8px}
     }
-    .recomendListImg_4{display:block; width: 194px; height: 109px; background: url("../img/recomendListImg_4.jpg") no-repeat;
+    .recomendListImg_4{display:block; width: 194px; height: 109px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/recomendListImg_4.jpg") no-repeat;
       .opBg{height: inherit; width: 70px; float: right; background-color: rgba(0, 0, 0, 0.7);
         p{ color:white; text-align: center; font-weight: bold;margin-top: 30px}
-        .listIcon{display: block; width: 30px; height: 20px; background: url("../img/sp_tvcast52.png") no-repeat -162px -936px; margin: 0 auto; margin-top: 10px}
+        .listIcon{display: block; width: 30px; height: 20px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -162px -936px; margin: 0 auto; margin-top: 10px}
       }
     }
     .recomendListDes_4{margin-top: 10px; width: 194px;
@@ -425,23 +425,23 @@ $asd: #333;
   &:after{display: block; clear: both; content:""}
   .mainTitle{font-size: 20px;line-height: 28px;
     &:after{display: block; clear: both; content: "" }
-    .recentIcon{float:left;display:block;width: 42px; height: 28px;margin-right:10px;background: url("../img/sp_tvcast52.png") no-repeat -153px -736px}
+    .recentIcon{float:left;display:block;width: 42px; height: 28px;margin-right:10px;background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -153px -736px}
   }
-  .mainVisual{float:left;position: relative;margin-top: 10px; display: block;width: 405px; height: 198px; background: url("../img/recentMainImg.jpg") no-repeat;
-    &:hover .timeInfo{width: 39px; height: 39px; font-size: 0;background: url("../img/sp_tvcast52.png") no-repeat -7px -607px}
+  .mainVisual{float:left;position: relative;margin-top: 10px; display: block;width: 405px; height: 198px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/recentMainImg.jpg") no-repeat;
+    &:hover .timeInfo{width: 39px; height: 39px; font-size: 0;background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -7px -607px}
     .timeInfo{position: absolute;z-index: 10; display: block; width: 35px; height: 16px; bottom:4px; right: 4px; color: white;font-size: 12px; text-align: center; line-height: 16px; background-color: black}
-    .recomendGraBg{position: absolute; bottom: 0; width: 405px; height: 103px; background: url("../img/bg_img_mask.png");
+    .recomendGraBg{position: absolute; bottom: 0; width: 405px; height: 103px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/bg_img_mask.png");
       &>*{float: left; margin-top: 44px}
       &:after{display: block; clear: both; content: ""}
-      .listIcon{margin-left:20px; width: 30px; height: 20px; background: url("../img/sp_tvcast52.png") no-repeat -162px -936px}
+      .listIcon{margin-left:20px; width: 30px; height: 20px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -162px -936px}
       .recDescriptionSec_1{margin-left: 10px;
         .recMainTitle{color: white; font-size: 20px; font-weight: bold; line-height: 20px}
         .recSubTitle{float:left;color: white; font-size: 12px; margin-top: 8px;
           .dddd{float:left;font-size: 12px; color: white}
           .upSec{float: left; margin-left: 20px;
-            .playIcon{display:inline-block; width: 7px; height: 9px;line-height: 9px; background: url("../img/sp_tvcast52.png") no-repeat -106px -92px}
+            .playIcon{display:inline-block; width: 7px; height: 9px;line-height: 9px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -106px -92px}
             .playNum{font-size: 12px;  color: #fff ;margin-left: 4px;line-height: 9px}
-            .likeIcon{display: inline-block; width: 11px; height: 10px;line-height: 9px; background: url("../img/sp_tvcast52.png") no-repeat -106px -112px;margin-left: 12px}
+            .likeIcon{display: inline-block; width: 11px; height: 10px;line-height: 9px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -106px -112px;margin-left: 12px}
             .likeNum{font-size: 12px; color: #fff; margin-left: 4px; line-height: 10px}}
         }
       }
@@ -451,7 +451,7 @@ $asd: #333;
     li{float: left;margin-left: 17px;
       &:first-child{padding-left: 0}
       .topInfo_1{position: relative;display:block;width: 194px; height: 109px;
-        &:hover .timeInfo{width: 39px; height: 39px; font-size: 0;background: url("../img/sp_tvcast52.png") no-repeat -7px -607px}
+        &:hover .timeInfo{width: 39px; height: 39px; font-size: 0;background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -7px -607px}
         .timeInfo{position: absolute; display: block; width: 35px; height: 16px; bottom:4px; right: 4px; color: white;font-size: 12px; text-align: center; line-height: 16px; background-color: black}
       }
       .bottomDes_1{position:relative;float: left;height: 72px;margin-top: 10px;
@@ -461,14 +461,14 @@ $asd: #333;
         }
         .upSec{position:absolute; bottom: 1px;overflow: hidden; display: block;
           span{float: left; margin-top: 10px}
-          .playIcon{display:block; width: 7px; height: 9px; background: url("../img/sp_tvcast52.png") no-repeat -22px -92px}
+          .playIcon{display:block; width: 7px; height: 9px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -22px -92px}
           .playNum{font-size: 12px; font-weight: bold; color: #797979 ;margin-left: 4px;line-height: 9px}
-          .likeIcon{display: block; width: 11px; height: 10px; background: url("../img/sp_tvcast52.png") no-repeat -22px -112px;margin-left: 12px}
+          .likeIcon{display: block; width: 11px; height: 10px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -22px -112px;margin-left: 12px}
           .likeNum{font-size: 12px; color: #797979; font-weight: bold; margin-left: 4px; line-height: 10px}
         }
       }
       .topInfo_2{position: relative;display:block;width: 194px; height: 109px;
-        &:hover .timeInfo{width: 39px; height: 39px; font-size: 0;background: url("../img/sp_tvcast52.png") no-repeat -7px -607px}
+        &:hover .timeInfo{width: 39px; height: 39px; font-size: 0;background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -7px -607px}
         .timeInfo{position: absolute; display: block; width: 35px; height: 16px; bottom:4px; right: 4px; color: white;font-size: 12px; text-align: center; line-height: 16px; background-color: black}
       }
       .bottomDes_2{position:relative;float: left;height: 72px;margin-top: 10px;
@@ -478,14 +478,14 @@ $asd: #333;
         }
         .upSec{position:absolute; bottom: 1px;overflow: hidden; display: block;
           span{float: left; margin-top: 10px}
-          .playIcon{display:block; width: 7px; height: 9px; background: url("../img/sp_tvcast52.png") no-repeat -22px -92px}
+          .playIcon{display:block; width: 7px; height: 9px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -22px -92px}
           .playNum{font-size: 12px; font-weight: bold; color: #797979 ;margin-left: 4px;line-height: 9px}
-          .likeIcon{display: block; width: 11px; height: 10px; background: url("../img/sp_tvcast52.png") no-repeat -22px -112px;margin-left: 12px}
+          .likeIcon{display: block; width: 11px; height: 10px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -22px -112px;margin-left: 12px}
           .likeNum{font-size: 12px; color: #797979; font-weight: bold; margin-left: 4px; line-height: 10px}
         }
       }
       .topInfo_3{position: relative;display:block;width: 194px; height: 109px;
-        &:hover .timeInfo{width: 39px; height: 39px; font-size: 0;background: url("../img/sp_tvcast52.png") no-repeat -7px -607px}
+        &:hover .timeInfo{width: 39px; height: 39px; font-size: 0;background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -7px -607px}
         .timeInfo{position: absolute; display: block; width: 35px; height: 16px; bottom:4px; right: 4px; color: white;font-size: 12px; text-align: center; line-height: 16px; background-color: black}
       }
       .bottomDes_3{position:relative;float: left;height: 72px;margin-top: 10px;
@@ -495,14 +495,14 @@ $asd: #333;
         }
         .upSec{position:absolute; bottom: 1px;overflow: hidden; display: block;
           span{float: left; margin-top: 10px}
-          .playIcon{display:block; width: 7px; height: 9px; background: url("../img/sp_tvcast52.png") no-repeat -22px -92px}
+          .playIcon{display:block; width: 7px; height: 9px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -22px -92px}
           .playNum{font-size: 12px; font-weight: bold; color: #797979 ;margin-left: 4px;line-height: 9px}
-          .likeIcon{display: block; width: 11px; height: 10px; background: url("../img/sp_tvcast52.png") no-repeat -22px -112px;margin-left: 12px}
+          .likeIcon{display: block; width: 11px; height: 10px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -22px -112px;margin-left: 12px}
           .likeNum{font-size: 12px; color: #797979; font-weight: bold; margin-left: 4px; line-height: 10px}
         }
       }
       .topInfo_4{position: relative;display:block;width: 194px; height: 109px;
-        &:hover .timeInfo{width: 39px; height: 39px; font-size: 0;background: url("../img/sp_tvcast52.png") no-repeat -7px -607px}
+        &:hover .timeInfo{width: 39px; height: 39px; font-size: 0;background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -7px -607px}
         .timeInfo{position: absolute; display: block; width: 35px; height: 16px; bottom:4px; right: 4px; color: white;font-size: 12px; text-align: center; line-height: 16px; background-color: black}
       }
       .bottomDes_4{position:relative;float: left;height: 72px;margin-top: 10px;
@@ -512,9 +512,9 @@ $asd: #333;
         }
         .upSec{position:absolute; bottom: 1px;overflow: hidden; display: block;
           span{float: left; margin-top: 10px}
-          .playIcon{display:block; width: 7px; height: 9px; background: url("../img/sp_tvcast52.png") no-repeat -22px -92px}
+          .playIcon{display:block; width: 7px; height: 9px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -22px -92px}
           .playNum{font-size: 12px; font-weight: bold; color: #797979 ;margin-left: 4px;line-height: 9px}
-          .likeIcon{display: block; width: 11px; height: 10px; background: url("../img/sp_tvcast52.png") no-repeat -22px -112px;margin-left: 12px}
+          .likeIcon{display: block; width: 11px; height: 10px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -22px -112px;margin-left: 12px}
           .likeNum{font-size: 12px; color: #797979; font-weight: bold; margin-left: 4px; line-height: 10px}
         }
       }
@@ -527,7 +527,7 @@ $asd: #333;
   &:after{display: block; clear: both; content:""}
   .mainTitle{font-size: 20px;line-height: 28px;
     &:after{display: block; clear: both; content: "" }
-    .famousIcon{float:left;display:block;width: 42px; height: 28px;margin-right:10px;background: url("../img/sp_tvcast52.png") no-repeat 0 -736px}
+    .famousIcon{float:left;display:block;width: 42px; height: 28px;margin-right:10px;background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat 0 -736px}
   }
   .weekList{overflow: hidden; margin-top: 10px;
     li{float: left; margin-left: 16px;
@@ -543,12 +543,12 @@ $asd: #333;
   &:after{display: block; clear: both; content:""}
   .mainTitle{font-size: 20px;line-height: 28px;
     &:after{display: block; clear: both; content: "" }
-    .recomendIcon{float:left;display:block;width: 42px; height: 28px;margin-right:10px;background: url("../img/sp_tvcast52.png") no-repeat -51px -736px}
+    .recomendIcon{float:left;display:block;width: 42px; height: 28px;margin-right:10px;background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -51px -736px}
   }
   .editorList{overflow: hidden; margin-top: 10px;width: 1266px;
     li{float: left;margin: 0 17px 37px 0;
       .topInfo_1{position: relative;display:block;width: 194px; height: 109px;
-        &:hover .timeInfo{width: 39px; height: 39px; font-size: 0;background: url("../img/sp_tvcast52.png") no-repeat -7px -607px}
+        &:hover .timeInfo{width: 39px; height: 39px; font-size: 0;background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -7px -607px}
         .timeInfo{position: absolute; display: block; width: 35px; height: 16px; bottom:4px; right: 4px; color: white;font-size: 12px; text-align: center; line-height: 16px; background-color: black}
       }
       .bottomDes_1{position:relative;float: left;height: 72px;margin-top: 10px;
@@ -558,9 +558,9 @@ $asd: #333;
         }
         .upSec{position:absolute; bottom: 1px;overflow: hidden; display: block;
           span{float: left; margin-top: 10px}
-          .playIcon{display:block; width: 7px; height: 9px; background: url("../img/sp_tvcast52.png") no-repeat -22px -92px}
+          .playIcon{display:block; width: 7px; height: 9px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -22px -92px}
           .playNum{font-size: 12px; font-weight: bold; color: #797979 ;margin-left: 4px;line-height: 9px}
-          .likeIcon{display: block; width: 11px; height: 10px; background: url("../img/sp_tvcast52.png") no-repeat -22px -112px;margin-left: 12px}
+          .likeIcon{display: block; width: 11px; height: 10px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -22px -112px;margin-left: 12px}
           .likeNum{font-size: 12px; color: #797979; font-weight: bold; margin-left: 4px; line-height: 10px}
         }
       }
@@ -582,7 +582,7 @@ footer{height: 130px; border-top: 1px solid #d8d8d8; text-align: center;
   }
   p{font-size: 10px; color: #8f8f8f;
     strong{color: #8f8f8f}
-    .naverIcon{display: inline-block;margin-right: 12px; width: 63px; height: 11px; background: url("../img/footerNaverLogo.png") no-repeat }
+    .naverIcon{display: inline-block;margin-right: 12px; width: 63px; height: 11px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/footerNaverLogo.png") no-repeat }
   }
   .footerSecondText{margin-top: 10px}
 }

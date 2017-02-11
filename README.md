@@ -1,13 +1,14 @@
 # html, css, sass, javascript, jquery 활용
 자세한 설명은 해당 폴더 markdown에 기재되어 있습니다.
 
-## 웹페이지제작 폴더 mailstory, jiransecurity, samsunghotel
-1. samsungHotel codepen URL:(http://codepen.io/GalGalE/pen/MJBKzK)
- 1. samsungHotel 서브페이지 codepen URL:(http://codepen.io/GalGalE/pen/ZLjQPp)
- 2. samsungHotel 서브페이지_2 codepen URL:(http://codepen.io/GalGalE/pen/YNjwMj)
-2. jiransecurity codepen URL:(http://codepen.io/GalGalE/pen/LxBNbB)
+## 웹페이지제작 폴더 tvcast, mailstory, jiransecurity, samsunghotel
+1. tvcast : 네이버TVCAST codepen URL:(http://codepen.io/GalGalE/pen/VPVgap)
+1. samsungHotel : 거제삼성호텔 codepen URL:(http://codepen.io/GalGalE/pen/MJBKzK)
+ 1. samsungHotel : 서브페이지 codepen URL:(http://codepen.io/GalGalE/pen/ZLjQPp)
+ 2. samsungHotel : 서브페이지_2 codepen URL:(http://codepen.io/GalGalE/pen/YNjwMj)
+2. jiransecurity : 지란지교시큐리티 codepen URL:(http://codepen.io/GalGalE/pen/LxBNbB)
  1. width 740px 이하일때 페이지 변경
-3. mailstory codepen URL:(http://codepen.io/GalGalE/pen/qRybyP)
+3. mailstory : 마일스토리 codepen URL:(http://codepen.io/GalGalE/pen/qRybyP)
 
 4. tvcast : 이 폴더 네이버티비캐스트 페이지는 현재 작업중에 있습니다.
 

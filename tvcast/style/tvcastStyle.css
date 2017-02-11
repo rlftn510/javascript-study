@@ -37,7 +37,7 @@
       height: 55px;
       content: "";
       display: block;
-      background: url("../img/bg_header.png") 100% 0 no-repeat; }
+      background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/bg_header.png") 100% 0 no-repeat; }
   #header #mainLogo {
     position: absolute;
     top: 14px;
@@ -45,7 +45,7 @@
     display: block;
     width: 151px;
     height: 26px;
-    background: url("../img/sp_tvcast52.png") no-repeat 0 0; }
+    background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat 0 0; }
   #header input {
     float: left;
     width: 297px;
@@ -69,7 +69,7 @@
       display: block;
       width: 20px;
       height: 20px;
-      background: url("../img/sp_tvcast52.png") no-repeat -5px -62px;
+      background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -5px -62px;
       margin-left: 6px;
       margin-top: 7px; }
 
@@ -95,7 +95,7 @@
     display: block;
     width: 26px;
     height: 18px;
-    background: url("../img/sp_tvcast52.png") no-repeat 0 -36px; }
+    background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat 0 -36px; }
   #header #upSec p {
     float: left;
     margin-left: 5px;
@@ -161,7 +161,7 @@
         margin-top: 2px;
         width: 7px;
         height: 9px;
-        background: url("../img/sp_aside.png") no-repeat 0 0; }
+        background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_aside.png") no-repeat 0 0; }
     #navi #tema #temaClose {
       position: absolute;
       font-size: 12px;
@@ -174,7 +174,7 @@
         margin-left: 4px;
         width: 9px;
         height: 6px;
-        background: url("../img/sp_aside.png") no-repeat -50px 0; }
+        background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_aside.png") no-repeat -50px 0; }
     #navi #tema #temaList {
       font-size: 12px;
       margin-left: 26px;
@@ -232,23 +232,23 @@
           width: 50px;
           height: 33px; }
         #navi #broadcast ul li #cast1 {
-          background: url("../img/sp_bi7.png") no-repeat -288px -755px; }
+          background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_bi7.png") no-repeat -288px -755px; }
         #navi #broadcast ul li #cast2 {
-          background: url("../img/sp_bi7.png") no-repeat -288px -635px; }
+          background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_bi7.png") no-repeat -288px -635px; }
         #navi #broadcast ul li #cast3 {
-          background: url("../img/sp_bi7.png") no-repeat -288px -995px; }
+          background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_bi7.png") no-repeat -288px -995px; }
         #navi #broadcast ul li #cast4 {
-          background: url("../img/sp_bi7.png") no-repeat -288px -275px; }
+          background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_bi7.png") no-repeat -288px -275px; }
         #navi #broadcast ul li #cast5 {
-          background: url("../img/sp_bi7.png") no-repeat -288px -35px; }
+          background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_bi7.png") no-repeat -288px -35px; }
         #navi #broadcast ul li #cast6 {
-          background: url("../img/sp_bi7.png") no-repeat -288px -396px; }
+          background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_bi7.png") no-repeat -288px -396px; }
         #navi #broadcast ul li #cast7 {
-          background: url("../img/sp_bi7.png") no-repeat -288px -515px; }
+          background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_bi7.png") no-repeat -288px -515px; }
         #navi #broadcast ul li #cast8 {
-          background: url("../img/sp_bi7.png") no-repeat -288px -875px; }
+          background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_bi7.png") no-repeat -288px -875px; }
         #navi #broadcast ul li #cast9 {
-          background: url("../img/sp_bi7.png") no-repeat -288px -155px; }
+          background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_bi7.png") no-repeat -288px -155px; }
     #navi #broadcast .tving {
       display: block;
       font-size: 12px;
@@ -267,7 +267,7 @@
       margin-top: 4px;
       width: 11px;
       height: 11px;
-      background: url("../img/sp_aside.png") no-repeat -75px 0;
+      background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_aside.png") no-repeat -75px 0;
       margin-left: 4px; }
     #navi #bottomList ul li {
       margin-top: 20px; }
@@ -289,7 +289,7 @@
     display: block;
     width: 21px;
     height: 38px;
-    background: url("../img/sp_aside.png") no-repeat 0 -21px; }
+    background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_aside.png") no-repeat 0 -21px; }
 
 #contents {
   float: left;
@@ -320,7 +320,7 @@
         display: block;
         width: 100%;
         height: 187px;
-        background: url("../img/graBg.png"); }
+        background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/graBg.png"); }
         #mainLayout .leftLayout .subLayout_1 .graBg:hover {
           bottom: 0; }
         #mainLayout .leftLayout .subLayout_1 .graBg p {
@@ -348,7 +348,7 @@
             display: block;
             width: 11px;
             height: 13px;
-            background: url("../img/sp_tvcast52.png") no-repeat -111px -345px; }
+            background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -111px -345px; }
           #mainLayout .leftLayout .subLayout_1 .graBg .upSec .playNum {
             font-size: 14px;
             font-weight: bold;
@@ -359,7 +359,7 @@
             display: block;
             width: 14px;
             height: 13px;
-            background: url("../img/sp_tvcast52.png") no-repeat -131px -345px;
+            background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -131px -345px;
             margin-left: 12px; }
           #mainLayout .leftLayout .subLayout_1 .graBg .upSec .likeNum {
             font-size: 14px;
@@ -445,7 +445,7 @@
         display: block;
         width: 100%;
         height: 187px;
-        background: url("../img/graBg.png"); }
+        background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/graBg.png"); }
         #mainLayout .midLayout .subLayout_1 .graBg:hover {
           bottom: 0; }
         #mainLayout .midLayout .subLayout_1 .graBg p {
@@ -473,7 +473,7 @@
             display: block;
             width: 11px;
             height: 13px;
-            background: url("../img/sp_tvcast52.png") no-repeat -111px -345px; }
+            background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -111px -345px; }
           #mainLayout .midLayout .subLayout_1 .graBg .upSec .playNum {
             font-size: 14px;
             font-weight: bold;
@@ -484,7 +484,7 @@
             display: block;
             width: 14px;
             height: 13px;
-            background: url("../img/sp_tvcast52.png") no-repeat -131px -345px;
+            background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -131px -345px;
             margin-left: 12px; }
           #mainLayout .midLayout .subLayout_1 .graBg .upSec .likeNum {
             font-size: 14px;
@@ -504,7 +504,7 @@
         display: block;
         width: 100%;
         height: 187px;
-        background: url("../img/graBg.png"); }
+        background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/graBg.png"); }
         #mainLayout .midLayout .subLayout_2 .graBg:hover {
           bottom: 0; }
         #mainLayout .midLayout .subLayout_2 .graBg p {
@@ -532,7 +532,7 @@
             display: block;
             width: 11px;
             height: 13px;
-            background: url("../img/sp_tvcast52.png") no-repeat -111px -345px; }
+            background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -111px -345px; }
           #mainLayout .midLayout .subLayout_2 .graBg .upSec .playNum {
             font-size: 14px;
             font-weight: bold;
@@ -543,7 +543,7 @@
             display: block;
             width: 14px;
             height: 13px;
-            background: url("../img/sp_tvcast52.png") no-repeat -131px -345px;
+            background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -131px -345px;
             margin-left: 12px; }
           #mainLayout .midLayout .subLayout_2 .graBg .upSec .likeNum {
             font-size: 14px;
@@ -565,7 +565,7 @@
         display: block;
         width: 100%;
         height: 187px;
-        background: url("../img/graBg.png"); }
+        background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/graBg.png"); }
         #mainLayout .rightLayout .subLayout_1 .graBg:hover {
           bottom: 0; }
         #mainLayout .rightLayout .subLayout_1 .graBg p {
@@ -593,7 +593,7 @@
             display: block;
             width: 11px;
             height: 13px;
-            background: url("../img/sp_tvcast52.png") no-repeat -111px -345px; }
+            background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -111px -345px; }
           #mainLayout .rightLayout .subLayout_1 .graBg .upSec .playNum {
             font-size: 14px;
             font-weight: bold;
@@ -604,7 +604,7 @@
             display: block;
             width: 14px;
             height: 13px;
-            background: url("../img/sp_tvcast52.png") no-repeat -131px -345px;
+            background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -131px -345px;
             margin-left: 12px; }
           #mainLayout .rightLayout .subLayout_1 .graBg .upSec .likeNum {
             font-size: 14px;
@@ -624,7 +624,7 @@
         display: block;
         width: 100%;
         height: 187px;
-        background: url("../img/graBg.png"); }
+        background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/graBg.png"); }
         #mainLayout .rightLayout .subLayout_2 .graBg:hover {
           bottom: 0; }
         #mainLayout .rightLayout .subLayout_2 .graBg p {
@@ -652,7 +652,7 @@
             display: block;
             width: 11px;
             height: 13px;
-            background: url("../img/sp_tvcast52.png") no-repeat -111px -345px; }
+            background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -111px -345px; }
           #mainLayout .rightLayout .subLayout_2 .graBg .upSec .playNum {
             font-size: 14px;
             font-weight: bold;
@@ -663,7 +663,7 @@
             display: block;
             width: 14px;
             height: 13px;
-            background: url("../img/sp_tvcast52.png") no-repeat -131px -345px;
+            background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -131px -345px;
             margin-left: 12px; }
           #mainLayout .rightLayout .subLayout_2 .graBg .upSec .likeNum {
             font-size: 14px;
@@ -676,7 +676,7 @@
       position: relative; }
       #mainLayout .rightLayout .subLayout_3 .bgImg {
         display: block;
-        background: url("../img/rigthImg_3.JPG");
+        background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/rigthImg_3.JPG");
         height: 308px;
         text-align: center; }
         #mainLayout .rightLayout .subLayout_3 .bgImg .girlface {
@@ -707,7 +707,7 @@
       width: 42px;
       height: 28px;
       margin-right: 10px;
-      background: url("../img/sp_tvcast52.png") no-repeat 0 -736px; }
+      background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat 0 -736px; }
   #famousVideo .videoList {
     overflow: hidden; }
     #famousVideo .videoList li {
@@ -726,7 +726,7 @@
           width: 39px;
           height: 39px;
           font-size: 0;
-          background: url("../img/sp_tvcast52.png") no-repeat -7px -607px; }
+          background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -7px -607px; }
         #famousVideo .videoList li .topInfo_1 .timeInfo {
           position: absolute;
           display: block;
@@ -751,7 +751,7 @@
             margin-left: 2px;
             width: 8px;
             height: 35px;
-            background: url("../img/sp_top_num.png") no-repeat -3px 0; }
+            background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_top_num.png") no-repeat -3px 0; }
           #famousVideo .videoList li .bottomInfo_1 .rankSec .updownNum {
             position: absolute;
             bottom: 0;
@@ -764,7 +764,7 @@
               margin-right: 4px;
               width: 7px;
               height: 11px;
-              background: url("../img/sp_tvcast52.png") no-repeat 0 -504px; }
+              background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat 0 -504px; }
         #famousVideo .videoList li .bottomInfo_1 .bottomDes_1 {
           position: relative;
           float: left;
@@ -793,7 +793,7 @@
               display: block;
               width: 7px;
               height: 9px;
-              background: url("../img/sp_tvcast52.png") no-repeat -22px -92px; }
+              background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -22px -92px; }
             #famousVideo .videoList li .bottomInfo_1 .bottomDes_1 .upSec .playNum {
               font-size: 12px;
               font-weight: bold;
@@ -804,7 +804,7 @@
               display: block;
               width: 11px;
               height: 10px;
-              background: url("../img/sp_tvcast52.png") no-repeat -22px -112px;
+              background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -22px -112px;
               margin-left: 12px; }
             #famousVideo .videoList li .bottomInfo_1 .bottomDes_1 .upSec .likeNum {
               font-size: 12px;
@@ -828,7 +828,7 @@
           width: 39px;
           height: 39px;
           font-size: 0;
-          background: url("../img/sp_tvcast52.png") no-repeat -7px -607px; }
+          background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -7px -607px; }
         #famousVideo .videoList .videoList_2 .topInfo_2 .timeInfo {
           position: absolute;
           display: block;
@@ -853,7 +853,7 @@
             margin-left: 2px;
             width: 20px;
             height: 35px;
-            background: url("../img/sp_top_num.png") no-repeat -48px 0; }
+            background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_top_num.png") no-repeat -48px 0; }
           #famousVideo .videoList .videoList_2 .bottomInfo_2 .rankSec .updownNum {
             position: absolute;
             bottom: 0;
@@ -866,7 +866,7 @@
               margin-right: 4px;
               width: 7px;
               height: 11px;
-              background: url("../img/sp_tvcast52.png") no-repeat -37px -504px; }
+              background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -37px -504px; }
         #famousVideo .videoList .videoList_2 .bottomInfo_2 .bottomDes_2 {
           position: relative;
           float: left;
@@ -895,7 +895,7 @@
               display: block;
               width: 7px;
               height: 9px;
-              background: url("../img/sp_tvcast52.png") no-repeat -22px -92px; }
+              background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -22px -92px; }
             #famousVideo .videoList .videoList_2 .bottomInfo_2 .bottomDes_2 .upSec .playNum {
               font-size: 12px;
               font-weight: bold;
@@ -906,7 +906,7 @@
               display: block;
               width: 11px;
               height: 10px;
-              background: url("../img/sp_tvcast52.png") no-repeat -22px -112px;
+              background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -22px -112px;
               margin-left: 12px; }
             #famousVideo .videoList .videoList_2 .bottomInfo_2 .bottomDes_2 .upSec .likeNum {
               font-size: 12px;
@@ -930,7 +930,7 @@
           width: 39px;
           height: 39px;
           font-size: 0;
-          background: url("../img/sp_tvcast52.png") no-repeat -7px -607px; }
+          background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -7px -607px; }
         #famousVideo .videoList .videoList_3 .topInfo_3 .timeInfo {
           position: absolute;
           display: block;
@@ -955,7 +955,7 @@
             margin-left: 2px;
             width: 20px;
             height: 35px;
-            background: url("../img/sp_top_num.png") no-repeat -90px 0; }
+            background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_top_num.png") no-repeat -90px 0; }
           #famousVideo .videoList .videoList_3 .bottomInfo_3 .rankSec .updownNum {
             position: absolute;
             left: 8px;
@@ -968,7 +968,7 @@
               margin-right: 4px;
               width: 11px;
               height: 2px;
-              background: url("../img/sp_tvcast52.png") no-repeat -74px -509px; }
+              background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -74px -509px; }
         #famousVideo .videoList .videoList_3 .bottomInfo_3 .bottomDes_3 {
           position: relative;
           float: left;
@@ -997,7 +997,7 @@
               display: block;
               width: 7px;
               height: 9px;
-              background: url("../img/sp_tvcast52.png") no-repeat -22px -92px; }
+              background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -22px -92px; }
             #famousVideo .videoList .videoList_3 .bottomInfo_3 .bottomDes_3 .upSec .playNum {
               font-size: 12px;
               font-weight: bold;
@@ -1008,7 +1008,7 @@
               display: block;
               width: 11px;
               height: 10px;
-              background: url("../img/sp_tvcast52.png") no-repeat -22px -112px;
+              background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -22px -112px;
               margin-left: 12px; }
             #famousVideo .videoList .videoList_3 .bottomInfo_3 .bottomDes_3 .upSec .likeNum {
               font-size: 12px;
@@ -1032,7 +1032,7 @@
           width: 39px;
           height: 39px;
           font-size: 0;
-          background: url("../img/sp_tvcast52.png") no-repeat -7px -607px; }
+          background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -7px -607px; }
         #famousVideo .videoList .videoList_4 .topInfo_4 .timeInfo {
           position: absolute;
           display: block;
@@ -1057,7 +1057,7 @@
             margin-left: 2px;
             width: 20px;
             height: 35px;
-            background: url("../img/sp_top_num.png") no-repeat -132px 0; }
+            background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_top_num.png") no-repeat -132px 0; }
           #famousVideo .videoList .videoList_4 .bottomInfo_4 .rankSec .updownNum {
             position: absolute;
             bottom: 0;
@@ -1070,7 +1070,7 @@
               margin-right: 4px;
               width: 7px;
               height: 11px;
-              background: url("../img/sp_tvcast52.png") no-repeat 0 -504px; }
+              background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat 0 -504px; }
         #famousVideo .videoList .videoList_4 .bottomInfo_4 .bottomDes_4 {
           position: relative;
           float: left;
@@ -1099,7 +1099,7 @@
               display: block;
               width: 7px;
               height: 9px;
-              background: url("../img/sp_tvcast52.png") no-repeat -22px -92px; }
+              background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -22px -92px; }
             #famousVideo .videoList .videoList_4 .bottomInfo_4 .bottomDes_4 .upSec .playNum {
               font-size: 12px;
               font-weight: bold;
@@ -1110,7 +1110,7 @@
               display: block;
               width: 11px;
               height: 10px;
-              background: url("../img/sp_tvcast52.png") no-repeat -22px -112px;
+              background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -22px -112px;
               margin-left: 12px; }
             #famousVideo .videoList .videoList_4 .bottomInfo_4 .bottomDes_4 .upSec .likeNum {
               font-size: 12px;
@@ -1134,7 +1134,7 @@
           width: 39px;
           height: 39px;
           font-size: 0;
-          background: url("../img/sp_tvcast52.png") no-repeat -7px -607px; }
+          background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -7px -607px; }
         #famousVideo .videoList .videoList_5 .topInfo_5 .timeInfo {
           position: absolute;
           display: block;
@@ -1159,7 +1159,7 @@
             margin-left: 2px;
             width: 20px;
             height: 35px;
-            background: url("../img/sp_top_num.png") no-repeat -174px 0; }
+            background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_top_num.png") no-repeat -174px 0; }
           #famousVideo .videoList .videoList_5 .bottomInfo_5 .rankSec .updownNum {
             position: absolute;
             bottom: 0;
@@ -1172,7 +1172,7 @@
               margin-right: 4px;
               width: 7px;
               height: 11px;
-              background: url("../img/sp_tvcast52.png") no-repeat 0 -504px; }
+              background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat 0 -504px; }
         #famousVideo .videoList .videoList_5 .bottomInfo_5 .bottomDes_5 {
           position: relative;
           float: left;
@@ -1201,7 +1201,7 @@
               display: block;
               width: 7px;
               height: 9px;
-              background: url("../img/sp_tvcast52.png") no-repeat -22px -92px; }
+              background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -22px -92px; }
             #famousVideo .videoList .videoList_5 .bottomInfo_5 .bottomDes_5 .upSec .playNum {
               font-size: 12px;
               font-weight: bold;
@@ -1212,7 +1212,7 @@
               display: block;
               width: 11px;
               height: 10px;
-              background: url("../img/sp_tvcast52.png") no-repeat -22px -112px;
+              background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -22px -112px;
               margin-left: 12px; }
             #famousVideo .videoList .videoList_5 .bottomInfo_5 .bottomDes_5 .upSec .likeNum {
               font-size: 12px;
@@ -1235,7 +1235,7 @@
       display: block;
       width: 17px;
       height: 13px;
-      background: url("../img/sp_tvcast52.png") no-repeat -61px -148px;
+      background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -61px -148px;
       float: left;
       margin: 6px 0 0 4px; }
   #famousVideo .moveBtn {
@@ -1252,7 +1252,7 @@
       float: left;
       width: 58px;
       height: 29px;
-      background: url("../img/sp_tvcast52.png") no-repeat -142px -99px; }
+      background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -142px -99px; }
       #famousVideo .moveBtn .btnSec:after {
         display: block;
         clear: both;
@@ -1263,14 +1263,14 @@
         height: 29px;
         float: left; }
         #famousVideo .moveBtn .btnSec .leftBtn:hover {
-          background: url("../img/sp_tvcast52.png") no-repeat -142px -132px; }
+          background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -142px -132px; }
       #famousVideo .moveBtn .btnSec .rightBtn {
         display: inline-block;
         width: 29px;
         height: 29px;
         float: left; }
         #famousVideo .moveBtn .btnSec .rightBtn:hover {
-          background: url("../img/sp_tvcast52.png") no-repeat -171px -132px; }
+          background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -171px -132px; }
 
 .midAdSec {
   margin-top: 70px; }
@@ -1300,12 +1300,12 @@
       width: 42px;
       height: 28px;
       margin-right: 10px;
-      background: url("../img/sp_tvcast52.png") no-repeat 0 -736px; }
+      background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat 0 -736px; }
     .recomendSec .mainTitle .arrowIcon {
       display: inline-block;
       width: 7px;
       height: 11px;
-      background: url("../img/sp_tvcast52.png") no-repeat -156px -388px;
+      background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -156px -388px;
       margin-bottom: 2px; }
   .recomendSec .mainVisual {
     float: left;
@@ -1314,13 +1314,13 @@
     display: block;
     width: 405px;
     height: 198px;
-    background: url("../img/recomendMainVisual.jpg") no-repeat; }
+    background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/recomendMainVisual.jpg") no-repeat; }
     .recomendSec .mainVisual .recomendGraBg {
       position: absolute;
       bottom: 0;
       width: 405px;
       height: 103px;
-      background: url("../img/bg_img_mask.png"); }
+      background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/bg_img_mask.png"); }
       .recomendSec .mainVisual .recomendGraBg > * {
         float: left;
         margin-top: 44px; }
@@ -1332,7 +1332,7 @@
         margin-left: 20px;
         width: 30px;
         height: 20px;
-        background: url("../img/sp_tvcast52.png") no-repeat -162px -936px; }
+        background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -162px -936px; }
       .recomendSec .mainVisual .recomendGraBg .recDescriptionSec_1 {
         margin-left: 10px; }
         .recomendSec .mainVisual .recomendGraBg .recDescriptionSec_1 .recMainTitle {
@@ -1355,7 +1355,7 @@
       display: block;
       width: 194px;
       height: 109px;
-      background: url("../img/recomendListImg_1.jpg") no-repeat; }
+      background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/recomendListImg_1.jpg") no-repeat; }
       .recomendSec .recomendList .recomendListImg_1 .opBg {
         height: inherit;
         width: 70px;
@@ -1370,7 +1370,7 @@
           display: block;
           width: 30px;
           height: 20px;
-          background: url("../img/sp_tvcast52.png") no-repeat -162px -936px;
+          background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -162px -936px;
           margin: 0 auto;
           margin-top: 10px; }
     .recomendSec .recomendList .recomendListDes_1 {
@@ -1387,7 +1387,7 @@
       display: block;
       width: 194px;
       height: 109px;
-      background: url("../img/recomendListImg_2.jpg") no-repeat; }
+      background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/recomendListImg_2.jpg") no-repeat; }
       .recomendSec .recomendList .recomendListImg_2 .opBg {
         height: inherit;
         width: 70px;
@@ -1402,7 +1402,7 @@
           display: block;
           width: 30px;
           height: 20px;
-          background: url("../img/sp_tvcast52.png") no-repeat -162px -936px;
+          background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -162px -936px;
           margin: 0 auto;
           margin-top: 10px; }
     .recomendSec .recomendList .recomendListDes_2 {
@@ -1419,7 +1419,7 @@
       display: block;
       width: 194px;
       height: 109px;
-      background: url("../img/recomendListImg_3.jpg") no-repeat; }
+      background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/recomendListImg_3.jpg") no-repeat; }
       .recomendSec .recomendList .recomendListImg_3 .opBg {
         height: inherit;
         width: 70px;
@@ -1434,7 +1434,7 @@
           display: block;
           width: 30px;
           height: 20px;
-          background: url("../img/sp_tvcast52.png") no-repeat -162px -936px;
+          background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -162px -936px;
           margin: 0 auto;
           margin-top: 10px; }
     .recomendSec .recomendList .recomendListDes_3 {
@@ -1451,7 +1451,7 @@
       display: block;
       width: 194px;
       height: 109px;
-      background: url("../img/recomendListImg_4.jpg") no-repeat; }
+      background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/recomendListImg_4.jpg") no-repeat; }
       .recomendSec .recomendList .recomendListImg_4 .opBg {
         height: inherit;
         width: 70px;
@@ -1466,7 +1466,7 @@
           display: block;
           width: 30px;
           height: 20px;
-          background: url("../img/sp_tvcast52.png") no-repeat -162px -936px;
+          background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -162px -936px;
           margin: 0 auto;
           margin-top: 10px; }
     .recomendSec .recomendList .recomendListDes_4 {
@@ -1499,7 +1499,7 @@
       width: 42px;
       height: 28px;
       margin-right: 10px;
-      background: url("../img/sp_tvcast52.png") no-repeat -153px -736px; }
+      background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -153px -736px; }
   .recentSec .mainVisual {
     float: left;
     position: relative;
@@ -1507,12 +1507,12 @@
     display: block;
     width: 405px;
     height: 198px;
-    background: url("../img/recentMainImg.jpg") no-repeat; }
+    background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/recentMainImg.jpg") no-repeat; }
     .recentSec .mainVisual:hover .timeInfo {
       width: 39px;
       height: 39px;
       font-size: 0;
-      background: url("../img/sp_tvcast52.png") no-repeat -7px -607px; }
+      background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -7px -607px; }
     .recentSec .mainVisual .timeInfo {
       position: absolute;
       z-index: 10;
@@ -1531,7 +1531,7 @@
       bottom: 0;
       width: 405px;
       height: 103px;
-      background: url("../img/bg_img_mask.png"); }
+      background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/bg_img_mask.png"); }
       .recentSec .mainVisual .recomendGraBg > * {
         float: left;
         margin-top: 44px; }
@@ -1543,7 +1543,7 @@
         margin-left: 20px;
         width: 30px;
         height: 20px;
-        background: url("../img/sp_tvcast52.png") no-repeat -162px -936px; }
+        background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -162px -936px; }
       .recentSec .mainVisual .recomendGraBg .recDescriptionSec_1 {
         margin-left: 10px; }
         .recentSec .mainVisual .recomendGraBg .recDescriptionSec_1 .recMainTitle {
@@ -1568,7 +1568,7 @@
               width: 7px;
               height: 9px;
               line-height: 9px;
-              background: url("../img/sp_tvcast52.png") no-repeat -106px -92px; }
+              background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -106px -92px; }
             .recentSec .mainVisual .recomendGraBg .recDescriptionSec_1 .recSubTitle .upSec .playNum {
               font-size: 12px;
               color: #fff;
@@ -1579,7 +1579,7 @@
               width: 11px;
               height: 10px;
               line-height: 9px;
-              background: url("../img/sp_tvcast52.png") no-repeat -106px -112px;
+              background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -106px -112px;
               margin-left: 12px; }
             .recentSec .mainVisual .recomendGraBg .recDescriptionSec_1 .recSubTitle .upSec .likeNum {
               font-size: 12px;
@@ -1603,7 +1603,7 @@
           width: 39px;
           height: 39px;
           font-size: 0;
-          background: url("../img/sp_tvcast52.png") no-repeat -7px -607px; }
+          background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -7px -607px; }
         .recentSec .recentList li .topInfo_1 .timeInfo {
           position: absolute;
           display: block;
@@ -1645,7 +1645,7 @@
             display: block;
             width: 7px;
             height: 9px;
-            background: url("../img/sp_tvcast52.png") no-repeat -22px -92px; }
+            background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -22px -92px; }
           .recentSec .recentList li .bottomDes_1 .upSec .playNum {
             font-size: 12px;
             font-weight: bold;
@@ -1656,7 +1656,7 @@
             display: block;
             width: 11px;
             height: 10px;
-            background: url("../img/sp_tvcast52.png") no-repeat -22px -112px;
+            background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -22px -112px;
             margin-left: 12px; }
           .recentSec .recentList li .bottomDes_1 .upSec .likeNum {
             font-size: 12px;
@@ -1673,7 +1673,7 @@
           width: 39px;
           height: 39px;
           font-size: 0;
-          background: url("../img/sp_tvcast52.png") no-repeat -7px -607px; }
+          background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -7px -607px; }
         .recentSec .recentList li .topInfo_2 .timeInfo {
           position: absolute;
           display: block;
@@ -1715,7 +1715,7 @@
             display: block;
             width: 7px;
             height: 9px;
-            background: url("../img/sp_tvcast52.png") no-repeat -22px -92px; }
+            background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -22px -92px; }
           .recentSec .recentList li .bottomDes_2 .upSec .playNum {
             font-size: 12px;
             font-weight: bold;
@@ -1726,7 +1726,7 @@
             display: block;
             width: 11px;
             height: 10px;
-            background: url("../img/sp_tvcast52.png") no-repeat -22px -112px;
+            background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -22px -112px;
             margin-left: 12px; }
           .recentSec .recentList li .bottomDes_2 .upSec .likeNum {
             font-size: 12px;
@@ -1743,7 +1743,7 @@
           width: 39px;
           height: 39px;
           font-size: 0;
-          background: url("../img/sp_tvcast52.png") no-repeat -7px -607px; }
+          background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -7px -607px; }
         .recentSec .recentList li .topInfo_3 .timeInfo {
           position: absolute;
           display: block;
@@ -1785,7 +1785,7 @@
             display: block;
             width: 7px;
             height: 9px;
-            background: url("../img/sp_tvcast52.png") no-repeat -22px -92px; }
+            background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -22px -92px; }
           .recentSec .recentList li .bottomDes_3 .upSec .playNum {
             font-size: 12px;
             font-weight: bold;
@@ -1796,7 +1796,7 @@
             display: block;
             width: 11px;
             height: 10px;
-            background: url("../img/sp_tvcast52.png") no-repeat -22px -112px;
+            background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -22px -112px;
             margin-left: 12px; }
           .recentSec .recentList li .bottomDes_3 .upSec .likeNum {
             font-size: 12px;
@@ -1813,7 +1813,7 @@
           width: 39px;
           height: 39px;
           font-size: 0;
-          background: url("../img/sp_tvcast52.png") no-repeat -7px -607px; }
+          background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -7px -607px; }
         .recentSec .recentList li .topInfo_4 .timeInfo {
           position: absolute;
           display: block;
@@ -1855,7 +1855,7 @@
             display: block;
             width: 7px;
             height: 9px;
-            background: url("../img/sp_tvcast52.png") no-repeat -22px -92px; }
+            background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -22px -92px; }
           .recentSec .recentList li .bottomDes_4 .upSec .playNum {
             font-size: 12px;
             font-weight: bold;
@@ -1866,7 +1866,7 @@
             display: block;
             width: 11px;
             height: 10px;
-            background: url("../img/sp_tvcast52.png") no-repeat -22px -112px;
+            background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -22px -112px;
             margin-left: 12px; }
           .recentSec .recentList li .bottomDes_4 .upSec .likeNum {
             font-size: 12px;
@@ -1894,7 +1894,7 @@
       width: 42px;
       height: 28px;
       margin-right: 10px;
-      background: url("../img/sp_tvcast52.png") no-repeat 0 -736px; }
+      background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat 0 -736px; }
   .weekhotSec .weekList {
     overflow: hidden;
     margin-top: 10px; }
@@ -1926,7 +1926,7 @@
       width: 42px;
       height: 28px;
       margin-right: 10px;
-      background: url("../img/sp_tvcast52.png") no-repeat -51px -736px; }
+      background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -51px -736px; }
   .editorSec .editorList {
     overflow: hidden;
     margin-top: 10px;
@@ -1943,7 +1943,7 @@
           width: 39px;
           height: 39px;
           font-size: 0;
-          background: url("../img/sp_tvcast52.png") no-repeat -7px -607px; }
+          background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -7px -607px; }
         .editorSec .editorList li .topInfo_1 .timeInfo {
           position: absolute;
           display: block;
@@ -1985,7 +1985,7 @@
             display: block;
             width: 7px;
             height: 9px;
-            background: url("../img/sp_tvcast52.png") no-repeat -22px -92px; }
+            background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -22px -92px; }
           .editorSec .editorList li .bottomDes_1 .upSec .playNum {
             font-size: 12px;
             font-weight: bold;
@@ -1996,7 +1996,7 @@
             display: block;
             width: 11px;
             height: 10px;
-            background: url("../img/sp_tvcast52.png") no-repeat -22px -112px;
+            background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -22px -112px;
             margin-left: 12px; }
           .editorSec .editorList li .bottomDes_1 .upSec .likeNum {
             font-size: 12px;
@@ -2039,7 +2039,7 @@ footer {
       margin-right: 12px;
       width: 63px;
       height: 11px;
-      background: url("../img/footerNaverLogo.png") no-repeat; }
+      background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/footerNaverLogo.png") no-repeat; }
   footer .footerSecondText {
     margin-top: 10px; }
 
