@@ -1,5 +1,7 @@
+*{margin: 0; padding: 0}
+#holdBox{position: relative; width: 233px; top:-25px; left: -25px}
 #wrap{width: 800px; margin: 0 auto}
 #starArea{position: relative; width: 260px; height:80px;margin:0 auto; margin-top: 150px }
-#starArea #redStar{position: absolute; top: 15px; left: 12px; overflow: hidden; width:100% }
+#starArea #redStar{position: absolute; top: 15px; left: 12px; overflow: hidden;}
 #starArea #whiteSrar{position: absolute; top:15px;left: 12px}
 #btnArea{width: 233px; margin: 0 auto; margin-top: 20px}
