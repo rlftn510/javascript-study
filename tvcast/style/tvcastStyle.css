@@ -18,7 +18,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 1000;
+    z-index: 999999;
     height: 55px;
     width: 100%; }
     #header .headerBg {
@@ -2023,7 +2023,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 1000;
+    z-index: 999999;
     height: 55px;
     width: 100%; }
     #header .headerBg {
@@ -2136,11 +2136,10 @@
   #navi {
     position: absolute;
     right: 0;
-    top: 0;
+    top: 55px;
     z-index: 9999;
     background-color: white;
     width: 180px;
-    margin-top: 55px;
     border-left: 1px solid #d8d8d8;
     border-bottom: 1px solid #d8d8d8; }
     #navi .naviMenu_1 {

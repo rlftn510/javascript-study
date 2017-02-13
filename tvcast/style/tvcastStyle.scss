@@ -4,7 +4,7 @@ $asd: #333;
 
 
 @media all and (min-width: 1024px){
-  #header{position:fixed;top:0; left:0;z-index:1000;height: 55px;width: 100%;
+  #header{position:fixed;top:0; left:0;z-index:999999;height: 55px;width: 100%;
     .headerBg{position: absolute; top:0; left:0; width: 100%; height: 100%; background-color:#06d87d;opacity: 0.9;background-image: linear-gradient( to right, #06db77 0, #0fc3bd 50%, #14b9dc 100%  );
       &:after{position:absolute; right:0; top:0; width: 253px; height: 55px;content: ""; display: block; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/bg_header.png") 100% 0 no-repeat }}
     #mainLogo{position:absolute; top:14px; left:20px;display: block; width: 151px; height: 26px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat 0 0}
@@ -587,7 +587,7 @@ $asd: #333;
 
 
 @media all and (max-width: 1023px){
-  #header{position:fixed;top:0; left:0;z-index:1000;height: 55px;width: 100%;
+  #header{position:fixed;top:0; left:0;z-index:999999; height: 55px;width: 100%;
     .headerBg{position: absolute; top:0; left:0; width: 100%; height: 100%; background-color:#06d87d;opacity: 0.9;background-image: linear-gradient( to right, #06db77 0, #0fc3bd 50%, #14b9dc 100%  );
       &:after{position:absolute; right:0; top:0; width: 253px; height: 55px;content: ""; display: block; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/bg_header.png") 100% 0 no-repeat }}
     #mainLogo{position:absolute; top:14px; left:20px; display: block; width: 151px; height: 26px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat 0 0}
@@ -607,7 +607,7 @@ $asd: #333;
   #header #login{position: absolute;right:78px; top:15px; width: 55px; height: 25px; border: 1px solid #0aa286;font-size: 12px; text-align: center; line-height: 25px; color:white}
   #header #plusMenu{position: absolute;display:block;right: 0;width: 57px; height: 55px;text-align: center;border-left: 1px solid #0aa286; border-right: 1px solid #0aa286;line-height: 55px}
 
-  #navi{position:absolute; right: 0;top:0;z-index: 9999; ;background-color: white; width: 180px;margin-top: 55px;border-left: 1px solid #d8d8d8; border-bottom: 1px solid #d8d8d8;
+  #navi{position:absolute; right: 0;top: 55px;z-index: 9999; ;background-color: white; width: 180px;border-left: 1px solid #d8d8d8; border-bottom: 1px solid #d8d8d8;
     .naviMenu_1{margin: 0 12px 0 12px}
     .naviMenu_1 li{height: 44px; border-bottom: 1px solid #efefef; line-height: 44px;
       a{font-size: 14px;margin-left: 10px;
