@@ -1,9 +1,11 @@
 # html, css, sass, javascript, jquery 활용
-자세한 설명은 해당 폴더 markdown에 기재되어 있습니다.
+자세한 설명은 해당 폴더 markdown에 기재되어 있으며, 모든 코드는 codepen에 저장 되어 있습니다.
+
+codepen URL : (http://codepen.io/GalGalE/pens/public/)
 
 ## 웹페이지제작 폴더 tvcast, mailstory, jiransecurity, samsunghotel
 1. tvcast : 네이버TVCAST codepen URL:(http://codepen.io/GalGalE/pen/VPVgap)
-    1. 반응형웹 : width : 1024px 이하일때 페이지 변동
+    1. 반응형웹 : width : 1024px, width : 640px 이하일 때 페이지 변동
 
 2. jiransecurity : 지란지교시큐리티 codepen URL:(http://codepen.io/GalGalE/pen/LxBNbB)
     1. 반응형웹 : width : 740px 이하일때 페이지 변동
