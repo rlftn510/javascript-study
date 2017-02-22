@@ -2018,7 +2018,7 @@
         background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/footerNaverLogo.png") no-repeat; }
     footer .footerSecondText {
       margin-top: 10px; } }
-@media all and (max-width: 1023px) {
+@media all and (max-width: 1023px) and (min-width: 641px) {
   #header {
     position: fixed;
     top: 0;
@@ -4019,6 +4019,2005 @@
         footer .footerList li a {
           font-size: 12px;
           font-weight: bold; }
+    footer p {
+      font-size: 10px;
+      color: #8f8f8f; }
+      footer p strong {
+        color: #8f8f8f; }
+      footer p .naverIcon {
+        display: inline-block;
+        margin-right: 12px;
+        width: 63px;
+        height: 11px;
+        background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/footerNaverLogo.png") no-repeat; }
+    footer .footerSecondText {
+      margin-top: 10px; } }
+@media all and (max-width: 640px) {
+  #header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999999;
+    height: 55px;
+    width: 100%; }
+    #header .headerBg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #06d87d;
+      opacity: 0.9;
+      background-image: linear-gradient(to right, #06db77 0, #0fc3bd 50%, #14b9dc 100%); }
+      #header .headerBg:after {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 253px;
+        height: 55px;
+        content: "";
+        display: block;
+        background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/bg_header.png") 100% 0 no-repeat; }
+    #header #mainLogo {
+      position: absolute;
+      top: 14px;
+      left: 20px;
+      display: block;
+      width: 151px;
+      height: 26px;
+      background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat 0 0; }
+    #header input {
+      float: left;
+      width: 230px;
+      height: 36px;
+      border: 0; }
+    #header #dropBtn {
+      float: left;
+      display: block;
+      width: 20px;
+      height: 36px;
+      text-align: center; }
+      #header #dropBtn img {
+        margin-top: 17px; }
+    #header #search {
+      float: left;
+      display: block;
+      width: 36px;
+      height: 36px;
+      background-color: #0aac8e; }
+      #header #search .searchIcon {
+        display: block;
+        width: 20px;
+        height: 20px;
+        background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -5px -62px;
+        margin-left: 6px;
+        margin-top: 7px; }
+
+  #searchBox {
+    position: absolute;
+    width: 286px;
+    left: 194px;
+    height: 36px;
+    top: 10px;
+    background: white;
+    border: 1px solid #0aa286; }
+
+  #header #upSec {
+    display: none; }
+
+  #header #login {
+    position: absolute;
+    right: 78px;
+    top: 15px;
+    width: 55px;
+    height: 25px;
+    border: 1px solid #0aa286;
+    font-size: 12px;
+    text-align: center;
+    line-height: 25px;
+    color: white; }
+
+  #header #plusMenu {
+    position: absolute;
+    display: block;
+    right: 0;
+    width: 57px;
+    height: 55px;
+    text-align: center;
+    border-left: 1px solid #0aa286;
+    border-right: 1px solid #0aa286;
+    line-height: 55px; }
+
+  #container:after {
+    display: block;
+    clear: both;
+    content: ""; }
+
+  #navi {
+    position: absolute;
+    left: -180px;
+    width: 180px;
+    height: 2450px;
+    margin-top: 55px;
+    border-right: 1px solid #d8d8d8; }
+    #navi .naviMenu_1 {
+      margin: 0 12px 0 12px; }
+    #navi .naviMenu_1 li {
+      height: 44px;
+      border-bottom: 1px solid #efefef;
+      line-height: 44px; }
+      #navi .naviMenu_1 li a {
+        font-size: 14px;
+        margin-left: 10px; }
+        #navi .naviMenu_1 li a:hover {
+          color: #7d7e81; }
+    #navi #tema {
+      position: relative;
+      margin-top: 16px;
+      font-size: 14px;
+      border-bottom: 1px solid #d8d8d8;
+      padding-bottom: 12px; }
+      #navi #tema .temaTitle {
+        margin-left: 22px; }
+        #navi #tema .temaTitle .newIcon {
+          display: block;
+          float: right;
+          margin-right: 112px;
+          margin-top: 2px;
+          width: 7px;
+          height: 9px;
+          background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_aside.png") no-repeat 0 0; }
+      #navi #tema #temaClose {
+        position: absolute;
+        font-size: 12px;
+        color: #a0a0a0;
+        right: 10px; }
+        #navi #tema #temaClose div {
+          display: block;
+          float: right;
+          margin-top: 2px;
+          margin-left: 4px;
+          width: 9px;
+          height: 6px;
+          background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_aside.png") no-repeat -50px 0; }
+      #navi #tema #temaList {
+        font-size: 12px;
+        margin-left: 26px;
+        padding-bottom: 26px;
+        display: block; }
+        #navi #tema #temaList li {
+          margin-top: 12px; }
+          #navi #tema #temaList li a {
+            color: #444; }
+    #navi #mychannel {
+      border-bottom: 1px solid #d8d8d8;
+      font-size: 12px;
+      padding-bottom: 25px; }
+      #navi #mychannel .myTitle {
+        margin-left: 22px;
+        color: #a0a4a7;
+        margin-top: 26px; }
+      #navi #mychannel .myText {
+        margin-top: 28px;
+        color: #6b6b6b;
+        margin-left: 20px;
+        line-height: 20px; }
+        #navi #mychannel .myText span {
+          color: #07bc88; }
+      #navi #mychannel .channelSearch {
+        display: block;
+        width: 107px;
+        margin-left: 20px;
+        margin-top: 12px;
+        height: 25px;
+        border: 1px solid #d8d8d8;
+        border-radius: 5px;
+        line-height: 27px;
+        text-align: center; }
+        #navi #mychannel .channelSearch span {
+          color: #8d8d8d;
+          font-size: 11px; }
+    #navi #broadcast {
+      border-bottom: 1px solid #d8d8d8; }
+      #navi #broadcast .broadTitle {
+        font-size: 12px;
+        margin-left: 22px;
+        color: #a0a4a7;
+        margin-top: 18px; }
+      #navi #broadcast ul {
+        width: 150px;
+        overflow: hidden;
+        margin-left: 13px;
+        margin-top: 20px; }
+        #navi #broadcast ul li {
+          width: 50px;
+          float: left; }
+          #navi #broadcast ul li a {
+            display: block;
+            width: 50px;
+            height: 33px; }
+          #navi #broadcast ul li #cast1 {
+            background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_bi7.png") no-repeat -288px -755px; }
+          #navi #broadcast ul li #cast2 {
+            background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_bi7.png") no-repeat -288px -635px; }
+          #navi #broadcast ul li #cast3 {
+            background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_bi7.png") no-repeat -288px -995px; }
+          #navi #broadcast ul li #cast4 {
+            background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_bi7.png") no-repeat -288px -275px; }
+          #navi #broadcast ul li #cast5 {
+            background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_bi7.png") no-repeat -288px -35px; }
+          #navi #broadcast ul li #cast6 {
+            background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_bi7.png") no-repeat -288px -396px; }
+          #navi #broadcast ul li #cast7 {
+            background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_bi7.png") no-repeat -288px -515px; }
+          #navi #broadcast ul li #cast8 {
+            background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_bi7.png") no-repeat -288px -875px; }
+          #navi #broadcast ul li #cast9 {
+            background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_bi7.png") no-repeat -288px -155px; }
+      #navi #broadcast .tving {
+        display: block;
+        font-size: 12px;
+        width: 136px;
+        border-top: 1px solid #d8d8d8;
+        padding-top: 18px;
+        margin-left: 20px;
+        padding-bottom: 25px; }
+    #navi #bottomList ul {
+      margin-top: 30px;
+      margin-left: 22px; }
+      #navi #bottomList ul .nstore {
+        display: block;
+        float: right;
+        margin-right: 90px;
+        margin-top: 4px;
+        width: 11px;
+        height: 11px;
+        background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_aside.png") no-repeat -75px 0;
+        margin-left: 4px; }
+      #navi #bottomList ul li {
+        margin-top: 20px; }
+        #navi #bottomList ul li:first-child {
+          margin-top: 0; }
+        #navi #bottomList ul li a {
+          font-size: 14px; }
+          #navi #bottomList ul li a:hover {
+            color: #7d7e81; }
+    #navi #adSec {
+      display: block;
+      margin-top: 30px;
+      margin-left: 20px;
+      padding-bottom: 100px; }
+    #navi #menuControl {
+      position: fixed;
+      top: 66px;
+      left: 0;
+      display: block;
+      width: 64px;
+      height: 38px;
+      background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_aside.png") no-repeat -31px -21px; }
+
+  #contents {
+    padding-top: 85px;
+    width: 640px;
+    overflow: hidden; }
+    #contents > div {
+      width: 493px;
+      margin: 40px auto 0 auto; }
+
+  #mainLayout {
+    height: 561px;
+    overflow: hidden; }
+    #mainLayout:after {
+      display: block;
+      clear: both;
+      content: ""; }
+    #mainLayout .leftLayout .subLayout_1 {
+      position: relative;
+      width: 489px;
+      height: 339px;
+      overflow: hidden; }
+      #mainLayout .leftLayout .subLayout_1 .graBg {
+        position: absolute;
+        bottom: -40px;
+        display: block;
+        width: 100%;
+        height: 187px;
+        background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/graBg.png"); }
+        #mainLayout .leftLayout .subLayout_1 .graBg:hover {
+          bottom: 0; }
+        #mainLayout .leftLayout .subLayout_1 .graBg p {
+          margin-left: 30px;
+          margin-top: 80px; }
+        #mainLayout .leftLayout .subLayout_1 .graBg .mainTitle {
+          color: white;
+          font-size: 12px; }
+        #mainLayout .leftLayout .subLayout_1 .graBg .subTitle {
+          color: white;
+          font-size: 20px;
+          font-weight: bold;
+          margin-top: 10px; }
+          #mainLayout .leftLayout .subLayout_1 .graBg .subTitle .timeText {
+            font-size: 13px;
+            color: #8d8d8d;
+            font-weight: normal;
+            margin-left: 6px; }
+        #mainLayout .leftLayout .subLayout_1 .graBg .upSec {
+          overflow: hidden;
+          margin-top: 20px; }
+          #mainLayout .leftLayout .subLayout_1 .graBg .upSec span {
+            float: left; }
+          #mainLayout .leftLayout .subLayout_1 .graBg .upSec .playIcon {
+            display: block;
+            width: 11px;
+            height: 13px;
+            background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -111px -345px; }
+          #mainLayout .leftLayout .subLayout_1 .graBg .upSec .playNum {
+            font-size: 14px;
+            font-weight: bold;
+            color: white;
+            margin-left: 4px;
+            line-height: 14px; }
+          #mainLayout .leftLayout .subLayout_1 .graBg .upSec .likeIcon {
+            display: block;
+            width: 14px;
+            height: 13px;
+            background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -131px -345px;
+            margin-left: 12px; }
+          #mainLayout .leftLayout .subLayout_1 .graBg .upSec .likeNum {
+            font-size: 14px;
+            color: whitesmoke;
+            font-weight: bold;
+            margin-left: 4px;
+            line-height: 14px; }
+    #mainLayout .leftLayout .subLayout_2 {
+      position: relative;
+      width: 489px;
+      height: 110px;
+      border-top: 1px solid black;
+      background-color: #2b2b2b; }
+      #mainLayout .leftLayout .subLayout_2after {
+        display: block;
+        clear: both;
+        content: ""; }
+      #mainLayout .leftLayout .subLayout_2 .descriptionSec_1 {
+        float: left;
+        margin-left: 30px;
+        width: 220px; }
+        #mainLayout .leftLayout .subLayout_2 .descriptionSec_1 .mainTitle {
+          color: #7baeef;
+          font-size: 12px;
+          margin-top: 20px; }
+        #mainLayout .leftLayout .subLayout_2 .descriptionSec_1 .subTitle {
+          color: whitesmoke;
+          font-size: 14px;
+          font-weight: bold;
+          margin-top: 10px; }
+          #mainLayout .leftLayout .subLayout_2 .descriptionSec_1 .subTitle .timeText {
+            font-size: 13px;
+            color: #8d8d8d;
+            font-weight: normal;
+            margin-left: 6px; }
+      #mainLayout .leftLayout .subLayout_2 .boyfriendImg {
+        position: absolute;
+        top: 0;
+        right: 0; }
+    #mainLayout .leftLayout .subLayout_3 {
+      position: relative;
+      width: 489px;
+      height: 110px;
+      border-top: 1px solid black;
+      background-color: #2b2b2b; }
+      #mainLayout .leftLayout .subLayout_3after {
+        display: block;
+        clear: both;
+        content: ""; }
+      #mainLayout .leftLayout .subLayout_3 .descriptionSec_2 {
+        float: left;
+        margin-left: 30px;
+        width: 220px; }
+        #mainLayout .leftLayout .subLayout_3 .descriptionSec_2 .mainTitle {
+          color: #7baeef;
+          font-size: 12px;
+          margin-top: 20px; }
+        #mainLayout .leftLayout .subLayout_3 .descriptionSec_2 .subTitle {
+          color: whitesmoke;
+          font-size: 14px;
+          font-weight: bold;
+          margin-top: 10px; }
+          #mainLayout .leftLayout .subLayout_3 .descriptionSec_2 .subTitle .timeText {
+            font-size: 13px;
+            color: #8d8d8d;
+            font-weight: normal;
+            margin-left: 6px; }
+      #mainLayout .leftLayout .subLayout_3 .washingImg {
+        position: absolute;
+        top: 0;
+        right: 0; }
+    #mainLayout .midLayout {
+      display: none;
+      float: left;
+      border-right: 2px solid black; }
+      #mainLayout .midLayout .subLayout_1 {
+        position: relative;
+        width: 519px;
+        height: 280px;
+        overflow: hidden; }
+        #mainLayout .midLayout .subLayout_1 .graBg {
+          position: absolute;
+          bottom: -40px;
+          display: block;
+          width: 100%;
+          height: 187px;
+          background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/graBg.png"); }
+          #mainLayout .midLayout .subLayout_1 .graBg:hover {
+            bottom: 0; }
+          #mainLayout .midLayout .subLayout_1 .graBg p {
+            margin-left: 30px;
+            margin-top: 80px; }
+          #mainLayout .midLayout .subLayout_1 .graBg .mainTitle {
+            color: white;
+            font-size: 12px; }
+          #mainLayout .midLayout .subLayout_1 .graBg .subTitle {
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 10px; }
+            #mainLayout .midLayout .subLayout_1 .graBg .subTitle .timeText {
+              font-size: 13px;
+              color: #8d8d8d;
+              font-weight: normal;
+              margin-left: 6px; }
+          #mainLayout .midLayout .subLayout_1 .graBg .upSec {
+            overflow: hidden;
+            margin-top: 20px; }
+            #mainLayout .midLayout .subLayout_1 .graBg .upSec span {
+              float: left; }
+            #mainLayout .midLayout .subLayout_1 .graBg .upSec .playIcon {
+              display: block;
+              width: 11px;
+              height: 13px;
+              background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -111px -345px; }
+            #mainLayout .midLayout .subLayout_1 .graBg .upSec .playNum {
+              font-size: 14px;
+              font-weight: bold;
+              color: white;
+              margin-left: 4px;
+              line-height: 14px; }
+            #mainLayout .midLayout .subLayout_1 .graBg .upSec .likeIcon {
+              display: block;
+              width: 14px;
+              height: 13px;
+              background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -131px -345px;
+              margin-left: 12px; }
+            #mainLayout .midLayout .subLayout_1 .graBg .upSec .likeNum {
+              font-size: 14px;
+              color: whitesmoke;
+              font-weight: bold;
+              margin-left: 4px;
+              line-height: 14px; }
+      #mainLayout .midLayout .subLayout_2 {
+        position: relative;
+        width: 519px;
+        height: 280px;
+        overflow: hidden;
+        border-top: 1px solid black; }
+        #mainLayout .midLayout .subLayout_2 .graBg {
+          position: absolute;
+          bottom: -40px;
+          display: block;
+          width: 100%;
+          height: 187px;
+          background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/graBg.png"); }
+          #mainLayout .midLayout .subLayout_2 .graBg:hover {
+            bottom: 0; }
+          #mainLayout .midLayout .subLayout_2 .graBg p {
+            margin-left: 30px;
+            margin-top: 80px; }
+          #mainLayout .midLayout .subLayout_2 .graBg .mainTitle {
+            color: white;
+            font-size: 12px; }
+          #mainLayout .midLayout .subLayout_2 .graBg .subTitle {
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 10px; }
+            #mainLayout .midLayout .subLayout_2 .graBg .subTitle .timeText {
+              font-size: 13px;
+              color: #8d8d8d;
+              font-weight: normal;
+              margin-left: 6px; }
+          #mainLayout .midLayout .subLayout_2 .graBg .upSec {
+            overflow: hidden;
+            margin-top: 20px; }
+            #mainLayout .midLayout .subLayout_2 .graBg .upSec span {
+              float: left; }
+            #mainLayout .midLayout .subLayout_2 .graBg .upSec .playIcon {
+              display: block;
+              width: 11px;
+              height: 13px;
+              background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -111px -345px; }
+            #mainLayout .midLayout .subLayout_2 .graBg .upSec .playNum {
+              font-size: 14px;
+              font-weight: bold;
+              color: white;
+              margin-left: 4px;
+              line-height: 14px; }
+            #mainLayout .midLayout .subLayout_2 .graBg .upSec .likeIcon {
+              display: block;
+              width: 14px;
+              height: 13px;
+              background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -131px -345px;
+              margin-left: 12px; }
+            #mainLayout .midLayout .subLayout_2 .graBg .upSec .likeNum {
+              font-size: 14px;
+              color: whitesmoke;
+              font-weight: bold;
+              margin-left: 4px;
+              line-height: 14px; }
+    #mainLayout .rightLayout {
+      display: none;
+      float: left; }
+      #mainLayout .rightLayout .subLayout_1 {
+        position: relative;
+        width: 236px;
+        height: 125px;
+        overflow: hidden;
+        border-bottom: 2px solid black; }
+        #mainLayout .rightLayout .subLayout_1 .graBg {
+          position: absolute;
+          bottom: -30px;
+          display: block;
+          width: 100%;
+          height: 187px;
+          background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/graBg.png"); }
+          #mainLayout .rightLayout .subLayout_1 .graBg:hover {
+            bottom: 0; }
+          #mainLayout .rightLayout .subLayout_1 .graBg p {
+            margin-left: 20px;
+            margin-top: 80px; }
+          #mainLayout .rightLayout .subLayout_1 .graBg .mainTitle {
+            color: white;
+            font-size: 12px; }
+          #mainLayout .rightLayout .subLayout_1 .graBg .subTitle {
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 10px; }
+            #mainLayout .rightLayout .subLayout_1 .graBg .subTitle .timeText {
+              font-size: 13px;
+              color: #8d8d8d;
+              font-weight: normal;
+              margin-left: 6px; }
+          #mainLayout .rightLayout .subLayout_1 .graBg .upSec {
+            overflow: hidden;
+            margin-top: 20px; }
+            #mainLayout .rightLayout .subLayout_1 .graBg .upSec span {
+              float: left; }
+            #mainLayout .rightLayout .subLayout_1 .graBg .upSec .playIcon {
+              display: block;
+              width: 11px;
+              height: 13px;
+              background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -111px -345px; }
+            #mainLayout .rightLayout .subLayout_1 .graBg .upSec .playNum {
+              font-size: 14px;
+              font-weight: bold;
+              color: white;
+              margin-left: 4px;
+              line-height: 14px; }
+            #mainLayout .rightLayout .subLayout_1 .graBg .upSec .likeIcon {
+              display: block;
+              width: 14px;
+              height: 13px;
+              background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -131px -345px;
+              margin-left: 12px; }
+            #mainLayout .rightLayout .subLayout_1 .graBg .upSec .likeNum {
+              font-size: 14px;
+              color: whitesmoke;
+              font-weight: bold;
+              margin-left: 4px;
+              line-height: 14px; }
+      #mainLayout .rightLayout .subLayout_2 {
+        position: relative;
+        width: 236px;
+        height: 126px;
+        overflow: hidden;
+        border-bottom: 2px solid black; }
+        #mainLayout .rightLayout .subLayout_2 .graBg {
+          position: absolute;
+          bottom: -30px;
+          display: block;
+          width: 100%;
+          height: 187px;
+          background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/graBg.png"); }
+          #mainLayout .rightLayout .subLayout_2 .graBg:hover {
+            bottom: 0; }
+          #mainLayout .rightLayout .subLayout_2 .graBg p {
+            margin-left: 20px;
+            margin-top: 80px; }
+          #mainLayout .rightLayout .subLayout_2 .graBg .mainTitle {
+            color: white;
+            font-size: 12px; }
+          #mainLayout .rightLayout .subLayout_2 .graBg .subTitle {
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 10px; }
+            #mainLayout .rightLayout .subLayout_2 .graBg .subTitle .timeText {
+              font-size: 13px;
+              color: #8d8d8d;
+              font-weight: normal;
+              margin-left: 6px; }
+          #mainLayout .rightLayout .subLayout_2 .graBg .upSec {
+            overflow: hidden;
+            margin-top: 20px; }
+            #mainLayout .rightLayout .subLayout_2 .graBg .upSec span {
+              float: left; }
+            #mainLayout .rightLayout .subLayout_2 .graBg .upSec .playIcon {
+              display: block;
+              width: 11px;
+              height: 13px;
+              background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -111px -345px; }
+            #mainLayout .rightLayout .subLayout_2 .graBg .upSec .playNum {
+              font-size: 14px;
+              font-weight: bold;
+              color: white;
+              margin-left: 4px;
+              line-height: 14px; }
+            #mainLayout .rightLayout .subLayout_2 .graBg .upSec .likeIcon {
+              display: block;
+              width: 14px;
+              height: 13px;
+              background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -131px -345px;
+              margin-left: 12px; }
+            #mainLayout .rightLayout .subLayout_2 .graBg .upSec .likeNum {
+              font-size: 14px;
+              color: whitesmoke;
+              font-weight: bold;
+              margin-left: 4px;
+              line-height: 14px; }
+      #mainLayout .rightLayout .subLayout_3 {
+        display: block;
+        position: relative; }
+        #mainLayout .rightLayout .subLayout_3 .bgImg {
+          display: block;
+          background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/rigthImg_3.JPG");
+          height: 308px;
+          text-align: center; }
+          #mainLayout .rightLayout .subLayout_3 .bgImg .girlface {
+            margin: 0 auto;
+            margin-top: 68px; }
+          #mainLayout .rightLayout .subLayout_3 .bgImg .mainTitle {
+            margin-top: 25px;
+            font-size: 20px;
+            color: white;
+            font-weight: bold; }
+          #mainLayout .rightLayout .subLayout_3 .bgImg .subTitle {
+            margin-top: 20px;
+            color: whitesmoke; }
+
+  #famousVideo {
+    position: relative;
+    margin-top: 50px; }
+    #famousVideo .mainTitle {
+      font-size: 20px;
+      line-height: 28px; }
+      #famousVideo .mainTitle .famousIcon {
+        float: left;
+        display: block;
+        width: 42px;
+        height: 28px;
+        margin-right: 10px;
+        background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat 0 -736px; }
+    #famousVideo .videoList {
+      overflow: hidden;
+      width: 490px;
+      margin: 0 auto; }
+      #famousVideo .videoList .videoList_1 {
+        float: left;
+        margin-top: 10px;
+        padding-right: 18px; }
+        #famousVideo .videoList .videoList_1:first-child {
+          padding-left: 0; }
+        #famousVideo .videoList .videoList_1 .topInfo_1 {
+          position: relative;
+          display: block;
+          width: 236px;
+          height: 133px; }
+          #famousVideo .videoList .videoList_1 .topInfo_1:hover .timeInfo {
+            width: 39px;
+            height: 39px;
+            font-size: 0;
+            background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -7px -607px; }
+          #famousVideo .videoList .videoList_1 .topInfo_1 .timeInfo {
+            position: absolute;
+            display: block;
+            width: 35px;
+            height: 16px;
+            bottom: 4px;
+            right: 4px;
+            color: white;
+            font-size: 12px;
+            text-align: center;
+            line-height: 16px;
+            background-color: black; }
+        #famousVideo .videoList .videoList_1 .bottomInfo_1 {
+          margin-top: 18px; }
+          #famousVideo .videoList .videoList_1 .bottomInfo_1 .rankSec {
+            position: relative;
+            float: left;
+            width: 48px;
+            height: 72px; }
+            #famousVideo .videoList .videoList_1 .bottomInfo_1 .rankSec .rankNum {
+              display: block;
+              margin-left: 2px;
+              width: 8px;
+              height: 35px;
+              background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_top_num.png") no-repeat -3px 0; }
+            #famousVideo .videoList .videoList_1 .bottomInfo_1 .rankSec .updownNum {
+              position: absolute;
+              bottom: 0;
+              font-size: 15px;
+              color: red;
+              width: 30px;
+              display: block; }
+              #famousVideo .videoList .videoList_1 .bottomInfo_1 .rankSec .updownNum .updownIcon {
+                display: inline-block;
+                margin-right: 4px;
+                width: 7px;
+                height: 11px;
+                background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat 0 -504px; }
+          #famousVideo .videoList .videoList_1 .bottomInfo_1 .bottomDes_1 {
+            position: relative;
+            float: left;
+            height: 72px; }
+            #famousVideo .videoList .videoList_1 .bottomInfo_1 .bottomDes_1 .bottomMainTitle {
+              color: black;
+              display: block;
+              font-size: 13px;
+              width: 180px; }
+            #famousVideo .videoList .videoList_1 .bottomInfo_1 .bottomDes_1 .bottomSubTitle {
+              display: inline-block;
+              color: #7ba7df;
+              font-size: 12px;
+              margin-top: 8px; }
+              #famousVideo .videoList .videoList_1 .bottomInfo_1 .bottomDes_1 .bottomSubTitle:hover {
+                color: #a1a1a1; }
+            #famousVideo .videoList .videoList_1 .bottomInfo_1 .bottomDes_1 .upSec {
+              position: absolute;
+              bottom: 1px;
+              overflow: hidden;
+              display: block; }
+              #famousVideo .videoList .videoList_1 .bottomInfo_1 .bottomDes_1 .upSec span {
+                float: left;
+                margin-top: 10px; }
+              #famousVideo .videoList .videoList_1 .bottomInfo_1 .bottomDes_1 .upSec .playIcon {
+                display: block;
+                width: 7px;
+                height: 9px;
+                background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -22px -92px; }
+              #famousVideo .videoList .videoList_1 .bottomInfo_1 .bottomDes_1 .upSec .playNum {
+                font-size: 12px;
+                font-weight: bold;
+                color: #797979;
+                margin-left: 4px;
+                line-height: 9px; }
+              #famousVideo .videoList .videoList_1 .bottomInfo_1 .bottomDes_1 .upSec .likeIcon {
+                display: block;
+                width: 11px;
+                height: 10px;
+                background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -22px -112px;
+                margin-left: 12px; }
+              #famousVideo .videoList .videoList_1 .bottomInfo_1 .bottomDes_1 .upSec .likeNum {
+                font-size: 12px;
+                color: #797979;
+                font-weight: bold;
+                margin-left: 4px;
+                line-height: 10px; }
+      #famousVideo .videoList .videoList_2 {
+        float: left;
+        margin-top: 10px; }
+        #famousVideo .videoList .videoList_2:first-child {
+          padding-left: 0; }
+        #famousVideo .videoList .videoList_2 .topInfo_2 {
+          position: relative;
+          display: block;
+          width: 236px;
+          height: 133px; }
+          #famousVideo .videoList .videoList_2 .topInfo_2:hover .timeInfo {
+            width: 39px;
+            height: 39px;
+            font-size: 0;
+            background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -7px -607px; }
+          #famousVideo .videoList .videoList_2 .topInfo_2 .timeInfo {
+            position: absolute;
+            display: block;
+            width: 35px;
+            height: 16px;
+            bottom: 4px;
+            right: 4px;
+            color: white;
+            font-size: 12px;
+            text-align: center;
+            line-height: 16px;
+            background-color: black; }
+        #famousVideo .videoList .videoList_2 .bottomInfo_2 {
+          margin-top: 18px; }
+          #famousVideo .videoList .videoList_2 .bottomInfo_2 .rankSec {
+            position: relative;
+            float: left;
+            width: 48px;
+            height: 72px; }
+            #famousVideo .videoList .videoList_2 .bottomInfo_2 .rankSec .rankNum {
+              display: block;
+              margin-left: 2px;
+              width: 20px;
+              height: 35px;
+              background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_top_num.png") no-repeat -48px 0; }
+            #famousVideo .videoList .videoList_2 .bottomInfo_2 .rankSec .updownNum {
+              position: absolute;
+              bottom: 0;
+              font-size: 15px;
+              color: #1996ff;
+              width: 30px;
+              display: block; }
+              #famousVideo .videoList .videoList_2 .bottomInfo_2 .rankSec .updownNum .updownIcon {
+                display: inline-block;
+                margin-right: 4px;
+                width: 7px;
+                height: 11px;
+                background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -37px -504px; }
+          #famousVideo .videoList .videoList_2 .bottomInfo_2 .bottomDes_2 {
+            position: relative;
+            float: left;
+            height: 72px; }
+            #famousVideo .videoList .videoList_2 .bottomInfo_2 .bottomDes_2 .bottomMainTitle {
+              color: black;
+              display: block;
+              font-size: 13px;
+              width: 180px; }
+            #famousVideo .videoList .videoList_2 .bottomInfo_2 .bottomDes_2 .bottomSubTitle {
+              display: inline-block;
+              color: #7ba7df;
+              font-size: 12px;
+              margin-top: 8px; }
+              #famousVideo .videoList .videoList_2 .bottomInfo_2 .bottomDes_2 .bottomSubTitle:hover {
+                color: #a1a1a1; }
+            #famousVideo .videoList .videoList_2 .bottomInfo_2 .bottomDes_2 .upSec {
+              position: absolute;
+              bottom: 1px;
+              overflow: hidden;
+              display: block; }
+              #famousVideo .videoList .videoList_2 .bottomInfo_2 .bottomDes_2 .upSec span {
+                float: left;
+                margin-top: 10px; }
+              #famousVideo .videoList .videoList_2 .bottomInfo_2 .bottomDes_2 .upSec .playIcon {
+                display: block;
+                width: 7px;
+                height: 9px;
+                background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -22px -92px; }
+              #famousVideo .videoList .videoList_2 .bottomInfo_2 .bottomDes_2 .upSec .playNum {
+                font-size: 12px;
+                font-weight: bold;
+                color: #797979;
+                margin-left: 4px;
+                line-height: 9px; }
+              #famousVideo .videoList .videoList_2 .bottomInfo_2 .bottomDes_2 .upSec .likeIcon {
+                display: block;
+                width: 11px;
+                height: 10px;
+                background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -22px -112px;
+                margin-left: 12px; }
+              #famousVideo .videoList .videoList_2 .bottomInfo_2 .bottomDes_2 .upSec .likeNum {
+                font-size: 12px;
+                color: #797979;
+                font-weight: bold;
+                margin-left: 4px;
+                line-height: 10px; }
+      #famousVideo .videoList .videoList_3 {
+        float: left;
+        margin-top: 10px;
+        padding-right: 18px; }
+        #famousVideo .videoList .videoList_3:first-child {
+          padding-left: 0; }
+        #famousVideo .videoList .videoList_3 .topInfo_3 {
+          position: relative;
+          display: block;
+          width: 236px;
+          height: 133px; }
+          #famousVideo .videoList .videoList_3 .topInfo_3:hover .timeInfo {
+            width: 39px;
+            height: 39px;
+            font-size: 0;
+            background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -7px -607px; }
+          #famousVideo .videoList .videoList_3 .topInfo_3 .timeInfo {
+            position: absolute;
+            display: block;
+            width: 35px;
+            height: 16px;
+            bottom: 4px;
+            right: 4px;
+            color: white;
+            font-size: 12px;
+            text-align: center;
+            line-height: 16px;
+            background-color: black; }
+        #famousVideo .videoList .videoList_3 .bottomInfo_3 {
+          margin-top: 18px; }
+          #famousVideo .videoList .videoList_3 .bottomInfo_3 .rankSec {
+            position: relative;
+            float: left;
+            width: 48px;
+            height: 72px; }
+            #famousVideo .videoList .videoList_3 .bottomInfo_3 .rankSec .rankNum {
+              display: block;
+              margin-left: 2px;
+              width: 20px;
+              height: 35px;
+              background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_top_num.png") no-repeat -90px 0; }
+            #famousVideo .videoList .videoList_3 .bottomInfo_3 .rankSec .updownNum {
+              position: absolute;
+              left: 8px;
+              bottom: 0;
+              font-size: 15px;
+              width: 30px;
+              display: block; }
+              #famousVideo .videoList .videoList_3 .bottomInfo_3 .rankSec .updownNum .updownIcon {
+                display: inline-block;
+                margin-right: 4px;
+                width: 11px;
+                height: 2px;
+                background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -74px -509px; }
+          #famousVideo .videoList .videoList_3 .bottomInfo_3 .bottomDes_3 {
+            position: relative;
+            float: left;
+            height: 72px; }
+            #famousVideo .videoList .videoList_3 .bottomInfo_3 .bottomDes_3 .bottomMainTitle {
+              color: black;
+              display: block;
+              font-size: 13px;
+              width: 180px; }
+            #famousVideo .videoList .videoList_3 .bottomInfo_3 .bottomDes_3 .bottomSubTitle {
+              display: inline-block;
+              color: #7ba7df;
+              font-size: 12px;
+              margin-top: 8px; }
+              #famousVideo .videoList .videoList_3 .bottomInfo_3 .bottomDes_3 .bottomSubTitle:hover {
+                color: #a1a1a1; }
+            #famousVideo .videoList .videoList_3 .bottomInfo_3 .bottomDes_3 .upSec {
+              position: absolute;
+              bottom: 1px;
+              overflow: hidden;
+              display: block; }
+              #famousVideo .videoList .videoList_3 .bottomInfo_3 .bottomDes_3 .upSec span {
+                float: left;
+                margin-top: 10px; }
+              #famousVideo .videoList .videoList_3 .bottomInfo_3 .bottomDes_3 .upSec .playIcon {
+                display: block;
+                width: 7px;
+                height: 9px;
+                background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -22px -92px; }
+              #famousVideo .videoList .videoList_3 .bottomInfo_3 .bottomDes_3 .upSec .playNum {
+                font-size: 12px;
+                font-weight: bold;
+                color: #797979;
+                margin-left: 4px;
+                line-height: 9px; }
+              #famousVideo .videoList .videoList_3 .bottomInfo_3 .bottomDes_3 .upSec .likeIcon {
+                display: block;
+                width: 11px;
+                height: 10px;
+                background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -22px -112px;
+                margin-left: 12px; }
+              #famousVideo .videoList .videoList_3 .bottomInfo_3 .bottomDes_3 .upSec .likeNum {
+                font-size: 12px;
+                color: #797979;
+                font-weight: bold;
+                margin-left: 4px;
+                line-height: 10px; }
+      #famousVideo .videoList .videoList_4 {
+        float: left;
+        margin-top: 10px; }
+        #famousVideo .videoList .videoList_4:first-child {
+          padding-left: 0; }
+        #famousVideo .videoList .videoList_4 .topInfo_4 {
+          position: relative;
+          display: block;
+          width: 236px;
+          height: 133px; }
+          #famousVideo .videoList .videoList_4 .topInfo_4:hover .timeInfo {
+            width: 39px;
+            height: 39px;
+            font-size: 0;
+            background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -7px -607px; }
+          #famousVideo .videoList .videoList_4 .topInfo_4 .timeInfo {
+            position: absolute;
+            display: block;
+            width: 35px;
+            height: 16px;
+            bottom: 4px;
+            right: 4px;
+            color: white;
+            font-size: 12px;
+            text-align: center;
+            line-height: 16px;
+            background-color: black; }
+        #famousVideo .videoList .videoList_4 .bottomInfo_4 {
+          margin-top: 18px; }
+          #famousVideo .videoList .videoList_4 .bottomInfo_4 .rankSec {
+            position: relative;
+            float: left;
+            width: 48px;
+            height: 72px; }
+            #famousVideo .videoList .videoList_4 .bottomInfo_4 .rankSec .rankNum {
+              display: block;
+              margin-left: 2px;
+              width: 20px;
+              height: 35px;
+              background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_top_num.png") no-repeat -132px 0; }
+            #famousVideo .videoList .videoList_4 .bottomInfo_4 .rankSec .updownNum {
+              position: absolute;
+              bottom: 0;
+              font-size: 15px;
+              color: red;
+              width: 30px;
+              display: block; }
+              #famousVideo .videoList .videoList_4 .bottomInfo_4 .rankSec .updownNum .updownIcon {
+                display: inline-block;
+                margin-right: 4px;
+                width: 7px;
+                height: 11px;
+                background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat 0 -504px; }
+          #famousVideo .videoList .videoList_4 .bottomInfo_4 .bottomDes_4 {
+            position: relative;
+            float: left;
+            height: 72px; }
+            #famousVideo .videoList .videoList_4 .bottomInfo_4 .bottomDes_4 .bottomMainTitle {
+              color: black;
+              display: block;
+              font-size: 13px;
+              width: 180px; }
+            #famousVideo .videoList .videoList_4 .bottomInfo_4 .bottomDes_4 .bottomSubTitle {
+              display: inline-block;
+              color: #7ba7df;
+              font-size: 12px;
+              margin-top: 8px; }
+              #famousVideo .videoList .videoList_4 .bottomInfo_4 .bottomDes_4 .bottomSubTitle:hover {
+                color: #a1a1a1; }
+            #famousVideo .videoList .videoList_4 .bottomInfo_4 .bottomDes_4 .upSec {
+              position: absolute;
+              bottom: 1px;
+              overflow: hidden;
+              display: block; }
+              #famousVideo .videoList .videoList_4 .bottomInfo_4 .bottomDes_4 .upSec span {
+                float: left;
+                margin-top: 10px; }
+              #famousVideo .videoList .videoList_4 .bottomInfo_4 .bottomDes_4 .upSec .playIcon {
+                display: block;
+                width: 7px;
+                height: 9px;
+                background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -22px -92px; }
+              #famousVideo .videoList .videoList_4 .bottomInfo_4 .bottomDes_4 .upSec .playNum {
+                font-size: 12px;
+                font-weight: bold;
+                color: #797979;
+                margin-left: 4px;
+                line-height: 9px; }
+              #famousVideo .videoList .videoList_4 .bottomInfo_4 .bottomDes_4 .upSec .likeIcon {
+                display: block;
+                width: 11px;
+                height: 10px;
+                background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -22px -112px;
+                margin-left: 12px; }
+              #famousVideo .videoList .videoList_4 .bottomInfo_4 .bottomDes_4 .upSec .likeNum {
+                font-size: 12px;
+                color: #797979;
+                font-weight: bold;
+                margin-left: 4px;
+                line-height: 10px; }
+      #famousVideo .videoList .videoList_5 {
+        display: none;
+        float: left;
+        margin-top: 10px;
+        padding: 0 0 0 8px;
+        border-right: none; }
+        #famousVideo .videoList .videoList_5:first-child {
+          padding-left: 0; }
+        #famousVideo .videoList .videoList_5 .topInfo_5 {
+          position: relative;
+          display: block;
+          width: 236px;
+          height: 133px; }
+          #famousVideo .videoList .videoList_5 .topInfo_5:hover .timeInfo {
+            width: 39px;
+            height: 39px;
+            font-size: 0;
+            background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -7px -607px; }
+          #famousVideo .videoList .videoList_5 .topInfo_5 .timeInfo {
+            position: absolute;
+            display: block;
+            width: 35px;
+            height: 16px;
+            bottom: 4px;
+            right: 4px;
+            color: white;
+            font-size: 12px;
+            text-align: center;
+            line-height: 16px;
+            background-color: black; }
+        #famousVideo .videoList .videoList_5 .bottomInfo_5 {
+          margin-top: 18px; }
+          #famousVideo .videoList .videoList_5 .bottomInfo_5 .rankSec {
+            position: relative;
+            float: left;
+            width: 48px;
+            height: 72px; }
+            #famousVideo .videoList .videoList_5 .bottomInfo_5 .rankSec .rankNum {
+              display: block;
+              margin-left: 2px;
+              width: 20px;
+              height: 35px;
+              background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_top_num.png") no-repeat -174px 0; }
+            #famousVideo .videoList .videoList_5 .bottomInfo_5 .rankSec .updownNum {
+              position: absolute;
+              bottom: 0;
+              font-size: 15px;
+              color: red;
+              width: 30px;
+              display: block; }
+              #famousVideo .videoList .videoList_5 .bottomInfo_5 .rankSec .updownNum .updownIcon {
+                display: inline-block;
+                margin-right: 4px;
+                width: 7px;
+                height: 11px;
+                background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat 0 -504px; }
+          #famousVideo .videoList .videoList_5 .bottomInfo_5 .bottomDes_5 {
+            position: relative;
+            float: left;
+            height: 72px; }
+            #famousVideo .videoList .videoList_5 .bottomInfo_5 .bottomDes_5 .bottomMainTitle {
+              color: black;
+              display: block;
+              font-size: 13px;
+              width: 180px; }
+            #famousVideo .videoList .videoList_5 .bottomInfo_5 .bottomDes_5 .bottomSubTitle {
+              display: inline-block;
+              color: #7ba7df;
+              font-size: 12px;
+              margin-top: 8px; }
+              #famousVideo .videoList .videoList_5 .bottomInfo_5 .bottomDes_5 .bottomSubTitle:hover {
+                color: #a1a1a1; }
+            #famousVideo .videoList .videoList_5 .bottomInfo_5 .bottomDes_5 .upSec {
+              position: absolute;
+              bottom: 1px;
+              overflow: hidden;
+              display: block; }
+              #famousVideo .videoList .videoList_5 .bottomInfo_5 .bottomDes_5 .upSec span {
+                float: left;
+                margin-top: 10px; }
+              #famousVideo .videoList .videoList_5 .bottomInfo_5 .bottomDes_5 .upSec .playIcon {
+                display: block;
+                width: 7px;
+                height: 9px;
+                background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -22px -92px; }
+              #famousVideo .videoList .videoList_5 .bottomInfo_5 .bottomDes_5 .upSec .playNum {
+                font-size: 12px;
+                font-weight: bold;
+                color: #797979;
+                margin-left: 4px;
+                line-height: 9px; }
+              #famousVideo .videoList .videoList_5 .bottomInfo_5 .bottomDes_5 .upSec .likeIcon {
+                display: block;
+                width: 11px;
+                height: 10px;
+                background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -22px -112px;
+                margin-left: 12px; }
+              #famousVideo .videoList .videoList_5 .bottomInfo_5 .bottomDes_5 .upSec .likeNum {
+                font-size: 12px;
+                color: #797979;
+                font-weight: bold;
+                margin-left: 4px;
+                line-height: 10px; }
+    #famousVideo .allplay {
+      display: block;
+      position: absolute;
+      width: 88px;
+      height: 25px;
+      border: 1px solid #d8d8d8;
+      text-align: center;
+      left: 178px;
+      top: 0;
+      line-height: 28px;
+      font-size: 14px; }
+      #famousVideo .allplay .allplayIcon {
+        display: block;
+        width: 17px;
+        height: 13px;
+        background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -61px -148px;
+        float: left;
+        margin: 6px 0 0 4px; }
+    #famousVideo .moveBtn {
+      position: absolute;
+      right: 0;
+      top: 0; }
+      #famousVideo .moveBtn p {
+        display: none;
+        font-size: 14px;
+        color: #888d90;
+        float: left;
+        margin-top: 8px;
+        margin-right: 10px; }
+      #famousVideo .moveBtn .btnSec {
+        float: left;
+        width: 58px;
+        height: 29px;
+        background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -142px -99px; }
+        #famousVideo .moveBtn .btnSec:after {
+          display: block;
+          clear: both;
+          content: ""; }
+        #famousVideo .moveBtn .btnSec .leftBtn {
+          display: inline-block;
+          width: 29px;
+          height: 29px;
+          float: left; }
+          #famousVideo .moveBtn .btnSec .leftBtn:hover {
+            background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -142px -132px; }
+        #famousVideo .moveBtn .btnSec .rightBtn {
+          display: inline-block;
+          width: 29px;
+          height: 29px;
+          float: left; }
+          #famousVideo .moveBtn .btnSec .rightBtn:hover {
+            background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -171px -132px; }
+
+  .midAdSec {
+    display: none;
+    margin-top: 70px; }
+    .midAdSec .a {
+      float: left;
+      display: block;
+      width: 623px; }
+    .midAdSec .rightAd {
+      margin-left: -4px; }
+
+  .recomendSec {
+    margin-top: 70px; }
+    .recomendSec:after {
+      display: block;
+      clear: both;
+      content: ""; }
+    .recomendSec .mainTitle {
+      font-size: 20px;
+      line-height: 28px; }
+      .recomendSec .mainTitle .famousIcon {
+        float: left;
+        display: block;
+        width: 42px;
+        height: 28px;
+        margin-right: 10px;
+        background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat 0 -736px; }
+      .recomendSec .mainTitle .arrowIcon {
+        display: inline-block;
+        width: 7px;
+        height: 11px;
+        background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -156px -388px;
+        margin-bottom: 2px; }
+    .recomendSec .mainVisual {
+      margin: 0 auto 0 auto;
+      position: relative;
+      margin-top: 20px;
+      display: block;
+      width: 405px;
+      height: 198px;
+      background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/recomendMainVisual.jpg") no-repeat; }
+      .recomendSec .mainVisual .recomendGraBg {
+        position: absolute;
+        bottom: 0;
+        width: 405px;
+        height: 103px;
+        background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/bg_img_mask.png"); }
+        .recomendSec .mainVisual .recomendGraBg > * {
+          float: left;
+          margin-top: 44px; }
+        .recomendSec .mainVisual .recomendGraBg:after {
+          display: block;
+          clear: both;
+          content: ""; }
+        .recomendSec .mainVisual .recomendGraBg .listIcon {
+          margin-left: 20px;
+          width: 30px;
+          height: 20px;
+          background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -162px -936px; }
+        .recomendSec .mainVisual .recomendGraBg .recDescriptionSec_1 {
+          margin-left: 10px; }
+          .recomendSec .mainVisual .recomendGraBg .recDescriptionSec_1 .recMainTitle {
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+            line-height: 20px; }
+          .recomendSec .mainVisual .recomendGraBg .recDescriptionSec_1 .recSubTitle {
+            color: white;
+            font-size: 12px;
+            margin-top: 8px; }
+    .recomendSec .recomendList {
+      overflow: hidden;
+      width: 406px;
+      margin: 20px auto 0 auto; }
+      .recomendSec .recomendList li {
+        float: left;
+        margin-right: 18px; }
+      .recomendSec .recomendList .recomendList_2, .recomendSec .recomendList .recomendList_4 {
+        margin-right: 0; }
+      .recomendSec .recomendList .recomendListImg_1 {
+        display: block;
+        width: 194px;
+        height: 109px;
+        background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/recomendListImg_1.jpg") no-repeat; }
+        .recomendSec .recomendList .recomendListImg_1 .opBg {
+          height: inherit;
+          width: 70px;
+          float: right;
+          background-color: rgba(0, 0, 0, 0.7); }
+          .recomendSec .recomendList .recomendListImg_1 .opBg p {
+            color: white;
+            text-align: center;
+            font-weight: bold;
+            margin-top: 30px; }
+          .recomendSec .recomendList .recomendListImg_1 .opBg .listIcon {
+            display: block;
+            width: 30px;
+            height: 20px;
+            background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -162px -936px;
+            margin: 0 auto;
+            margin-top: 10px; }
+      .recomendSec .recomendList .recomendListDes_1 {
+        margin-top: 10px;
+        width: 194px; }
+        .recomendSec .recomendList .recomendListDes_1 .recMainTitle {
+          font-size: 12px;
+          display: inline-block; }
+        .recomendSec .recomendList .recomendListDes_1 .recSubTitle {
+          font-size: 12px;
+          color: #7f7f7f;
+          margin-top: 8px; }
+      .recomendSec .recomendList .recomendListImg_2 {
+        display: block;
+        width: 194px;
+        height: 109px;
+        background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/recomendListImg_2.jpg") no-repeat; }
+        .recomendSec .recomendList .recomendListImg_2 .opBg {
+          height: inherit;
+          width: 70px;
+          float: right;
+          background-color: rgba(0, 0, 0, 0.7); }
+          .recomendSec .recomendList .recomendListImg_2 .opBg p {
+            color: white;
+            text-align: center;
+            font-weight: bold;
+            margin-top: 30px; }
+          .recomendSec .recomendList .recomendListImg_2 .opBg .listIcon {
+            display: block;
+            width: 30px;
+            height: 20px;
+            background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -162px -936px;
+            margin: 0 auto;
+            margin-top: 10px; }
+      .recomendSec .recomendList .recomendListDes_2 {
+        margin-top: 10px;
+        width: 194px; }
+        .recomendSec .recomendList .recomendListDes_2 .recMainTitle {
+          font-size: 12px;
+          display: inline-block; }
+        .recomendSec .recomendList .recomendListDes_2 .recSubTitle {
+          font-size: 12px;
+          color: #7f7f7f;
+          margin-top: 8px; }
+      .recomendSec .recomendList .recomendListImg_3 {
+        display: block;
+        width: 194px;
+        height: 109px;
+        background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/recomendListImg_3.jpg") no-repeat; }
+        .recomendSec .recomendList .recomendListImg_3 .opBg {
+          height: inherit;
+          width: 70px;
+          float: right;
+          background-color: rgba(0, 0, 0, 0.7); }
+          .recomendSec .recomendList .recomendListImg_3 .opBg p {
+            color: white;
+            text-align: center;
+            font-weight: bold;
+            margin-top: 30px; }
+          .recomendSec .recomendList .recomendListImg_3 .opBg .listIcon {
+            display: block;
+            width: 30px;
+            height: 20px;
+            background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -162px -936px;
+            margin: 0 auto;
+            margin-top: 10px; }
+      .recomendSec .recomendList .recomendListDes_3 {
+        margin-top: 10px;
+        width: 194px; }
+        .recomendSec .recomendList .recomendListDes_3 .recMainTitle {
+          font-size: 12px;
+          display: inline-block; }
+        .recomendSec .recomendList .recomendListDes_3 .recSubTitle {
+          font-size: 12px;
+          color: #7f7f7f;
+          margin-top: 8px; }
+      .recomendSec .recomendList .recomendListImg_4 {
+        display: block;
+        width: 194px;
+        height: 109px;
+        background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/recomendListImg_4.jpg") no-repeat; }
+        .recomendSec .recomendList .recomendListImg_4 .opBg {
+          height: inherit;
+          width: 70px;
+          float: right;
+          background-color: rgba(0, 0, 0, 0.7); }
+          .recomendSec .recomendList .recomendListImg_4 .opBg p {
+            color: white;
+            text-align: center;
+            font-weight: bold;
+            margin-top: 30px; }
+          .recomendSec .recomendList .recomendListImg_4 .opBg .listIcon {
+            display: block;
+            width: 30px;
+            height: 20px;
+            background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -162px -936px;
+            margin: 0 auto;
+            margin-top: 10px; }
+      .recomendSec .recomendList .recomendListDes_4 {
+        margin-top: 10px;
+        width: 194px; }
+        .recomendSec .recomendList .recomendListDes_4 .recMainTitle {
+          font-size: 12px;
+          display: inline-block; }
+        .recomendSec .recomendList .recomendListDes_4 .recSubTitle {
+          font-size: 12px;
+          color: #7f7f7f;
+          margin-top: 8px; }
+
+  .recentSec {
+    margin-top: 70px; }
+    .recentSec .mainTitle {
+      font-size: 20px;
+      line-height: 28px; }
+      .recentSec .mainTitle .recentIcon {
+        float: left;
+        display: block;
+        width: 42px;
+        height: 28px;
+        margin-right: 10px;
+        background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -153px -736px; }
+    .recentSec .mainVisual {
+      margin: 0 auto;
+      position: relative;
+      margin-top: 20px;
+      display: block;
+      width: 405px;
+      height: 198px;
+      background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/recentMainImg.jpg") no-repeat; }
+      .recentSec .mainVisual:hover .timeInfo {
+        width: 39px;
+        height: 39px;
+        font-size: 0;
+        background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -7px -607px; }
+      .recentSec .mainVisual .timeInfo {
+        position: absolute;
+        z-index: 10;
+        display: block;
+        width: 35px;
+        height: 16px;
+        bottom: 4px;
+        right: 4px;
+        color: white;
+        font-size: 12px;
+        text-align: center;
+        line-height: 16px;
+        background-color: black; }
+      .recentSec .mainVisual .recomendGraBg {
+        position: absolute;
+        bottom: 0;
+        width: 405px;
+        height: 103px;
+        background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/bg_img_mask.png"); }
+        .recentSec .mainVisual .recomendGraBg > * {
+          float: left;
+          margin-top: 44px; }
+        .recentSec .mainVisual .recomendGraBg:after {
+          display: block;
+          clear: both;
+          content: ""; }
+        .recentSec .mainVisual .recomendGraBg .listIcon {
+          margin-left: 20px;
+          width: 30px;
+          height: 20px;
+          background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -162px -936px; }
+        .recentSec .mainVisual .recomendGraBg .recDescriptionSec_1 {
+          margin-left: 10px; }
+          .recentSec .mainVisual .recomendGraBg .recDescriptionSec_1 .recMainTitle {
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+            line-height: 20px; }
+          .recentSec .mainVisual .recomendGraBg .recDescriptionSec_1 .recSubTitle {
+            float: left;
+            color: white;
+            font-size: 12px;
+            margin-top: 8px; }
+            .recentSec .mainVisual .recomendGraBg .recDescriptionSec_1 .recSubTitle .dddd {
+              float: left;
+              font-size: 12px;
+              color: white; }
+            .recentSec .mainVisual .recomendGraBg .recDescriptionSec_1 .recSubTitle .upSec {
+              float: left;
+              margin-left: 20px; }
+              .recentSec .mainVisual .recomendGraBg .recDescriptionSec_1 .recSubTitle .upSec .playIcon {
+                display: inline-block;
+                width: 7px;
+                height: 9px;
+                line-height: 9px;
+                background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -106px -92px; }
+              .recentSec .mainVisual .recomendGraBg .recDescriptionSec_1 .recSubTitle .upSec .playNum {
+                font-size: 12px;
+                color: #fff;
+                margin-left: 4px;
+                line-height: 9px; }
+              .recentSec .mainVisual .recomendGraBg .recDescriptionSec_1 .recSubTitle .upSec .likeIcon {
+                display: inline-block;
+                width: 11px;
+                height: 10px;
+                line-height: 9px;
+                background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -106px -112px;
+                margin-left: 12px; }
+              .recentSec .mainVisual .recomendGraBg .recDescriptionSec_1 .recSubTitle .upSec .likeNum {
+                font-size: 12px;
+                color: #fff;
+                margin-left: 4px;
+                line-height: 10px; }
+    .recentSec .recentList {
+      overflow: hidden;
+      width: 405px;
+      margin: 0 auto;
+      margin-top: 20px; }
+      .recentSec .recentList li {
+        float: left;
+        margin-right: 17px; }
+        .recentSec .recentList li:first-child {
+          padding-left: 0; }
+        .recentSec .recentList li .topInfo_1 {
+          position: relative;
+          display: block;
+          width: 194px;
+          height: 109px; }
+          .recentSec .recentList li .topInfo_1:hover .timeInfo {
+            width: 39px;
+            height: 39px;
+            font-size: 0;
+            background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -7px -607px; }
+          .recentSec .recentList li .topInfo_1 .timeInfo {
+            position: absolute;
+            display: block;
+            width: 35px;
+            height: 16px;
+            bottom: 4px;
+            right: 4px;
+            color: white;
+            font-size: 12px;
+            text-align: center;
+            line-height: 16px;
+            background-color: black; }
+        .recentSec .recentList li .bottomDes_1 {
+          position: relative;
+          float: left;
+          height: 72px;
+          margin-top: 10px; }
+          .recentSec .recentList li .bottomDes_1 .bottomMainTitle {
+            color: black;
+            display: block;
+            font-size: 13px;
+            width: 180px; }
+          .recentSec .recentList li .bottomDes_1 .bottomSubTitle {
+            display: inline-block;
+            color: #7ba7df;
+            font-size: 12px;
+            margin-top: 8px; }
+            .recentSec .recentList li .bottomDes_1 .bottomSubTitle:hover {
+              color: #a1a1a1; }
+          .recentSec .recentList li .bottomDes_1 .upSec {
+            position: absolute;
+            bottom: 1px;
+            overflow: hidden;
+            display: block; }
+            .recentSec .recentList li .bottomDes_1 .upSec span {
+              float: left;
+              margin-top: 10px; }
+            .recentSec .recentList li .bottomDes_1 .upSec .playIcon {
+              display: block;
+              width: 7px;
+              height: 9px;
+              background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -22px -92px; }
+            .recentSec .recentList li .bottomDes_1 .upSec .playNum {
+              font-size: 12px;
+              font-weight: bold;
+              color: #797979;
+              margin-left: 4px;
+              line-height: 9px; }
+            .recentSec .recentList li .bottomDes_1 .upSec .likeIcon {
+              display: block;
+              width: 11px;
+              height: 10px;
+              background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -22px -112px;
+              margin-left: 12px; }
+            .recentSec .recentList li .bottomDes_1 .upSec .likeNum {
+              font-size: 12px;
+              color: #797979;
+              font-weight: bold;
+              margin-left: 4px;
+              line-height: 10px; }
+        .recentSec .recentList li .topInfo_2 {
+          position: relative;
+          display: block;
+          width: 194px;
+          height: 109px; }
+          .recentSec .recentList li .topInfo_2:hover .timeInfo {
+            width: 39px;
+            height: 39px;
+            font-size: 0;
+            background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -7px -607px; }
+          .recentSec .recentList li .topInfo_2 .timeInfo {
+            position: absolute;
+            display: block;
+            width: 35px;
+            height: 16px;
+            bottom: 4px;
+            right: 4px;
+            color: white;
+            font-size: 12px;
+            text-align: center;
+            line-height: 16px;
+            background-color: black; }
+        .recentSec .recentList li .bottomDes_2 {
+          position: relative;
+          float: left;
+          height: 72px;
+          margin-top: 10px; }
+          .recentSec .recentList li .bottomDes_2 .bottomMainTitle {
+            color: black;
+            display: block;
+            font-size: 13px;
+            width: 180px; }
+          .recentSec .recentList li .bottomDes_2 .bottomSubTitle {
+            display: inline-block;
+            color: #7ba7df;
+            font-size: 12px;
+            margin-top: 8px; }
+            .recentSec .recentList li .bottomDes_2 .bottomSubTitle:hover {
+              color: #a1a1a1; }
+          .recentSec .recentList li .bottomDes_2 .upSec {
+            position: absolute;
+            bottom: 1px;
+            overflow: hidden;
+            display: block; }
+            .recentSec .recentList li .bottomDes_2 .upSec span {
+              float: left;
+              margin-top: 10px; }
+            .recentSec .recentList li .bottomDes_2 .upSec .playIcon {
+              display: block;
+              width: 7px;
+              height: 9px;
+              background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -22px -92px; }
+            .recentSec .recentList li .bottomDes_2 .upSec .playNum {
+              font-size: 12px;
+              font-weight: bold;
+              color: #797979;
+              margin-left: 4px;
+              line-height: 9px; }
+            .recentSec .recentList li .bottomDes_2 .upSec .likeIcon {
+              display: block;
+              width: 11px;
+              height: 10px;
+              background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -22px -112px;
+              margin-left: 12px; }
+            .recentSec .recentList li .bottomDes_2 .upSec .likeNum {
+              font-size: 12px;
+              color: #797979;
+              font-weight: bold;
+              margin-left: 4px;
+              line-height: 10px; }
+        .recentSec .recentList li .topInfo_3 {
+          position: relative;
+          display: block;
+          width: 194px;
+          height: 109px; }
+          .recentSec .recentList li .topInfo_3:hover .timeInfo {
+            width: 39px;
+            height: 39px;
+            font-size: 0;
+            background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -7px -607px; }
+          .recentSec .recentList li .topInfo_3 .timeInfo {
+            position: absolute;
+            display: block;
+            width: 35px;
+            height: 16px;
+            bottom: 4px;
+            right: 4px;
+            color: white;
+            font-size: 12px;
+            text-align: center;
+            line-height: 16px;
+            background-color: black; }
+        .recentSec .recentList li .bottomDes_3 {
+          position: relative;
+          float: left;
+          height: 72px;
+          margin-top: 10px; }
+          .recentSec .recentList li .bottomDes_3 .bottomMainTitle {
+            color: black;
+            display: block;
+            font-size: 13px;
+            width: 180px; }
+          .recentSec .recentList li .bottomDes_3 .bottomSubTitle {
+            display: inline-block;
+            color: #7ba7df;
+            font-size: 12px;
+            margin-top: 8px; }
+            .recentSec .recentList li .bottomDes_3 .bottomSubTitle:hover {
+              color: #a1a1a1; }
+          .recentSec .recentList li .bottomDes_3 .upSec {
+            position: absolute;
+            bottom: 1px;
+            overflow: hidden;
+            display: block; }
+            .recentSec .recentList li .bottomDes_3 .upSec span {
+              float: left;
+              margin-top: 10px; }
+            .recentSec .recentList li .bottomDes_3 .upSec .playIcon {
+              display: block;
+              width: 7px;
+              height: 9px;
+              background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -22px -92px; }
+            .recentSec .recentList li .bottomDes_3 .upSec .playNum {
+              font-size: 12px;
+              font-weight: bold;
+              color: #797979;
+              margin-left: 4px;
+              line-height: 9px; }
+            .recentSec .recentList li .bottomDes_3 .upSec .likeIcon {
+              display: block;
+              width: 11px;
+              height: 10px;
+              background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -22px -112px;
+              margin-left: 12px; }
+            .recentSec .recentList li .bottomDes_3 .upSec .likeNum {
+              font-size: 12px;
+              color: #797979;
+              font-weight: bold;
+              margin-left: 4px;
+              line-height: 10px; }
+        .recentSec .recentList li .topInfo_4 {
+          position: relative;
+          display: block;
+          width: 194px;
+          height: 109px; }
+          .recentSec .recentList li .topInfo_4:hover .timeInfo {
+            width: 39px;
+            height: 39px;
+            font-size: 0;
+            background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -7px -607px; }
+          .recentSec .recentList li .topInfo_4 .timeInfo {
+            position: absolute;
+            display: block;
+            width: 35px;
+            height: 16px;
+            bottom: 4px;
+            right: 4px;
+            color: white;
+            font-size: 12px;
+            text-align: center;
+            line-height: 16px;
+            background-color: black; }
+        .recentSec .recentList li .bottomDes_4 {
+          position: relative;
+          float: left;
+          height: 72px;
+          margin-top: 10px; }
+          .recentSec .recentList li .bottomDes_4 .bottomMainTitle {
+            color: black;
+            display: block;
+            font-size: 13px;
+            width: 180px; }
+          .recentSec .recentList li .bottomDes_4 .bottomSubTitle {
+            display: inline-block;
+            color: #7ba7df;
+            font-size: 12px;
+            margin-top: 8px; }
+            .recentSec .recentList li .bottomDes_4 .bottomSubTitle:hover {
+              color: #a1a1a1; }
+          .recentSec .recentList li .bottomDes_4 .upSec {
+            position: absolute;
+            bottom: 1px;
+            overflow: hidden;
+            display: block; }
+            .recentSec .recentList li .bottomDes_4 .upSec span {
+              float: left;
+              margin-top: 10px; }
+            .recentSec .recentList li .bottomDes_4 .upSec .playIcon {
+              display: block;
+              width: 7px;
+              height: 9px;
+              background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -22px -92px; }
+            .recentSec .recentList li .bottomDes_4 .upSec .playNum {
+              font-size: 12px;
+              font-weight: bold;
+              color: #797979;
+              margin-left: 4px;
+              line-height: 9px; }
+            .recentSec .recentList li .bottomDes_4 .upSec .likeIcon {
+              display: block;
+              width: 11px;
+              height: 10px;
+              background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -22px -112px;
+              margin-left: 12px; }
+            .recentSec .recentList li .bottomDes_4 .upSec .likeNum {
+              font-size: 12px;
+              color: #797979;
+              font-weight: bold;
+              margin-left: 4px;
+              line-height: 10px; }
+      .recentSec .recentList .recentList_2, .recentSec .recentList .recentList_4 {
+        margin-right: 0; }
+
+  .weekhotSec {
+    margin-top: 70px; }
+    .weekhotSec .mainTitle {
+      font-size: 20px;
+      line-height: 28px; }
+      .weekhotSec .mainTitle .famousIcon {
+        float: left;
+        display: block;
+        width: 42px;
+        height: 28px;
+        margin-right: 10px;
+        background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat 0 -736px; }
+    .weekhotSec .weekList {
+      overflow: hidden;
+      margin: 0 auto;
+      margin-top: 20px;
+      width: 422px; }
+      .weekhotSec .weekList li {
+        float: left;
+        margin-right: 17px; }
+        .weekhotSec .weekList li:first-child {
+          margin-left: 0; }
+        .weekhotSec .weekList li p {
+          margin-top: 12px;
+          font-size: 12px; }
+
+  .editorSec {
+    margin-top: 70px; }
+    .editorSec:after {
+      display: block;
+      clear: both;
+      content: ""; }
+    .editorSec .mainTitle {
+      font-size: 20px;
+      line-height: 28px; }
+      .editorSec .mainTitle .recomendIcon {
+        float: left;
+        display: block;
+        width: 42px;
+        height: 28px;
+        margin-right: 10px;
+        background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -51px -736px; }
+    .editorSec .editorList {
+      overflow: hidden;
+      width: 422px;
+      margin: 0 auto;
+      margin-top: 20px; }
+      .editorSec .editorList li {
+        float: left;
+        margin: 0 17px 37px 0; }
+        .editorSec .editorList li .topInfo_1 {
+          position: relative;
+          display: block;
+          width: 194px;
+          height: 109px; }
+          .editorSec .editorList li .topInfo_1:hover .timeInfo {
+            width: 39px;
+            height: 39px;
+            font-size: 0;
+            background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -7px -607px; }
+          .editorSec .editorList li .topInfo_1 .timeInfo {
+            position: absolute;
+            display: block;
+            width: 35px;
+            height: 16px;
+            bottom: 4px;
+            right: 4px;
+            color: white;
+            font-size: 12px;
+            text-align: center;
+            line-height: 16px;
+            background-color: black; }
+        .editorSec .editorList li .bottomDes_1 {
+          position: relative;
+          float: left;
+          height: 72px;
+          margin-top: 10px; }
+          .editorSec .editorList li .bottomDes_1 .bottomMainTitle {
+            color: black;
+            display: block;
+            font-size: 13px;
+            width: 180px; }
+          .editorSec .editorList li .bottomDes_1 .bottomSubTitle {
+            display: inline-block;
+            color: #7ba7df;
+            font-size: 12px;
+            margin-top: 8px; }
+            .editorSec .editorList li .bottomDes_1 .bottomSubTitle:hover {
+              color: #a1a1a1; }
+          .editorSec .editorList li .bottomDes_1 .upSec {
+            position: absolute;
+            bottom: 1px;
+            overflow: hidden;
+            display: block; }
+            .editorSec .editorList li .bottomDes_1 .upSec span {
+              float: left;
+              margin-top: 10px; }
+            .editorSec .editorList li .bottomDes_1 .upSec .playIcon {
+              display: block;
+              width: 7px;
+              height: 9px;
+              background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -22px -92px; }
+            .editorSec .editorList li .bottomDes_1 .upSec .playNum {
+              font-size: 12px;
+              font-weight: bold;
+              color: #797979;
+              margin-left: 4px;
+              line-height: 9px; }
+            .editorSec .editorList li .bottomDes_1 .upSec .likeIcon {
+              display: block;
+              width: 11px;
+              height: 10px;
+              background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/tvcast/img/sp_tvcast52.png") no-repeat -22px -112px;
+              margin-left: 12px; }
+            .editorSec .editorList li .bottomDes_1 .upSec .likeNum {
+              font-size: 12px;
+              color: #797979;
+              font-weight: bold;
+              margin-left: 4px;
+              line-height: 10px; }
+
+  footer {
+    height: 130px;
+    border-top: 1px solid #d8d8d8;
+    text-align: center; }
+    footer .footerList {
+      display: inline-block;
+      overflow: hidden;
+      width: 462px;
+      margin: 20px auto 10px auto;
+      text-align: center; }
+      footer .footerList li {
+        float: left;
+        margin-right: 7px; }
+        footer .footerList li:first-child:before {
+          display: none; }
+        footer .footerList li:before {
+          display: inline-block;
+          margin-right: 7px;
+          content: "";
+          width: 1px;
+          height: 12px;
+          background-color: #d8d8d8; }
+        footer .footerList li a {
+          font-size: 12px;
+          font-weight: bold; }
+      footer .footerList .footerList_5 {
+        margin-left: 67px; }
+        footer .footerList .footerList_5:before {
+          display: none; }
     footer p {
       font-size: 10px;
       color: #8f8f8f; }
