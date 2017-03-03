@@ -4,10 +4,10 @@ li{list-style: none}
 a{color: black}
 
 header{position:relative;height: 160px;width:1200px;margin: 0 auto}
-header .logo{position: absolute; display: block;width:270px; height:60px;top:25px;left:465px;background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/samsung/img/sp-samsung.png") no-repeat 0 0}
+header .logo{position: absolute; display: block;width:270px; height:60px;top:25px;left:465px;background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/samsungHotel/img/sp-samsung.png") no-repeat 0 0}
 header .call{position: absolute;top:42px;left: 0;overflow: hidden; width: 300px}
 header .call:after{display: block; content: ""; clear: both}
-header .call .callIcon{display: block; float:left;width: 26px; height: 26px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/samsung/img/sp-samsung.png") no-repeat -124px -62px}
+header .call .callIcon{display: block; float:left;width: 26px; height: 26px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/samsungHotel/img/sp-samsung.png") no-repeat -124px -62px}
 header .call .callText{float:left;color: #666666;font-size: 12px; line-height: 25px;margin-left: 6px}
 header .call .callText span{font-size: 14px; font-weight: bold; color: black;margin-left: 10px}
 header .home ul{position:absolute;right:138px;top:49px;overflow: hidden;font-size: 12px;font-weight: bold;}
@@ -15,7 +15,7 @@ header .home ul li{float: left; margin-left: 20px;position: relative}
 header .home ul li:first-child{margin-left: 0}
 header .home ul .listLine:before{display: block; content: "";width: 1px; height: 11px; background-color: #666666; position: absolute; left: -10px; top:1px}
 header .home ul li a{color: #666666}
-header .language{position: absolute;right:0;top:42px;display:block;width: 122px;height: 26px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/samsung/img/sp-samsung.png") no-repeat 0 -63px}
+header .language{position: absolute;right:0;top:42px;display:block;width: 122px;height: 26px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/samsungHotel/img/sp-samsung.png") no-repeat 0 -63px}
 header .menu{position: absolute;top:110px;width: 1200px; height: 50px;background-color: #ebe7e3}
 header .menu ul{overflow: hidden}
 header .menu ul li{float: left; font-size: 17px;margin-left: 72px; line-height: 52px}
@@ -39,7 +39,7 @@ header .subMenu ul li:first-child a{color: white}
 #container .conHeader ul li{float: left; margin-left: 10px}
 #container .conHeader ul li:first-child{margin-left: 0}
 #container .conHeader ul li a{font-size: 14px}
-#container .conHeader ul .homeIcon{margin-top:4px;display: inline-block; width:12px; height: 11px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/samsung/img/sp-samsung.png") no-repeat -475px 0 }
+#container .conHeader ul .homeIcon{margin-top:4px;display: inline-block; width:12px; height: 11px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/samsungHotel/img/sp-samsung.png") no-repeat -475px 0 }
 
 #container .nav{position:relative;float: left;}
 #container .nav h2{display: block; width: 230px; height: 90px; background-color: #7e7974; color: white; text-align: center; line-height: 90px;font-size: 20px}
@@ -50,7 +50,7 @@ header .subMenu ul li:first-child a{color: white}
 #container .nav .plusBtn{position:absolute;display: block; width: 10px; height: 6px;}
 #container .nav .allRoom{width: 230px; height: 45px;margin-top: 20px; border: 1px solid #827265;box-sizing: border-box; font-size: 14px; font-weight: bold;  text-align: center; line-height: 45px}
 #container .nav .allRoom a{color: #827265;}
-#container .nav .plusBtn{display: block;width: 10px; height: 6px; position: absolute; top:214px; right: 20px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/samsung/img/sp-samsung.png") no-repeat -477px -24px}
+#container .nav .plusBtn{display: block;width: 10px; height: 6px; position: absolute; top:214px; right: 20px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/samsungHotel/img/sp-samsung.png") no-repeat -477px -24px}
 
 #container .contents{margin-left: 290px}
 #container .contents:after{display: block; content: ""; clear: both}
@@ -63,19 +63,19 @@ header .subMenu ul li:first-child a{color: white}
 .contents .mainVisual{width: 910px; height: 455px;overflow: hidden;margin-top: 20px}
 .contents .mainVisual .slider{width:3640px}
 .contents .mainVisual .slider>div{float: left; width: 910px; height: 455px}
-.contents .mainVisual .slider .visual_1{width: 910px; height: 455px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/samsung/img/sub_main.png")}
+.contents .mainVisual .slider .visual_1{width: 910px; height: 455px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/samsungHotel/img/sub_main.png")}
 .contents .mainVisual .btnsArea{position:relative;width: 850px; margin: 0 auto; top: 180px}
 .contents .mainVisual .btnsArea .previousPage{position: absolute; top:0; left:0;display:block;width: 40px; height: 80px; background-color: rgba(0,0,0,0.3) }
-.contents .mainVisual .btnsArea .previousPage .mark{display: block;margin: 25px 0 0 11px; width: 17px; height: 31px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/samsung/img/sp-samsung.png") no-repeat 0 -90px}
+.contents .mainVisual .btnsArea .previousPage .mark{display: block;margin: 25px 0 0 11px; width: 17px; height: 31px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/samsungHotel/img/sp-samsung.png") no-repeat 0 -90px}
 .contents .mainVisual .btnsArea .nextPage{position: absolute; top:0; right:0;display:block;width: 40px; height: 80px; background-color: rgba(0,0,0,0.3) }
-.contents .mainVisual .btnsArea .nextPage .mark{display: block;margin: 25px 0 0 11px; width: 17px; height: 31px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/samsung/img/sp-samsung.png") no-repeat 0 -125px}
+.contents .mainVisual .btnsArea .nextPage .mark{display: block;margin: 25px 0 0 11px; width: 17px; height: 31px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/samsungHotel/img/sp-samsung.png") no-repeat 0 -125px}
 
 .contents .subVisual{width: 910px; height: 110px;margin-top: 10px}
 .contents .subVisual ul{overflow: hidden}
 .contents .subVisual ul li{float: left; width: 220px; height: 110px; margin-left: 10px}
 .contents .subVisual ul li:first-child{margin-left: 0}
 .contents .subVisual ul a{display: inline-block; width: 220px; height: 110px}
-.contents .subVisual .visual_1{width: 220px; height: 110px;background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/samsung/img/sub_sub_visual_2.png")}
+.contents .subVisual .visual_1{width: 220px; height: 110px;background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/samsungHotel/img/sub_sub_visual_2.png")}
 
 .contents .content_2{width: 910px; height: auto;margin-top: 40px}
 .contents .content_2:after{display: block; clear: both; content: ""}
@@ -114,31 +114,31 @@ header .subMenu ul li:first-child a{color: white}
 .contents .content_3 h2{font-size: 18px}
 .contents .content_3 .contentBox{position: relative}
 .contents .content_3 .contentBox:after{display: block;clear: both;content: ""}
-.contents .content_3 .visual{display:block;float:left;width: 305px; height: 185px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/samsung/img/bottomVisual.png")}
+.contents .content_3 .visual{display:block;float:left;width: 305px; height: 185px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/samsungHotel/img/bottomVisual.png")}
 .contents .content_3 .rightSec{margin-left:305px;width: 606px; height: 185px; border: 1px solid #e3e3e3; box-sizing: border-box; border-left:none }
 .contents .content_3 dl{margin-top:40px; margin-left: 30px; font-size: 18px}
 .contents .content_3 dl dd{margin-top: 20px}
-.contents .content_3 .plusBtn{position: absolute; right: 50px; top:72px; display: block; width: 39px; height: 39px;background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/samsung/img/sp-samsung.png") no-repeat -502px 0}
+.contents .content_3 .plusBtn{position: absolute; right: 50px; top:72px; display: block; width: 39px; height: 39px;background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/samsungHotel/img/sp-samsung.png") no-repeat -502px 0}
 
 .snsSec ul{overflow: hidden; margin-top: 30px; position: absolute; right: 0}
 .snsSec ul li{float: left; margin-left: 10px}
 .snsSec ul li:first-child{margin-left: 0}
 .snsSec ul a{display: block; width: 28px; height: 28px}
-.facebook{background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/samsung/img/sp-samsung.png") no-repeat -543px 0}
-.blog{background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/samsung/img/sp-samsung.png") no-repeat -573px 0}
-.kakao{background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/samsung/img/sp-samsung.png") no-repeat -603px 0}
+.facebook{background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/samsungHotel/img/sp-samsung.png") no-repeat -543px 0}
+.blog{background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/samsungHotel/img/sp-samsung.png") no-repeat -573px 0}
+.kakao{background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/samsungHotel/img/sp-samsung.png") no-repeat -603px 0}
 
 
 footer{height: 224px; width: 1200px; margin: 0 auto}
 footer .topCon{position:relative;height: 95px; background-color: #ebe7e3}
 footer .topCon .test1{ position: relative; margin: auto;height: 95px;}
-footer .topCon .test1 .logo_1{position:absolute;top:15px;left:10px;display: block; width: 96px; height: 66px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/samsung/img/sp-samsung.png") no-repeat -318px 0}
+footer .topCon .test1 .logo_1{position:absolute;top:15px;left:10px;display: block; width: 96px; height: 66px; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/samsungHotel/img/sp-samsung.png") no-repeat -318px 0}
 footer .topCon .test1 ul{position:absolute;top:42px; left:150px;overflow: hidden; font-size: 14px; font-weight: bold}
 footer .topCon .test1 ul li{float: left; margin-left: 20px; color: #666666;position: relative}
 footer .topCon .test1 ul li:first-child{margin-left: 0}
 footer .topCon .test1 ul li:before{display: block; content: "";width: 1px; height: 12px; background-color: #bbbbbb; position: absolute; left: -10px; top:2px}
 footer .topCon .test1 ul a{color: #666666}
-footer .topCon .test1 .logo_2{position: absolute;width:132px; height:22px;top:38px; right: 20px; display: block; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/samsung/img/sp-samsung.png") no-repeat -318px -89px}
+footer .topCon .test1 .logo_2{position: absolute;width:132px; height:22px;top:38px; right: 20px; display: block; background: url("https://raw.githubusercontent.com/rlftn510/G_data/master/samsungHotel/img/sp-samsung.png") no-repeat -318px -89px}
 footer .bottomCon{position: relative; width: 1200px; margin: 0 auto}
 footer .bottomCon .information{position:absolute;top:16px; left:10px;overflow: hidden;font-size: 14px; color: #666666;font-weight: bold}
 footer .bottomCon .information li{float: left; margin-left: 22px;position: relative}
